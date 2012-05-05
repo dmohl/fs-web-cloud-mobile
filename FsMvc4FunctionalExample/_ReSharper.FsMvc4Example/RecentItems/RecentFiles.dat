@@ -1,0 +1,53 @@
+﻿<RecentFiles>
+  <RecentFiles>
+    <File id="5617EF31-517C-42E9-8D2D-0E3CC4E24752/f:packages.config" caret="234" fromTop="5" />
+    <File id="8DDFCA03-8FF6-4B9D-862D-ABE6DFD0C928/f:packages.config" caret="0" fromTop="0" />
+    <File id="48E4CC93-2B06-4CF9-86B7-87B2E68C82DF/f:CreateGuitarCommand.fs" caret="95" fromTop="3" />
+    <File id="AD1470BC-CC77-41F7-94E0-88B40B9C5084/f:Program.fs" caret="367" fromTop="11" />
+    <File id="5617EF31-517C-42E9-8D2D-0E3CC4E24752/f:Global.fs" caret="0" fromTop="0" />
+    <File id="352333E7-EA56-403D-A886-2440BF4E976F/f:SimpleBus.fs" caret="804" fromTop="7" />
+    <File id="352333E7-EA56-403D-A886-2440BF4E976F/f:PublishMonad.fs" caret="595" fromTop="18" />
+    <File id="5617EF31-517C-42E9-8D2D-0E3CC4E24752/d:Models/f:Guitar.fs" caret="214" fromTop="8" />
+    <File id="5617EF31-517C-42E9-8D2D-0E3CC4E24752/f:Web.config" caret="353" fromTop="7" />
+    <File id="8DDFCA03-8FF6-4B9D-862D-ABE6DFD0C928/d:Views/d:Guitars/f:Index.cshtml" caret="0" fromTop="0" />
+    <File id="5617EF31-517C-42E9-8D2D-0E3CC4E24752/d:Utils/f:Utils.fs" caret="193" fromTop="8" />
+    <File id="5617EF31-517C-42E9-8D2D-0E3CC4E24752/d:Controllers/f:HomeController.fs" caret="171" fromTop="9" />
+    <File id="3985E71E-070D-4848-A6D0-04E11413697D/f:GuitarControllerTests.fs" caret="743" fromTop="18" />
+    <File id="5617EF31-517C-42E9-8D2D-0E3CC4E24752/d:Repositories/f:CacheAgent.fs" caret="377" fromTop="0" />
+    <File id="5617EF31-517C-42E9-8D2D-0E3CC4E24752/d:Repositories/f:FsMvcAppEntities.fs" caret="99" fromTop="5" />
+    <File id="5617EF31-517C-42E9-8D2D-0E3CC4E24752/d:Repositories/f:Repository.fs" caret="824" fromTop="8" />
+    <File id="5617EF31-517C-42E9-8D2D-0E3CC4E24752/d:Controllers/f:GuitarsController.fs" caret="2416" fromTop="2" />
+  </RecentFiles>
+  <RecentEdits>
+    <File id="3985E71E-070D-4848-A6D0-04E11413697D/f:GuitarControllerTests.fs" caret="199" fromTop="11" />
+    <File id="3985E71E-070D-4848-A6D0-04E11413697D/f:GuitarControllerTests.fs" caret="41" fromTop="3" />
+    <File id="3985E71E-070D-4848-A6D0-04E11413697D/f:GuitarControllerTests.fs" caret="898" fromTop="14" />
+    <File id="3985E71E-070D-4848-A6D0-04E11413697D/f:GuitarControllerTests.fs" caret="605" fromTop="9" />
+    <File id="5617EF31-517C-42E9-8D2D-0E3CC4E24752/d:Controllers/f:GuitarsController.fs" caret="444" fromTop="16" />
+    <File id="5617EF31-517C-42E9-8D2D-0E3CC4E24752/d:Controllers/f:GuitarsController.fs" caret="444" fromTop="18" />
+    <File id="5617EF31-517C-42E9-8D2D-0E3CC4E24752/d:Controllers/f:GuitarsController.fs" caret="1232" fromTop="9" />
+    <File id="5617EF31-517C-42E9-8D2D-0E3CC4E24752/d:Controllers/f:GuitarsController.fs" caret="505" fromTop="7" />
+    <File id="5617EF31-517C-42E9-8D2D-0E3CC4E24752/d:Repositories/f:Repository.fs" caret="669" fromTop="12" />
+    <File id="5617EF31-517C-42E9-8D2D-0E3CC4E24752/d:Utils/f:Utils.fs" caret="639" fromTop="20" />
+    <File id="5617EF31-517C-42E9-8D2D-0E3CC4E24752/d:Utils/f:Utils.fs" caret="641" fromTop="18" />
+    <File id="5617EF31-517C-42E9-8D2D-0E3CC4E24752/d:Utils/f:Utils.fs" caret="639" fromTop="17" />
+    <File id="5617EF31-517C-42E9-8D2D-0E3CC4E24752/d:Utils/f:Utils.fs" caret="230" fromTop="8" />
+    <File id="5617EF31-517C-42E9-8D2D-0E3CC4E24752/d:Controllers/f:HomeController.fs" caret="174" fromTop="9" />
+    <File id="5617EF31-517C-42E9-8D2D-0E3CC4E24752/d:Controllers/f:GuitarsController.fs" caret="136" fromTop="7" />
+    <File id="5617EF31-517C-42E9-8D2D-0E3CC4E24752/d:Controllers/f:GuitarsController.fs" caret="1079" fromTop="11" />
+    <File id="5617EF31-517C-42E9-8D2D-0E3CC4E24752/d:Controllers/f:GuitarsController.fs" caret="2360" fromTop="19" />
+    <File id="5617EF31-517C-42E9-8D2D-0E3CC4E24752/d:Controllers/f:GuitarsController.fs" caret="2360" fromTop="23" />
+    <File id="5617EF31-517C-42E9-8D2D-0E3CC4E24752/d:Controllers/f:GuitarsController.fs" caret="2360" fromTop="15" />
+    <File id="5617EF31-517C-42E9-8D2D-0E3CC4E24752/d:Controllers/f:GuitarsController.fs" caret="2410" fromTop="22" />
+    <File id="5617EF31-517C-42E9-8D2D-0E3CC4E24752/d:Controllers/f:GuitarsController.fs" caret="2356" fromTop="9" />
+    <File id="5617EF31-517C-42E9-8D2D-0E3CC4E24752/d:Controllers/f:GuitarsController.fs" caret="2356" fromTop="11" />
+    <File id="5617EF31-517C-42E9-8D2D-0E3CC4E24752/d:Controllers/f:GuitarsController.fs" caret="2356" fromTop="11" />
+    <File id="5617EF31-517C-42E9-8D2D-0E3CC4E24752/d:Controllers/f:GuitarsController.fs" caret="2416" fromTop="23" />
+    <File id="5617EF31-517C-42E9-8D2D-0E3CC4E24752/d:Controllers/f:GuitarsController.fs" caret="1511" fromTop="7" />
+    <File id="5617EF31-517C-42E9-8D2D-0E3CC4E24752/d:Repositories/f:CacheAgent.fs" caret="139" fromTop="4" />
+    <File id="5617EF31-517C-42E9-8D2D-0E3CC4E24752/d:Repositories/f:Repository.fs" caret="161" fromTop="17" />
+    <File id="5617EF31-517C-42E9-8D2D-0E3CC4E24752/d:Repositories/f:Repository.fs" caret="161" fromTop="5" />
+    <File id="5617EF31-517C-42E9-8D2D-0E3CC4E24752/d:Controllers/f:GuitarsController.fs" caret="840" fromTop="6" />
+    <File id="5617EF31-517C-42E9-8D2D-0E3CC4E24752/d:Controllers/f:GuitarsController.fs" caret="535" fromTop="16" />
+  </RecentEdits>
+</RecentFiles>

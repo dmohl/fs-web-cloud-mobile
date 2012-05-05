@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\UnquoteTests\UnquoteTests.nunit" total="1" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-04-18" time="18:44:44">
+  <environment nunit-version="2.5.10.11092" clr-version="2.0.50727.5448" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.5.10\bin\net-2.0" machine-name="WIN-6JGISOC7C6K" user="Daniel Mohl" user-domain="WIN-6JGISOC7C6K" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Project" name="C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\UnquoteTests\UnquoteTests.nunit" executed="True" result="Success" success="True" time="3.347" asserts="0">
+    <results>
+      <test-suite type="Assembly" name="C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\UnquoteTests\bin\Debug\UnquoteTests.dll" executed="True" result="Success" success="True" time="3.325" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="Given a GuitarsController" executed="True" result="Success" success="True" time="3.317" asserts="0">
+            <results>
+              <test-case name="Given a GuitarsController.it should have a count of three" executed="True" result="Success" success="True" time="3.300" asserts="1" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

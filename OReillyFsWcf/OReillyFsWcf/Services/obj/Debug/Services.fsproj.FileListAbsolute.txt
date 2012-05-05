@@ -1,0 +1,11 @@
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\OReillyFsWcf\OReillyFsWcf\Services\bin\Debug\Services.XML
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\OReillyFsWcf\OReillyFsWcf\Services\bin\Debug\Services.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\OReillyFsWcf\OReillyFsWcf\Services\bin\Debug\Services.pdb
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\OReillyFsWcf\OReillyFsWcf\Services\bin\Debug\Contracts.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\OReillyFsWcf\OReillyFsWcf\Services\bin\Debug\FSharp.Core.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\OReillyFsWcf\OReillyFsWcf\Services\bin\Debug\Contracts.pdb
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\OReillyFsWcf\OReillyFsWcf\Services\bin\Debug\Contracts.xml
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\OReillyFsWcf\OReillyFsWcf\Services\bin\Debug\FSharp.Core.xml
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\OReillyFsWcf\OReillyFsWcf\Services\obj\Debug\Services.fsprojResolveAssemblyReference.cache
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\OReillyFsWcf\OReillyFsWcf\Services\obj\Debug\Services.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\OReillyFsWcf\OReillyFsWcf\Services\obj\Debug\Services.pdb

@@ -1,0 +1,21 @@
+
+
+Scenario: When getting all the guitars from the repository
+  - Given FsWeb.Controllers.GuitarsController
+     - When 
+      => It 
+
+Scenario: After removing 3 from a list it should not contain 3
+  - Given seq [1; 2; 3; 4; ...]
+     - When removing 3
+      => It 
+
+Scenario: When getting all the guitars from the repository
+  - Given FsWeb.Controllers.GuitarsController
+     - When 
+      => It 
+
+Scenario: After removing 3 from a list it should not contain 3
+  - Given seq [1; 2; 3; 4; ...]
+     - When removing 3
+      => It 

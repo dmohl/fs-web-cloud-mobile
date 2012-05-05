@@ -1,0 +1,12 @@
+
+
+Scenario: When getting all the guitars from the repository
+  - Given FsWeb.Controllers.GuitarsController
+     - When 
+      => It should have length 3
+      => It should contain FsWeb.Controllers.dbContext+ServiceTypes+Guitars
+  ==> Result is: [FsWeb.Controllers.dbContext+ServiceTypes+Guitars;
+ FsWeb.Controllers....
+  ==> OK
+  ==> Time: 0.7299s
+

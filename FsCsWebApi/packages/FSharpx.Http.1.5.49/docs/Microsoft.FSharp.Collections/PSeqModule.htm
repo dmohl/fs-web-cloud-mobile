@@ -1,0 +1,870 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>PSeqModule - F# Power Pack Documentation</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+    <link type="text/css" rel="stylesheet" href="../main.css"/>
+    <script type="text/javascript" src="../js/jquery-1.3.2.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.scrollTo-min.js"></script>
+    <script type="text/javascript" src="../js/navigation.js"></script>
+    <script type="text/javascript" src="../js/example.js"></script>
+  </head>
+  <body><div id="namespaces">
+	<h2 class="fixed">Namespaces</h2>
+	<div class="scroll">
+		<ul>
+			<li>
+          <a href="../FSharp.Control/index.htm">FSharp.Control</a>
+      </li>
+			<li>
+          <a href="../FSharp.IO/index.htm">FSharp.IO</a>
+      </li>
+			<li>
+          <a href="../FSharp.Net/index.htm">FSharp.Net</a>
+      </li>
+			<li>
+          <a href="../FSharpx/index.htm">FSharpx</a>
+      </li>
+			<li>
+          <a href="../FSharpx.Core/index.htm">FSharpx.Core</a>
+      </li>
+			<li>
+          <a href="../FSharpx.Http/index.htm">FSharpx.Http</a>
+      </li>
+			<li>
+          <a href="../FSharpx.Observable/index.htm">FSharpx.Observable</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Collections/index.htm" class="current">Microsoft.FSharp.Collections</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Collections.Tagged/index.htm">Microsoft.FSharp.Collections.Tagged</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Control/index.htm">Microsoft.FSharp.Control</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Core/index.htm">Microsoft.FSharp.Core</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Linq/index.htm">Microsoft.FSharp.Linq</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Math/index.htm">Microsoft.FSharp.Math</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Metadata/index.htm">Microsoft.FSharp.Metadata</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.NativeInterop/index.htm">Microsoft.FSharp.NativeInterop</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Text/index.htm">Microsoft.FSharp.Text</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Text.Lexing/index.htm">Microsoft.FSharp.Text.Lexing</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Text.Parsing/index.htm">Microsoft.FSharp.Text.Parsing</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Text.StructuredFormat/index.htm">Microsoft.FSharp.Text.StructuredFormat</a>
+      </li>
+		</ul>
+	</div>
+</div><div id="types">
+  <h2 class="fixed">Types in Microsoft.FSharp.Collections</h2>
+	<div class="scroll">
+		<ul>
+				<li>
+            <a href="../Microsoft.FSharp.Collections/HashMultiMap`2.htm">HashMultiMap&lt;Key, Value&gt;</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Collections/HashSet`1.htm">HashSet&lt;T&gt;</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Collections/LazyList`1.htm">LazyList&lt;T&gt;</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Collections/LazyListModule.htm">LazyListModule</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Collections/PSeqModule.htm" class="current">PSeqModule</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Collections/ResizeArrayModule.htm">ResizeArrayModule</a>
+        </li>
+		</ul>
+	</div>
+</div>
+    <div class="header">
+		<p class="class"><strong>Type</strong> PSeqModule</p>
+		<p><strong>Namespace</strong> Microsoft.FSharp.Collections</p>
+	</div>
+    <div class="sub-header">
+			<div id="summary">Parallel operations on IEnumerables. 
+			</div>
+		
+		
+			<h3 class="section">Methods</h3>
+			<ul>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#append``1">append&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#average``1">average&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#averageBy``2">averageBy&lt;T, U&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#cast``1">cast&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#choose``2">choose&lt;T, U&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#collect``3">collect&lt;T, Collection, U&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#concat``2">concat&lt;Collection, T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#countBy``2">countBy&lt;T, Key&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#distinct``1">distinct&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#distinctBy``2">distinctBy&lt;T, Key&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#exists``1">exists&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#exists2``2">exists2&lt;T1, T2&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#filter``1">filter&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#find``1">find&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#findIndex``1">findIndex&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#fold``2">fold&lt;T, State&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#forall``1">forall&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#forall2``2">forall2&lt;T1, T2&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#head``1">head&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#isEmpty``1">isEmpty&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#iter``1">iter&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#iter2``2">iter2&lt;T1, T2&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#iteri``1">iteri&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#length``1">length&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#map``2">map&lt;T, U&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#map2``3">map2&lt;T1, T2, U&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#mapi``2">mapi&lt;T, U&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#max``1">max&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#min``1">min&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#nth``1">nth&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#ordered``1">ordered&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#pick``2">pick&lt;T, U&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#reduce``1">reduce&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#skip``1">skip&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#skipWhile``1">skipWhile&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#sort``1">sort&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#sortBy``2">sortBy&lt;T, Key&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#sum``1">sum&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#sumBy``2">sumBy&lt;T, U&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#takeWhile``1">takeWhile&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#toArray``1">toArray&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#toList``1">toList&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#truncate``1">truncate&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#tryFind``1">tryFind&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#tryFindIndex``1">tryFindIndex&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#withCancellation``1">withCancellation&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#withDegreeOfParallelism``1">withDegreeOfParallelism&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#withExecutionMode``1">withExecutionMode&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#withMergeOptions``1">withMergeOptions&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Collections/PSeqModule.htm#zip``2">zip&lt;T1, T2&gt;</a></li>
+			</ul>
+		
+		
+	</div>
+	
+	
+	
+	<h3 class="section">Public static methods</h3>
+	
+	<div id="append``1" class="method">
+		<h4><span title="System.Linq.ParallelQuery<T>">ParallelQuery&lt;T&gt;</span> <strong>append&lt;T&gt;</strong>(<span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source1, <span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source2)</h4>
+		<div class="content">Operates in parallel, using System.Linq.Parallel. Wraps the two given enumerations as a single concatenated
+enumeration. <blockquote class="remarks">
+  The returned sequence may be passed between threads safely. However,
+individual IEnumerator values generated from the returned sequence should not be accessed
+concurrently. 
+</blockquote>
+
+
+      <div class="parameters">
+        <h5>Parameters</h5>
+
+          <h6><code><span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span></code> source1</h6>
+          <p class="comments">The first sequence. </p>
+          <h6><code><span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span></code> source2</h6>
+          <p class="comments">The second sequence. </p>
+      </div>
+
+      <div class="return">
+        <h5>Return</h5>
+        <h6><code><span title="System.Linq.ParallelQuery<T>">ParallelQuery&lt;T&gt;</span></code></h6>
+        <p>The result sequence. </p>
+      </div>
+      
+    </div>
+	</div>
+	<div id="average``1" class="method">
+		<h4><span title="Microsoft.FSharp.Collections.T">T</span> <strong>average&lt;T&gt;</strong>(<span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">Operates in parallel, using System.Linq.Parallel. Generates a new sequence which, when iterated, will return successive
+elements by calling the given function.  The results of calling the function
+will not be saved, that is the function will be reapplied as necessary to
+regenerate the elements.  The function is passed the index of the item being
+generated. <blockquote class="remarks">
+  The returned sequence may be passed between threads safely. However,
+individual IEnumerator values generated from the returned sequence should not be accessed concurrently.
+Iteration can continue up to  <code>Int32.MaxValue</code>. 
+</blockquote>
+
+
+      <div class="parameters">
+        <h5>Parameters</h5>
+
+          <h6><code><span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span></code> source</h6>
+          <p class="comments">The input sequence. </p>
+      </div>
+
+      <div class="return">
+        <h5>Return</h5>
+        <h6><code><span title="Microsoft.FSharp.Collections.T">T</span></code></h6>
+        <p>The result sequence. </p>
+      </div>
+      
+    </div>
+	</div>
+	<div id="averageBy``2" class="method">
+		<h4><span title="Microsoft.FSharp.Collections.U">U</span> <strong>averageBy&lt;T, U&gt;</strong>(<span title="Microsoft.FSharp.Core.FSharpFunc<T, U>">FSharpFunc&lt;T, U&gt;</span> projection, <span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">
+
+
+
+      
+    </div>
+	</div>
+	<div id="cast``1" class="method">
+		<h4><span title="System.Linq.ParallelQuery<T>">ParallelQuery&lt;T&gt;</span> <strong>cast&lt;T&gt;</strong>(<span title="System.Collections.IEnumerable">IEnumerable</span> source)</h4>
+		<div class="content">Operates in parallel, using System.Linq.Parallel. Wraps a loosely-typed System.Collections sequence as a typed sequence. <blockquote class="remarks">
+  The use of this function usually requires a type annotation.
+An incorrect type annotation may result in runtime type
+errors.
+Individual IEnumerator values generated from the returned sequence should not be accessed concurrently. 
+</blockquote>
+
+
+      <div class="parameters">
+        <h5>Parameters</h5>
+
+          <h6><code><span title="System.Collections.IEnumerable">IEnumerable</span></code> source</h6>
+          <p class="comments">The input sequence. </p>
+      </div>
+
+      <div class="return">
+        <h5>Return</h5>
+        <h6><code><span title="System.Linq.ParallelQuery<T>">ParallelQuery&lt;T&gt;</span></code></h6>
+        <p>The result sequence. </p>
+      </div>
+      
+    </div>
+	</div>
+	<div id="choose``2" class="method">
+		<h4><span title="System.Linq.ParallelQuery<U>">ParallelQuery&lt;U&gt;</span> <strong>choose&lt;T, U&gt;</strong>(<span title="Microsoft.FSharp.Core.FSharpFunc<T, FSharpOption<U>>">FSharpFunc&lt;T, FSharpOption&lt;U&gt;&gt;</span> chooser, <span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">
+
+
+
+      
+    </div>
+	</div>
+	<div id="collect``3" class="method">
+		<h4><span title="System.Linq.ParallelQuery<U>">ParallelQuery&lt;U&gt;</span> <strong>collect&lt;T, Collection, U&gt;</strong>(<span title="Microsoft.FSharp.Core.FSharpFunc<T, Collection>">FSharpFunc&lt;T, Collection&gt;</span> mapping, <span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">
+
+
+
+      
+    </div>
+	</div>
+	<div id="concat``2" class="method">
+		<h4><span title="System.Linq.ParallelQuery<T>">ParallelQuery&lt;T&gt;</span> <strong>concat&lt;Collection, T&gt;</strong>(<span title="System.Collections.Generic.IEnumerable<Collection>">IEnumerable&lt;Collection&gt;</span> sources)</h4>
+		<div class="content">Operates in parallel, using System.Linq.Parallel. Combines the given enumeration-of-enumerations as a single concatenated
+enumeration. <blockquote class="remarks">
+  The returned sequence may be passed between threads safely. However,
+individual IEnumerator values generated from the returned sequence should not be accessed concurrently. 
+</blockquote>
+
+
+      <div class="parameters">
+        <h5>Parameters</h5>
+
+          <h6><code><span title="System.Collections.Generic.IEnumerable<Collection>">IEnumerable&lt;Collection&gt;</span></code> sources</h6>
+          <p class="comments">The input enumeration-of-enumerations. </p>
+      </div>
+
+      <div class="return">
+        <h5>Return</h5>
+        <h6><code><span title="System.Linq.ParallelQuery<T>">ParallelQuery&lt;T&gt;</span></code></h6>
+        <p>The result sequence. </p>
+      </div>
+      
+    </div>
+	</div>
+	<div id="countBy``2" class="method">
+		<h4><span title="System.Linq.ParallelQuery<Tuple<Key, int>>">ParallelQuery&lt;Tuple&lt;Key, int&gt;&gt;</span> <strong>countBy&lt;T, Key&gt;</strong>(<span title="Microsoft.FSharp.Core.FSharpFunc<T, Key>">FSharpFunc&lt;T, Key&gt;</span> projection, <span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">
+
+
+
+      
+    </div>
+	</div>
+	<div id="distinct``1" class="method">
+		<h4><span title="System.Linq.ParallelQuery<T>">ParallelQuery&lt;T&gt;</span> <strong>distinct&lt;T&gt;</strong>(<span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">Operates in parallel, using System.Linq.Parallel. Returns a sequence that contains no duplicate entries according to generic hash and
+equality comparisons on the entries.
+If an element occurs multiple times in the sequence then the later occurrences are discarded. 
+
+
+      <div class="parameters">
+        <h5>Parameters</h5>
+
+          <h6><code><span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span></code> source</h6>
+          <p class="comments">The input sequence. </p>
+      </div>
+
+      <div class="return">
+        <h5>Return</h5>
+        <h6><code><span title="System.Linq.ParallelQuery<T>">ParallelQuery&lt;T&gt;</span></code></h6>
+        <p>The result sequence. </p>
+      </div>
+      
+    </div>
+	</div>
+	<div id="distinctBy``2" class="method">
+		<h4><span title="System.Linq.ParallelQuery<T>">ParallelQuery&lt;T&gt;</span> <strong>distinctBy&lt;T, Key&gt;</strong>(<span title="Microsoft.FSharp.Core.FSharpFunc<T, Key>">FSharpFunc&lt;T, Key&gt;</span> projection, <span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">
+
+
+
+      
+    </div>
+	</div>
+	<div id="exists``1" class="method">
+		<h4><span title="System.bool">bool</span> <strong>exists&lt;T&gt;</strong>(<span title="Microsoft.FSharp.Core.FSharpFunc<T, bool>">FSharpFunc&lt;T, bool&gt;</span> predicate, <span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">
+
+
+
+      
+    </div>
+	</div>
+	<div id="exists2``2" class="method">
+		<h4><span title="System.bool">bool</span> <strong>exists2&lt;T1, T2&gt;</strong>(<span title="Microsoft.FSharp.Core.FSharpFunc<T1, FSharpFunc<T2, bool>>">FSharpFunc&lt;T1, FSharpFunc&lt;T2, bool&gt;&gt;</span> predicate, <span title="System.Collections.Generic.IEnumerable<T1>">IEnumerable&lt;T1&gt;</span> source1, <span title="System.Collections.Generic.IEnumerable<T2>">IEnumerable&lt;T2&gt;</span> source2)</h4>
+		<div class="content">
+
+
+
+      
+    </div>
+	</div>
+	<div id="filter``1" class="method">
+		<h4><span title="System.Linq.ParallelQuery<T>">ParallelQuery&lt;T&gt;</span> <strong>filter&lt;T&gt;</strong>(<span title="Microsoft.FSharp.Core.FSharpFunc<T, bool>">FSharpFunc&lt;T, bool&gt;</span> predicate, <span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">
+
+
+
+      
+    </div>
+	</div>
+	<div id="find``1" class="method">
+		<h4><span title="Microsoft.FSharp.Collections.T">T</span> <strong>find&lt;T&gt;</strong>(<span title="Microsoft.FSharp.Core.FSharpFunc<T, bool>">FSharpFunc&lt;T, bool&gt;</span> predicate, <span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">
+
+
+
+      
+    </div>
+	</div>
+	<div id="findIndex``1" class="method">
+		<h4><span title="System.int">int</span> <strong>findIndex&lt;T&gt;</strong>(<span title="Microsoft.FSharp.Core.FSharpFunc<T, bool>">FSharpFunc&lt;T, bool&gt;</span> predicate, <span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">
+
+
+
+      
+    </div>
+	</div>
+	<div id="fold``2" class="method">
+		<h4><span title="Microsoft.FSharp.Collections.State">State</span> <strong>fold&lt;T, State&gt;</strong>(<span title="Microsoft.FSharp.Core.FSharpFunc<State, FSharpFunc<T, State>>">FSharpFunc&lt;State, FSharpFunc&lt;T, State&gt;&gt;</span> folder, <span title="Microsoft.FSharp.Collections.State">State</span> state, <span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">
+
+
+
+      
+    </div>
+	</div>
+	<div id="forall``1" class="method">
+		<h4><span title="System.bool">bool</span> <strong>forall&lt;T&gt;</strong>(<span title="Microsoft.FSharp.Core.FSharpFunc<T, bool>">FSharpFunc&lt;T, bool&gt;</span> predicate, <span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">
+
+
+
+      
+    </div>
+	</div>
+	<div id="forall2``2" class="method">
+		<h4><span title="System.bool">bool</span> <strong>forall2&lt;T1, T2&gt;</strong>(<span title="Microsoft.FSharp.Core.FSharpFunc<T1, FSharpFunc<T2, bool>>">FSharpFunc&lt;T1, FSharpFunc&lt;T2, bool&gt;&gt;</span> predicate, <span title="System.Collections.Generic.IEnumerable<T1>">IEnumerable&lt;T1&gt;</span> source1, <span title="System.Collections.Generic.IEnumerable<T2>">IEnumerable&lt;T2&gt;</span> source2)</h4>
+		<div class="content">
+
+
+
+      
+    </div>
+	</div>
+	<div id="head``1" class="method">
+		<h4><span title="Microsoft.FSharp.Collections.T">T</span> <strong>head&lt;T&gt;</strong>(<span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">Operates in parallel, using System.Linq.Parallel. Returns the first element of the sequence. 
+
+
+      <div class="parameters">
+        <h5>Parameters</h5>
+
+          <h6><code><span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span></code> source</h6>
+          <p class="comments">The input sequence. </p>
+      </div>
+
+      <div class="return">
+        <h5>Return</h5>
+        <h6><code><span title="Microsoft.FSharp.Collections.T">T</span></code></h6>
+        <p>The result sequence. </p>
+      </div>
+      
+    </div>
+	</div>
+	<div id="isEmpty``1" class="method">
+		<h4><span title="System.bool">bool</span> <strong>isEmpty&lt;T&gt;</strong>(<span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">Operates in parallel, using System.Linq.Parallel. Returns true if the sequence contains no elements, false otherwise. 
+
+
+      <div class="parameters">
+        <h5>Parameters</h5>
+
+          <h6><code><span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span></code> source</h6>
+          <p class="comments">The input sequence. </p>
+      </div>
+
+      <div class="return">
+        <h5>Return</h5>
+        <h6><code><span title="System.bool">bool</span></code></h6>
+        <p>The result sequence. </p>
+      </div>
+      
+    </div>
+	</div>
+	<div id="iter``1" class="method">
+		<h4><span title="System.void">void</span> <strong>iter&lt;T&gt;</strong>(<span title="Microsoft.FSharp.Core.FSharpFunc<T, Unit>">FSharpFunc&lt;T, Unit&gt;</span> action, <span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">
+
+
+
+      
+    </div>
+	</div>
+	<div id="iter2``2" class="method">
+		<h4><span title="System.void">void</span> <strong>iter2&lt;T1, T2&gt;</strong>(<span title="Microsoft.FSharp.Core.FSharpFunc<T1, FSharpFunc<T2, Unit>>">FSharpFunc&lt;T1, FSharpFunc&lt;T2, Unit&gt;&gt;</span> action, <span title="System.Collections.Generic.IEnumerable<T1>">IEnumerable&lt;T1&gt;</span> source1, <span title="System.Collections.Generic.IEnumerable<T2>">IEnumerable&lt;T2&gt;</span> source2)</h4>
+		<div class="content">
+
+
+
+      
+    </div>
+	</div>
+	<div id="iteri``1" class="method">
+		<h4><span title="System.void">void</span> <strong>iteri&lt;T&gt;</strong>(<span title="Microsoft.FSharp.Core.FSharpFunc<int, FSharpFunc<T, Unit>>">FSharpFunc&lt;int, FSharpFunc&lt;T, Unit&gt;&gt;</span> action, <span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">
+
+
+
+      
+    </div>
+	</div>
+	<div id="length``1" class="method">
+		<h4><span title="System.int">int</span> <strong>length&lt;T&gt;</strong>(<span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">Operates in parallel, using System.Linq.Parallel. Returns the lengthof the sequence 
+
+
+      <div class="parameters">
+        <h5>Parameters</h5>
+
+          <h6><code><span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span></code> source</h6>
+          <p class="comments">The input sequence. </p>
+      </div>
+
+      <div class="return">
+        <h5>Return</h5>
+        <h6><code><span title="System.int">int</span></code></h6>
+        <p>The result sequence. </p>
+      </div>
+      
+    </div>
+	</div>
+	<div id="map``2" class="method">
+		<h4><span title="System.Linq.ParallelQuery<U>">ParallelQuery&lt;U&gt;</span> <strong>map&lt;T, U&gt;</strong>(<span title="Microsoft.FSharp.Core.FSharpFunc<T, U>">FSharpFunc&lt;T, U&gt;</span> mapping, <span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">
+
+
+
+      
+    </div>
+	</div>
+	<div id="map2``3" class="method">
+		<h4><span title="System.Linq.ParallelQuery<U>">ParallelQuery&lt;U&gt;</span> <strong>map2&lt;T1, T2, U&gt;</strong>(<span title="Microsoft.FSharp.Core.FSharpFunc<T1, FSharpFunc<T2, U>>">FSharpFunc&lt;T1, FSharpFunc&lt;T2, U&gt;&gt;</span> mapping, <span title="System.Collections.Generic.IEnumerable<T1>">IEnumerable&lt;T1&gt;</span> source1, <span title="System.Collections.Generic.IEnumerable<T2>">IEnumerable&lt;T2&gt;</span> source2)</h4>
+		<div class="content">
+
+
+
+      
+    </div>
+	</div>
+	<div id="mapi``2" class="method">
+		<h4><span title="System.Linq.ParallelQuery<U>">ParallelQuery&lt;U&gt;</span> <strong>mapi&lt;T, U&gt;</strong>(<span title="Microsoft.FSharp.Core.FSharpFunc<int, FSharpFunc<T, U>>">FSharpFunc&lt;int, FSharpFunc&lt;T, U&gt;&gt;</span> mapping, <span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">
+
+
+
+      
+    </div>
+	</div>
+	<div id="max``1" class="method">
+		<h4><span title="Microsoft.FSharp.Collections.T">T</span> <strong>max&lt;T&gt;</strong>(<span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">Operates in parallel, using System.Linq.Parallel. Returns a sequence of each element in the input sequence and its predecessor, with the
+exception of the first element which is only returned as the predecessor of the second element. 
+
+
+      <div class="parameters">
+        <h5>Parameters</h5>
+
+          <h6><code><span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span></code> source</h6>
+          <p class="comments">The input sequence. </p>
+      </div>
+
+      <div class="return">
+        <h5>Return</h5>
+        <h6><code><span title="Microsoft.FSharp.Collections.T">T</span></code></h6>
+        <p>The result sequence. </p>
+      </div>
+      
+    </div>
+	</div>
+	<div id="min``1" class="method">
+		<h4><span title="Microsoft.FSharp.Collections.T">T</span> <strong>min&lt;T&gt;</strong>(<span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">Operates in parallel, using System.Linq.Parallel. Like fold, but computes on-demand and returns the sequence of intermediary and final results. 
+
+
+      <div class="parameters">
+        <h5>Parameters</h5>
+
+          <h6><code><span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span></code> source</h6>
+          <p class="comments">The input sequence. </p>
+      </div>
+
+      <div class="return">
+        <h5>Return</h5>
+        <h6><code><span title="Microsoft.FSharp.Collections.T">T</span></code></h6>
+        <p>The result sequence. </p>
+      </div>
+      
+    </div>
+	</div>
+	<div id="nth``1" class="method">
+		<h4><span title="Microsoft.FSharp.Collections.T">T</span> <strong>nth&lt;T&gt;</strong>(<span title="System.int">int</span> index, <span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">Operates in parallel, using System.Linq.Parallel. Computes the nth element in the collection. 
+
+
+      <div class="parameters">
+        <h5>Parameters</h5>
+
+          <h6><code><span title="System.int">int</span></code> index</h6>
+          <p class="comments">The index of element to retrieve. </p>
+          <h6><code><span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span></code> source</h6>
+          <p class="comments">The input sequence. </p>
+      </div>
+
+      <div class="return">
+        <h5>Return</h5>
+        <h6><code><span title="Microsoft.FSharp.Collections.T">T</span></code></h6>
+        <p>The result sequence. </p>
+      </div>
+      
+    </div>
+	</div>
+	<div id="ordered``1" class="method">
+		<h4><span title="System.Linq.ParallelQuery<T>">ParallelQuery&lt;T&gt;</span> <strong>ordered&lt;T&gt;</strong>(<span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">
+
+
+
+      
+    </div>
+	</div>
+	<div id="pick``2" class="method">
+		<h4><span title="Microsoft.FSharp.Collections.U">U</span> <strong>pick&lt;T, U&gt;</strong>(<span title="Microsoft.FSharp.Core.FSharpFunc<T, FSharpOption<U>>">FSharpFunc&lt;T, FSharpOption&lt;U&gt;&gt;</span> chooser, <span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">
+
+
+
+      
+    </div>
+	</div>
+	<div id="reduce``1" class="method">
+		<h4><span title="Microsoft.FSharp.Collections.T">T</span> <strong>reduce&lt;T&gt;</strong>(<span title="Microsoft.FSharp.Core.FSharpFunc<T, FSharpFunc<T, T>>">FSharpFunc&lt;T, FSharpFunc&lt;T, T&gt;&gt;</span> reduction, <span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">
+
+
+
+      
+    </div>
+	</div>
+	<div id="skip``1" class="method">
+		<h4><span title="System.Linq.ParallelQuery<T>">ParallelQuery&lt;T&gt;</span> <strong>skip&lt;T&gt;</strong>(<span title="System.int">int</span> count, <span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">Operates in parallel, using System.Linq.Parallel. Returns a sequence that skips N elements of the underlying sequence and then yields the
+remaining elements of the sequence. 
+
+
+      <div class="parameters">
+        <h5>Parameters</h5>
+
+          <h6><code><span title="System.int">int</span></code> count</h6>
+          <p class="comments">The number of items to skip. </p>
+          <h6><code><span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span></code> source</h6>
+          <p class="comments">The input sequence. </p>
+      </div>
+
+      <div class="return">
+        <h5>Return</h5>
+        <h6><code><span title="System.Linq.ParallelQuery<T>">ParallelQuery&lt;T&gt;</span></code></h6>
+        <p>The result sequence. </p>
+      </div>
+      
+    </div>
+	</div>
+	<div id="skipWhile``1" class="method">
+		<h4><span title="System.Linq.ParallelQuery<T>">ParallelQuery&lt;T&gt;</span> <strong>skipWhile&lt;T&gt;</strong>(<span title="Microsoft.FSharp.Core.FSharpFunc<T, bool>">FSharpFunc&lt;T, bool&gt;</span> predicate, <span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">
+
+
+
+      
+    </div>
+	</div>
+	<div id="sort``1" class="method">
+		<h4><span title="System.Linq.ParallelQuery<T>">ParallelQuery&lt;T&gt;</span> <strong>sort&lt;T&gt;</strong>(<span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">Operates in parallel, using System.Linq.Parallel. Yields a sequence ordered by keys. <blockquote class="remarks">
+  This function returns a sequence that digests the whole initial sequence as soon as
+that sequence is iterated. As a result this function should not be used with
+large or infinite sequences. The function makes no assumption on the ordering of the original
+sequence.
+This is a stable sort, that is the original order of equal elements is preserved. 
+</blockquote>
+
+
+      <div class="parameters">
+        <h5>Parameters</h5>
+
+          <h6><code><span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span></code> source</h6>
+          <p class="comments">The input sequence. </p>
+      </div>
+
+      <div class="return">
+        <h5>Return</h5>
+        <h6><code><span title="System.Linq.ParallelQuery<T>">ParallelQuery&lt;T&gt;</span></code></h6>
+        <p>The result sequence. </p>
+      </div>
+      
+    </div>
+	</div>
+	<div id="sortBy``2" class="method">
+		<h4><span title="System.Linq.ParallelQuery<T>">ParallelQuery&lt;T&gt;</span> <strong>sortBy&lt;T, Key&gt;</strong>(<span title="Microsoft.FSharp.Core.FSharpFunc<T, Key>">FSharpFunc&lt;T, Key&gt;</span> projection, <span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">
+
+
+
+      
+    </div>
+	</div>
+	<div id="sum``1" class="method">
+		<h4><span title="Microsoft.FSharp.Collections.T">T</span> <strong>sum&lt;T&gt;</strong>(<span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">Operates in parallel, using System.Linq.Parallel. Returns the first N elements of the sequence. <blockquote class="remarks">
+  Throws  <code>InvalidOperationException</code> if the count exceeds the number of elements in the sequence.  <code>Seq.truncate</code> returns as many items as the sequence contains instead of throwing an exception. 
+</blockquote>
+
+
+      <div class="parameters">
+        <h5>Parameters</h5>
+
+          <h6><code><span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span></code> source</h6>
+          <p class="comments">The input sequence. </p>
+      </div>
+
+      <div class="return">
+        <h5>Return</h5>
+        <h6><code><span title="Microsoft.FSharp.Collections.T">T</span></code></h6>
+        <p>The result sequence. </p>
+      </div>
+      
+    </div>
+	</div>
+	<div id="sumBy``2" class="method">
+		<h4><span title="Microsoft.FSharp.Collections.U">U</span> <strong>sumBy&lt;T, U&gt;</strong>(<span title="Microsoft.FSharp.Core.FSharpFunc<T, U>">FSharpFunc&lt;T, U&gt;</span> projection, <span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">
+
+
+
+      
+    </div>
+	</div>
+	<div id="takeWhile``1" class="method">
+		<h4><span title="System.Linq.ParallelQuery<T>">ParallelQuery&lt;T&gt;</span> <strong>takeWhile&lt;T&gt;</strong>(<span title="Microsoft.FSharp.Core.FSharpFunc<T, bool>">FSharpFunc&lt;T, bool&gt;</span> predicate, <span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">
+
+
+
+      
+    </div>
+	</div>
+	<div id="toArray``1" class="method">
+		<h4><span title="Microsoft.FSharp.Collections.T[]">T[]</span> <strong>toArray&lt;T&gt;</strong>(<span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">Operates in parallel, using System.Linq.Parallel. Builds an array from the given collection. 
+
+
+      <div class="parameters">
+        <h5>Parameters</h5>
+
+          <h6><code><span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span></code> source</h6>
+          <p class="comments">The input sequence. </p>
+      </div>
+
+      <div class="return">
+        <h5>Return</h5>
+        <h6><code><span title="Microsoft.FSharp.Collections.T[]">T[]</span></code></h6>
+        <p>The result sequence. </p>
+      </div>
+      
+    </div>
+	</div>
+	<div id="toList``1" class="method">
+		<h4><span title="Microsoft.FSharp.Collections.FSharpList<T>">FSharpList&lt;T&gt;</span> <strong>toList&lt;T&gt;</strong>(<span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">Operates in parallel, using System.Linq.Parallel. Builds a list from the given collection. 
+
+
+      <div class="parameters">
+        <h5>Parameters</h5>
+
+          <h6><code><span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span></code> source</h6>
+          <p class="comments">The input sequence. </p>
+      </div>
+
+      <div class="return">
+        <h5>Return</h5>
+        <h6><code><span title="Microsoft.FSharp.Collections.FSharpList<T>">FSharpList&lt;T&gt;</span></code></h6>
+        <p>The result sequence. </p>
+      </div>
+      
+    </div>
+	</div>
+	<div id="truncate``1" class="method">
+		<h4><span title="System.Linq.ParallelQuery<T>">ParallelQuery&lt;T&gt;</span> <strong>truncate&lt;T&gt;</strong>(<span title="System.int">int</span> count, <span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">Operates in parallel, using System.Linq.Parallel. Returns a sequence that when enumerated returns at most N elements. 
+
+
+      <div class="parameters">
+        <h5>Parameters</h5>
+
+          <h6><code><span title="System.int">int</span></code> count</h6>
+          <p class="comments">The maximum number of items to enumerate. </p>
+          <h6><code><span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span></code> source</h6>
+          <p class="comments">The input sequence. </p>
+      </div>
+
+      <div class="return">
+        <h5>Return</h5>
+        <h6><code><span title="System.Linq.ParallelQuery<T>">ParallelQuery&lt;T&gt;</span></code></h6>
+        <p>The result sequence. </p>
+      </div>
+      
+    </div>
+	</div>
+	<div id="tryFind``1" class="method">
+		<h4><span title="Microsoft.FSharp.Core.FSharpOption<T>">FSharpOption&lt;T&gt;</span> <strong>tryFind&lt;T&gt;</strong>(<span title="Microsoft.FSharp.Core.FSharpFunc<T, bool>">FSharpFunc&lt;T, bool&gt;</span> predicate, <span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">
+
+
+
+      
+    </div>
+	</div>
+	<div id="tryFindIndex``1" class="method">
+		<h4><span title="Microsoft.FSharp.Core.FSharpOption<int>">FSharpOption&lt;int&gt;</span> <strong>tryFindIndex&lt;T&gt;</strong>(<span title="Microsoft.FSharp.Core.FSharpFunc<T, bool>">FSharpFunc&lt;T, bool&gt;</span> predicate, <span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">
+
+
+
+      
+    </div>
+	</div>
+	<div id="withCancellation``1" class="method">
+		<h4><span title="System.Linq.ParallelQuery<T>">ParallelQuery&lt;T&gt;</span> <strong>withCancellation&lt;T&gt;</strong>(<span title="System.Threading.CancellationToken">CancellationToken</span> cancellationToken, <span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">
+
+
+
+      
+    </div>
+	</div>
+	<div id="withDegreeOfParallelism``1" class="method">
+		<h4><span title="System.Linq.ParallelQuery<T>">ParallelQuery&lt;T&gt;</span> <strong>withDegreeOfParallelism&lt;T&gt;</strong>(<span title="System.int">int</span> n, <span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">
+
+
+
+      
+    </div>
+	</div>
+	<div id="withExecutionMode``1" class="method">
+		<h4><span title="System.Linq.ParallelQuery<T>">ParallelQuery&lt;T&gt;</span> <strong>withExecutionMode&lt;T&gt;</strong>(<span title="System.Linq.ParallelExecutionMode">ParallelExecutionMode</span> executionMode, <span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">
+
+
+
+      
+    </div>
+	</div>
+	<div id="withMergeOptions``1" class="method">
+		<h4><span title="System.Linq.ParallelQuery<T>">ParallelQuery&lt;T&gt;</span> <strong>withMergeOptions&lt;T&gt;</strong>(<span title="System.Linq.ParallelMergeOptions">ParallelMergeOptions</span> mergeOptions, <span title="System.Collections.Generic.IEnumerable<T>">IEnumerable&lt;T&gt;</span> source)</h4>
+		<div class="content">
+
+
+
+      
+    </div>
+	</div>
+	<div id="zip``2" class="method">
+		<h4><span title="System.Linq.ParallelQuery<Tuple<T1, T2>>">ParallelQuery&lt;Tuple&lt;T1, T2&gt;&gt;</span> <strong>zip&lt;T1, T2&gt;</strong>(<span title="System.Collections.Generic.IEnumerable<T1>">IEnumerable&lt;T1&gt;</span> source1, <span title="System.Collections.Generic.IEnumerable<T2>">IEnumerable&lt;T2&gt;</span> source2)</h4>
+		<div class="content">Operates in parallel, using System.Linq.Parallel. Combines the two sequences into a list of pairs. The two sequences need not have equal lengths:
+when one sequence is exhausted any remaining elements in the other
+sequence are ignored. 
+
+
+      <div class="parameters">
+        <h5>Parameters</h5>
+
+          <h6><code><span title="System.Collections.Generic.IEnumerable<T1>">IEnumerable&lt;T1&gt;</span></code> source1</h6>
+          <p class="comments">The first input sequence. </p>
+          <h6><code><span title="System.Collections.Generic.IEnumerable<T2>">IEnumerable&lt;T2&gt;</span></code> source2</h6>
+          <p class="comments">The second input sequence. </p>
+      </div>
+
+      <div class="return">
+        <h5>Return</h5>
+        <h6><code><span title="System.Linq.ParallelQuery<Tuple<T1, T2>>">ParallelQuery&lt;Tuple&lt;T1, T2&gt;&gt;</span></code></h6>
+        <p>The result sequence. </p>
+      </div>
+      
+    </div>
+	</div>
+	
+	<div id="footer">
+  <p>Based on v2.0.0.0 of FSharp.PowerPack.dll (F# Power Pack)</p>
+  <p>Generated by <a href="http://docu.jagregory.com">docu</a></p>
+</div>
+  </body>
+</html>

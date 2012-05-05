@@ -1,0 +1,13 @@
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\OReillyFsWcf\WcfConsumer\bin\Debug\WcfConsumer.XML
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\OReillyFsWcf\WcfConsumer\bin\Debug\WcfConsumer.exe
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\OReillyFsWcf\WcfConsumer\bin\Debug\WcfConsumer.pdb
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\OReillyFsWcf\WcfConsumer\bin\Debug\Contracts.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\OReillyFsWcf\WcfConsumer\bin\Debug\FSharp.Core.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\OReillyFsWcf\WcfConsumer\bin\Debug\FSharp.Data.TypeProviders.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\OReillyFsWcf\WcfConsumer\bin\Debug\Contracts.pdb
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\OReillyFsWcf\WcfConsumer\bin\Debug\Contracts.xml
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\OReillyFsWcf\WcfConsumer\bin\Debug\FSharp.Core.xml
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\OReillyFsWcf\WcfConsumer\bin\Debug\en\FSharp.Core.resources.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\OReillyFsWcf\WcfConsumer\obj\Debug\WcfConsumer.fsprojResolveAssemblyReference.cache
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\OReillyFsWcf\WcfConsumer\obj\Debug\WcfConsumer.exe
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\OReillyFsWcf\WcfConsumer\obj\Debug\WcfConsumer.pdb

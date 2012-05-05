@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1000]C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsMvc4FunctionalExample\FsMvc4Example\FsMvc4ExampleWebAppTests\Project1.nunit</TopNode>
+  <SelectedNode>[0-1015]FsUnit.Test.be Empty tests.empty Array should be Empty</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1000]C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsMvc4FunctionalExample\FsMvc4Example\FsMvc4ExampleWebAppTests\Project1.nunit" Expanded="true" />
+    <Node UniqueName="[0-1003]C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsMvc4FunctionalExample\FsMvc4Example\FsMvc4ExampleWebAppTests\bin\Debug\WebAppTests.dll" Expanded="true" />
+    <Node UniqueName="[0-1004]WebAppTests" Expanded="true" />
+    <Node UniqueName="[0-1001]WebAppTests.Tests" Expanded="true" />
+    <Node UniqueName="[0-1171]C:\git\FsUnit\tests\FsUnit.NUnit.Test\bin\Debug\FsUnit.NUnit.Test.dll" Expanded="true" />
+    <Node UniqueName="[0-1172]FsUnit" Expanded="true" />
+    <Node UniqueName="[0-1173]FsUnit.Test" Expanded="true" />
+    <Node UniqueName="[0-1010]FsUnit.Test.be Empty tests" Expanded="true" />
+    <Node UniqueName="[0-1023]FsUnit.Test.be EmptyString tests" Expanded="true" />
+    <Node UniqueName="[0-1040]FsUnit.Test.be False tests" Expanded="true" />
+    <Node UniqueName="[0-1096]FsUnit.Test.be greaterThan tests" Expanded="true" />
+    <Node UniqueName="[0-1125]FsUnit.Test.be greaterThanOrEqualTo tests" Expanded="true" />
+    <Node UniqueName="[0-1102]FsUnit.Test.be lessThan tests" Expanded="true" />
+    <Node UniqueName="[0-1132]FsUnit.Test.be lessThanOrEqualTo tests" Expanded="true" />
+    <Node UniqueName="[0-1005]FsUnit.Test.be Null tests" Expanded="true" />
+    <Node UniqueName="[0-1028]FsUnit.Test.be NullOrEmptyString tests" Expanded="true" />
+    <Node UniqueName="[0-1045]FsUnit.Test.be SameAs tests" Expanded="true" />
+    <Node UniqueName="[0-1035]FsUnit.Test.be True tests" Expanded="true" />
+    <Node UniqueName="[0-1050]FsUnit.Test.contain tests" Expanded="true" />
+    <Node UniqueName="[0-1063]FsUnit.Test.equal Tests" Expanded="true" />
+    <Node UniqueName="[0-1138]FsUnit.Test.equalWithin tests" Expanded="true" />
+    <Node UniqueName="[0-1091]FsUnit.Test.have Count tests" Expanded="true" />
+    <Node UniqueName="[0-1158]FsUnit.Test.have unique items list tests" Expanded="true" />
+    <Node UniqueName="[0-1082]FsUnit.Test.haveLength tests" Expanded="true" />
+    <Node UniqueName="[0-1146]FsUnit.Test.Instance Of tests" Expanded="true" />
+    <Node UniqueName="[0-1153]FsUnit.Test.Not a Number tests" Expanded="true" />
+    <Node UniqueName="[0-1076]FsUnit.Test.raise tests" Expanded="true" />
+    <Node UniqueName="[0-1119]FsUnit.Test.should be of exact type tests" Expanded="true" />
+    <Node UniqueName="[0-1111]FsUnit.Test.should endWith tests" Expanded="true" />
+    <Node UniqueName="[0-1115]FsUnit.Test.should startWith tests" Expanded="true" />
+    <Node UniqueName="[0-1108]FsUnit.Test.shouldFail tests" Expanded="true" />
+  </Nodes>
+</VisualState>

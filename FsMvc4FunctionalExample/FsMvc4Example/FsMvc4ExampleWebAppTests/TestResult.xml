@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsMvc4FunctionalExample\FsMvc4Example\FsMvc4ExampleWebAppTests\Project1.nunit" total="1" errors="1" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-03-02" time="16:24:15">
+  <environment nunit-version="2.5.10.11092" clr-version="2.0.50727.5448" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsMvc4FunctionalExample\packages\NUnit.2.5.10.11092\tools" machine-name="WIN-6JGISOC7C6K" user="Daniel Mohl" user-domain="WIN-6JGISOC7C6K" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Project" name="C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsMvc4FunctionalExample\FsMvc4Example\FsMvc4ExampleWebAppTests\Project1.nunit" executed="True" result="Failure" success="False" time="0.005" asserts="0">
+    <results>
+      <test-suite type="Assembly" name="C:\git\FsUnit\tests\FsUnit.NUnit.Test\bin\Debug\FsUnit.NUnit.Test.dll" executed="True" result="Failure" success="False" time="0.004" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="FsUnit" executed="True" result="Failure" success="False" time="0.004" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Test" executed="True" result="Failure" success="False" time="0.003" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="be Empty tests" executed="True" result="Failure" success="False" time="0.002" asserts="0">
+                    <results>
+                      <test-case name="FsUnit.Test.be Empty tests.empty Array should be Empty" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.MissingMethodException : Method not found: 'Microsoft.FSharp.Core.FSharpFunc`2<!!0,!!0> FsUnit.be()'.]]></message>
+                          <stack-trace><![CDATA[at FsUnit.Test.be Empty tests.empty Array should be Empty()
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
