@@ -1,0 +1,6 @@
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\HackySackStore\Commands\bin\Debug\Commands.XML
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\HackySackStore\Commands\bin\Debug\Commands.dll
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\HackySackStore\Commands\bin\Debug\Commands.pdb
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\HackySackStore\Commands\obj\Debug\Commands.dll
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\HackySackStore\Commands\obj\Debug\Commands.pdb
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\HackySackStore\Commands\obj\Debug\Commands.fsprojResolveAssemblyReference.cache
