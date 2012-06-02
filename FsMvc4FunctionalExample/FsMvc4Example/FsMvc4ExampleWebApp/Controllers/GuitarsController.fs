@@ -12,16 +12,16 @@ open PublishMonad
 type GuitarsController(context:IDisposable, ?repository) =    
     inherit Controller()    
 
-    let fromRepository =
+    let fromRepository = 
         match repository with 
         | Some v -> v 
         | _ -> (context :?> FsMvcAppEntities).Guitars 
-               |> Repository.Get
+               |> Repository.get
 
     new() = new GuitarsController(new FsMvcAppEntities())
 
     member this.Index () =
-        GetAll() |> fromRepository <| WithCacheKeyOf("AllGuitars")
+        getAll() |> fromRepository <| withCacheKeyOf("AllGuitars")
         |> this.View 
 
     [<HttpGet>] 

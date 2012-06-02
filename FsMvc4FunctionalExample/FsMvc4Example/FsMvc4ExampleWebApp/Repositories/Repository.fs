@@ -4,34 +4,34 @@ open System
 open System.Linq
 
 module Repository =
-    let WithCacheKeyOf key = Some key 
+    let withCacheKeyOf key = Some key 
 
-    let DoNotUseCache = None 
+    let doNotUseCache = None 
 
-    let Get (source:IQueryable<_>) queryFn cacheKey = 
+    let get (source:IQueryable<_>) queryFn cacheKey = 
         let cacheResult = 
             match cacheKey with
-            | Some key -> CacheAgent.Get<'a list> key
+            | Some key -> CacheAgent.get<'a list> key
             | None -> None
 
         match cacheResult, cacheKey with
         | Some result, _ -> result 
         | None, Some cacheKey -> 
                 let result = queryFn source |> Seq.toList 
-                CacheAgent.Set cacheKey result
+                CacheAgent.set cacheKey result
                 result           
         | _, _ -> queryFn source |> Seq.toList 
 
-    let GetAll () =
+    let getAll () =
         fun s -> query { for x in s do
                          select x }
     
-    let Find filterPredFn =
+    let find filterPredFn =
         filterPredFn
         |> fun fn s -> query { for x in s do
                                where (fn()) }
     
-    let GetTop rowCount =
+    let getTop rowCount =
         rowCount
         |> fun cnt s -> query { for x in s do
                                 take cnt }     

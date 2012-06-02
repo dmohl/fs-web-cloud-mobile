@@ -28,3 +28,17 @@ C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with 
 C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsMvc4FunctionalExample\ServiceBusConsumer\obj\Debug\ServiceBusConsumer.fsprojResolveAssemblyReference.cache
 C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsMvc4FunctionalExample\ServiceBusConsumer\obj\Debug\ServiceBusConsumer.exe
 C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsMvc4FunctionalExample\ServiceBusConsumer\obj\Debug\ServiceBusConsumer.pdb
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\ServiceBusConsumer\bin\Debug\ServiceBusConsumer.XML
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\ServiceBusConsumer\obj\Debug\ServiceBusConsumer.fsprojResolveAssemblyReference.cache
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\ServiceBusConsumer\obj\Debug\ServiceBusConsumer.exe
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\ServiceBusConsumer\obj\Debug\ServiceBusConsumer.pdb
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\ServiceBusConsumer\bin\Debug\ServiceBusConsumer.exe
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\ServiceBusConsumer\bin\Debug\ServiceBusConsumer.pdb
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\ServiceBusConsumer\bin\Debug\FSharp.Core.dll
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\ServiceBusConsumer\bin\Debug\Messages.dll
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\ServiceBusConsumer\bin\Debug\SimpleBus.dll
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\ServiceBusConsumer\bin\Debug\Messages.pdb
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\ServiceBusConsumer\bin\Debug\Messages.xml
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\ServiceBusConsumer\bin\Debug\SimpleBus.pdb
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\ServiceBusConsumer\bin\Debug\SimpleBus.xml
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\ServiceBusConsumer\bin\Debug\FSharp.Core.xml

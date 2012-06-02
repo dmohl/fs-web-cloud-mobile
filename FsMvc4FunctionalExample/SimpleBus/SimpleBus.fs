@@ -16,7 +16,7 @@ let private parseQueueName (queueName:string) =
     createQueueIfMissing fullName
     fullName
 
-let Subscribe<'a> queueName success failure =     
+let subscribe<'a> queueName success failure =     
     let queue = new MessageQueue(parseQueueName queueName)
 
     queue.ReceiveCompleted.Add( 
@@ -31,7 +31,7 @@ let Subscribe<'a> queueName success failure =
     queue.BeginReceive() |> ignore
     queue
 
-let Publish queueName message =     
+let publish queueName message =     
     use queue = new MessageQueue(parseQueueName queueName)
     new Message(message, new BinaryMessageFormatter())
     |> queue.Send

@@ -28,14 +28,14 @@ module CacheAgent =
         loop Map.empty)
     
     // Public function that retrieves the data from cache as an Option 
-    let Get<'a> key = 
+    let get<'a> key = 
         agent.PostAndReply(fun reply -> Message.Get(key, reply))
         |> function
            | Some v -> v :?> 'a |> Some
            | None -> None
  
     // Public function that sets the cached data
-    let Set key value = 
+    let set key value = 
         Message.Set(key, value) |> agent.Post
 
 

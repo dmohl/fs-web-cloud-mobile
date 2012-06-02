@@ -5478,10 +5478,10 @@
  <summary>A compiler intrinsic that implements dynamic invocations for the DivideByInt primitive.</summary>
 </member>
 <member name="M:Microsoft.FSharp.Core.LanguagePrimitives.CheckedMultiplyDynamic``3(``0,``1)">
- <summary>A compiler intrinsic that implements dynamic invocations to the checked '+' operator.</summary>
+ <summary>A compiler intrinsic that implements dynamic invocations to the checked '*' operator.</summary>
 </member>
 <member name="M:Microsoft.FSharp.Core.LanguagePrimitives.MultiplyDynamic``3(``0,``1)">
- <summary>A compiler intrinsic that implements dynamic invocations to the '+' operator.</summary>
+ <summary>A compiler intrinsic that implements dynamic invocations to the '*' operator.</summary>
 </member>
 <member name="M:Microsoft.FSharp.Core.LanguagePrimitives.CheckedAdditionDynamic``3(``0,``1)">
  <summary>A compiler intrinsic that implements dynamic invocations to the checked '+' operator.</summary>
@@ -8697,6 +8697,286 @@
 <member name="">
 
 </member>
+<member name="T:Microsoft.FSharp.Linq.RuntimeHelpers.AnonymousObject`1">
+<summary>
+ This type shouldn&apos;t be used directly from user code.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Microsoft.FSharp.Linq.RuntimeHelpers.AnonymousObject`2">
+<summary>
+ This type shouldn&apos;t be used directly from user code.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Microsoft.FSharp.Linq.RuntimeHelpers.AnonymousObject`3">
+<summary>
+ This type shouldn&apos;t be used directly from user code.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Microsoft.FSharp.Linq.RuntimeHelpers.AnonymousObject`4">
+<summary>
+ This type shouldn&apos;t be used directly from user code.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Microsoft.FSharp.Linq.RuntimeHelpers.AnonymousObject`5">
+<summary>
+ This type shouldn&apos;t be used directly from user code.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Microsoft.FSharp.Linq.RuntimeHelpers.AnonymousObject`6">
+<summary>
+ This type shouldn&apos;t be used directly from user code.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Microsoft.FSharp.Linq.RuntimeHelpers.AnonymousObject`7">
+<summary>
+ This type shouldn&apos;t be used directly from user code.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Microsoft.FSharp.Linq.RuntimeHelpers.AnonymousObject`8">
+<summary>
+ This type shouldn&apos;t be used directly from user code.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
 <member name="">
 
 </member>
@@ -8724,401 +9004,13 @@
 <member name="">
 
 </member>
-<member name="T:Microsoft.FSharp.Linq.RuntimeHelpers.MutableTuple`1">
-<summary>
- This type shouldn&apos;t be used directly from user code.
-</summary>
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="T:Microsoft.FSharp.Linq.RuntimeHelpers.MutableTuple`2">
-<summary>
- This type shouldn&apos;t be used directly from user code.
-</summary>
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="T:Microsoft.FSharp.Linq.RuntimeHelpers.MutableTuple`3">
-<summary>
- This type shouldn&apos;t be used directly from user code.
-</summary>
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="T:Microsoft.FSharp.Linq.RuntimeHelpers.MutableTuple`4">
-<summary>
- This type shouldn&apos;t be used directly from user code.
-</summary>
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="T:Microsoft.FSharp.Linq.RuntimeHelpers.MutableTuple`5">
-<summary>
- This type shouldn&apos;t be used directly from user code.
-</summary>
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="T:Microsoft.FSharp.Linq.RuntimeHelpers.MutableTuple`6">
-<summary>
- This type shouldn&apos;t be used directly from user code.
-</summary>
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="T:Microsoft.FSharp.Linq.RuntimeHelpers.MutableTuple`7">
-<summary>
- This type shouldn&apos;t be used directly from user code.
-</summary>
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="T:Microsoft.FSharp.Linq.RuntimeHelpers.MutableTuple`8">
-<summary>
- This type shouldn&apos;t be used directly from user code.
-</summary>
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
 <member name="">
 
 </member>
 <member name="T:Microsoft.FSharp.Linq.RuntimeHelpers.Adapters.ConversionDescription">
 <summary>
  The generic MethodInfo for Select function
- Describes how we got from productions of immutable objects to productions of mutable tuples, with enough information
+ Describes how we got from productions of immutable objects to productions of anonymous objects, with enough information
  that we can invert the process in final query results.
 </summary>
 </member>
@@ -9128,7 +9020,7 @@
 <member name="M:Microsoft.FSharp.Linq.RuntimeHelpers.Adapters.ProduceMoreMutables(Microsoft.FSharp.Core.FSharpFunc{Microsoft.FSharp.Quotations.FSharpExpr,System.Tuple{Microsoft.FSharp.Quotations.FSharpExpr,Microsoft.FSharp.Linq.RuntimeHelpers.Adapters.ConversionDescription}},Microsoft.FSharp.Quotations.FSharpExpr)">
 <summary>
  Given the expression part of a &quot;yield&quot; or &quot;select&quot; which produces a result in terms of immutable tuples or immutable records,
- generate an equivalent expression yielding mutable tuples. Also return the conversion for the immutable-to-mutable correspondence
+ generate an equivalent expression yielding anonymous objects. Also return the conversion for the immutable-to-mutable correspondence
  so we can reverse this later.
 </summary>
 </member>
@@ -9142,10 +9034,13 @@
  Cleanup the use of property-set object constructions in leaf expressions that form parts of F# queries.
 </summary>
 </member>
+<member name="">
+
+</member>
 <member name="M:Microsoft.FSharp.Linq.RuntimeHelpers.Adapters.ConvImmutableTypeToMutableType(Microsoft.FSharp.Linq.RuntimeHelpers.Adapters.ConversionDescription,System.Type)">
 <summary>
  Given an type involving immutable tuples and records, logically corresponding to the type produced at a
- &quot;yield&quot; or &quot;select&quot;, convert it to a type involving mutable tuples according to the conversion data.
+ &quot;yield&quot; or &quot;select&quot;, convert it to a type involving anonymous objects according to the conversion data.
 </summary>
 </member>
 <member name="">
@@ -9159,6 +9054,14 @@
 </member>
 <member name="">
 
+</member>
+<member name="">
+
+</member>
+<member name="M:Microsoft.FSharp.Linq.RuntimeHelpers.Adapters.|NewAnonymousObject|_|(Microsoft.FSharp.Quotations.FSharpExpr)">
+<summary>
+ Recognize anonymous type construction written using &apos;new AnonymousObject(&lt;e1&gt;, &lt;e2&gt;, ...)&apos;
+</summary>
 </member>
 <member name="">
 
@@ -9198,6 +9101,9 @@
 <member name="">
 
 </member>
+<member name="">
+
+</member>
 <member name="T:Microsoft.FSharp.Linq.RuntimeHelpers.Adapters">
 
 </member>
@@ -9225,6 +9131,14 @@
 <summary>
  Converts a subset of F# quotations to a LINQ expression, for the subset of LINQ expressions represented by the
  expression syntax in the C# language.
+</summary>
+</member>
+<member name="M:Microsoft.FSharp.Linq.RuntimeHelpers.LeafExpressionConverter.NewAnonymousObjectHelper``1(``0)">
+<summary>
+ When used in a quotation, this function indicates a specific conversion
+ should be performed when converting the quotation to a LINQ expression. 
+
+ This function should not be called directly. 
 </summary>
 </member>
 <member name="M:Microsoft.FSharp.Linq.RuntimeHelpers.LeafExpressionConverter.MemberInitializationHelper``1(``0)">
@@ -9465,7 +9379,7 @@
 </member>
 <member name="M:Microsoft.FSharp.Quotations.FSharpExpr.ToString(System.Boolean)">
  <summary>Format the expression as a string</summary>
- <param name="full">Indiciates if method, property, constructor and type objects should be printed in detail. If false, these are abbreviated to their name.</param>
+ <param name="full">Indicates if method, property, constructor and type objects should be printed in detail. If false, these are abbreviated to their name.</param>
  <returns>The formatted string.</returns>
 </member>
 <member name="M:Microsoft.FSharp.Quotations.FSharpExpr.Substitute(Microsoft.FSharp.Core.FSharpFunc{Microsoft.FSharp.Quotations.FSharpVar,Microsoft.FSharp.Core.FSharpOption{Microsoft.FSharp.Quotations.FSharpExpr}})">

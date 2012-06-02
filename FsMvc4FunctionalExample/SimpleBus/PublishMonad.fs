@@ -9,7 +9,7 @@ type PublishBuilder() =
         // Note: This is for illustration purposes
         //       A "real" trace would log to a file, DB, event log, etc.
         printfn "A message was sent to queue %s" q        
-        SimpleBus.Publish q msg
+        SimpleBus.publish q msg
     member x.Return(_) = true
 
 // Create the builder-name   

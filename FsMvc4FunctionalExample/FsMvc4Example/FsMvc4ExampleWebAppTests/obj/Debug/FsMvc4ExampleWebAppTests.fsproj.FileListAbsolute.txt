@@ -71,3 +71,24 @@ C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with 
 C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsMvc4FunctionalExample\FsMvc4Example\FsMvc4ExampleWebAppTests\obj\Debug\FsMvc4ExampleWebAppTests.fsprojResolveAssemblyReference.cache
 C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsMvc4FunctionalExample\FsMvc4Example\FsMvc4ExampleWebAppTests\obj\Debug\WebAppTests.dll
 C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsMvc4FunctionalExample\FsMvc4Example\FsMvc4ExampleWebAppTests\obj\Debug\WebAppTests.pdb
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\FsMvc4Example\FsMvc4ExampleWebAppTests\bin\Debug\WebAppTests.XML
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\FsMvc4Example\FsMvc4ExampleWebAppTests\bin\Debug\WebAppTests.dll
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\FsMvc4Example\FsMvc4ExampleWebAppTests\bin\Debug\WebAppTests.pdb
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\FsMvc4Example\FsMvc4ExampleWebAppTests\bin\Debug\EntityFramework.dll
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\FsMvc4Example\FsMvc4ExampleWebAppTests\bin\Debug\FSharp.Core.dll
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\FsMvc4Example\FsMvc4ExampleWebAppTests\bin\Debug\nunit.framework.dll
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\FsMvc4Example\FsMvc4ExampleWebAppTests\bin\Debug\WebApp.dll
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\FsMvc4Example\FsMvc4ExampleWebAppTests\bin\Debug\SimpleBus.dll
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\FsMvc4Example\FsMvc4ExampleWebAppTests\bin\Debug\Messages.dll
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\FsMvc4Example\FsMvc4ExampleWebAppTests\bin\Debug\WebApp.pdb
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\FsMvc4Example\FsMvc4ExampleWebAppTests\bin\Debug\WebApp.xml
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\FsMvc4Example\FsMvc4ExampleWebAppTests\bin\Debug\EntityFramework.xml
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\FsMvc4Example\FsMvc4ExampleWebAppTests\bin\Debug\FSharp.Core.xml
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\FsMvc4Example\FsMvc4ExampleWebAppTests\bin\Debug\nunit.framework.xml
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\FsMvc4Example\FsMvc4ExampleWebAppTests\bin\Debug\SimpleBus.pdb
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\FsMvc4Example\FsMvc4ExampleWebAppTests\bin\Debug\SimpleBus.xml
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\FsMvc4Example\FsMvc4ExampleWebAppTests\bin\Debug\Messages.pdb
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\FsMvc4Example\FsMvc4ExampleWebAppTests\bin\Debug\Messages.xml
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\FsMvc4Example\FsMvc4ExampleWebAppTests\obj\Debug\FsMvc4ExampleWebAppTests.fsprojResolveAssemblyReference.cache
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\FsMvc4Example\FsMvc4ExampleWebAppTests\obj\Debug\WebAppTests.dll
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\FsMvc4Example\FsMvc4ExampleWebAppTests\obj\Debug\WebAppTests.pdb

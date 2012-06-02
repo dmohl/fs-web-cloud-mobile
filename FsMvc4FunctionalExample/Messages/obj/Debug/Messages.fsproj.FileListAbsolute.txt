@@ -15,3 +15,11 @@ C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with 
 C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsMvc4FunctionalExample\Messages\obj\Debug\Messages.dll
 C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsMvc4FunctionalExample\Messages\obj\Debug\Messages.pdb
 C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsMvc4FunctionalExample\Messages\obj\Debug\Messages.fsprojResolveAssemblyReference.cache
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\Messages\bin\Debug\Messages.XML
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\Messages\bin\Debug\Messages.dll
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\Messages\bin\Debug\Messages.pdb
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\Messages\bin\Debug\FSharp.Core.dll
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\Messages\bin\Debug\FSharp.Core.xml
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\Messages\obj\Debug\Messages.fsprojResolveAssemblyReference.cache
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\Messages\obj\Debug\Messages.dll
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\Messages\obj\Debug\Messages.pdb

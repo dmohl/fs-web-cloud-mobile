@@ -13,7 +13,7 @@ let BuildFakeRepository () =
         [| Guitar(Id = Guid.NewGuid(), Name="test1"); Guitar(Id=Guid.NewGuid(), Name="test") |]
         |> Queryable.AsQueryable
 
-    data |> Repository.Get
+    data |> Repository.get
 
 [<TestClass>]
 type TestClass() = 
@@ -23,5 +23,5 @@ type TestClass() =
                             interface IDisposable with 
                                 member x.Dispose() = x.Dispose() }
         let controller = new GuitarsController(context, BuildFakeRepository())
-        let model = (controller.Index() :?> ViewResult).Model :?> seq<Guitar>
+        let model = controller.Index().Model :?> seq<Guitar>
         (2, model.Count()) |> Assert.AreEqual
