@@ -200,10 +200,16 @@
 <member name="">
 
 </member>
+<member name="">
+
+</member>
 <member name="M:FSharpx.JSON.parse(System.Collections.Generic.IEnumerable{System.Char})">
 <summary>
  Parses a JSON source text and returns an JSON AST
 </summary>
+</member>
+<member name="">
+
 </member>
 <member name="">
 
@@ -274,27 +280,6 @@
 <member name="">
 
 </member>
-<member name="T:FSharpx.Strings">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
 <member name="">
 
 </member>
@@ -317,6 +302,18 @@
 
 </member>
 <member name="T:FSharpx.TypeProviders.AppSettingsTypeProvider">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSharpx.TypeProviders.AssemblyInfo">
 
 </member>
 <member name="">
@@ -412,11 +409,6 @@
 <member name="">
 
 </member>
-<member name="M:FSharpx.TypeProviders.DSL.niceName(System.String)">
-<summary>
- Turns a string into a nice PascalCase identifier
-</summary>
-</member>
 <member name="">
 
 </member>
@@ -495,7 +487,31 @@
 <member name="">
 
 </member>
-<member name="M:FSharpx.TypeProviders.Inference.createParserType``1(System.String,FSharpx.TypeProviders.Inference.CompoundProperty,Microsoft.FSharp.Core.FSharpFunc{Samples.FSharp.ProvidedTypes.ProvidedTypeDefinition,Microsoft.FSharp.Core.FSharpFunc{FSharpx.TypeProviders.Inference.CompoundProperty,Samples.FSharp.ProvidedTypes.ProvidedTypeDefinition}},Microsoft.FSharp.Core.FSharpFunc{Microsoft.FSharp.Collections.FSharpList{Microsoft.FSharp.Quotations.FSharpExpr},Microsoft.FSharp.Quotations.FSharpExpr},Microsoft.FSharp.Core.FSharpFunc{Microsoft.FSharp.Collections.FSharpList{Microsoft.FSharp.Quotations.FSharpExpr},Microsoft.FSharp.Quotations.FSharpExpr},Microsoft.FSharp.Core.FSharpFunc{Microsoft.FSharp.Collections.FSharpList{Microsoft.FSharp.Quotations.FSharpExpr},Microsoft.FSharp.Quotations.FSharpExpr},Microsoft.FSharp.Core.FSharpFunc{Microsoft.FSharp.Collections.FSharpList{Microsoft.FSharp.Quotations.FSharpExpr},Microsoft.FSharp.Quotations.FSharpExpr})">
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="M:FSharpx.TypeProviders.Inference.createParserType``1(System.String,Microsoft.FSharp.Core.FSharpFunc{Samples.FSharp.ProvidedTypes.ProvidedTypeDefinition,Microsoft.FSharp.Core.FSharpFunc{FSharpx.TypeProviders.Inference.CompoundProperty,Samples.FSharp.ProvidedTypes.ProvidedTypeDefinition}},FSharpx.TypeProviders.Inference.GeneratedParserSettings)">
 <summary>
  Generates constructors for loading data and adds type representing Root node
 </summary>
@@ -621,6 +637,24 @@
 
 </member>
 <member name="T:FSharpx.TypeProviders.Settings">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSharpx.TypeProviders.VectorTypeProvider">
 
 </member>
 <member name="">
@@ -954,11 +988,6 @@
  Represents an erased provided property.
 </summary>
 </member>
-<member name="P:Samples.FSharp.ProvidedTypes.ProvidedProperty.SetterCodeInternal(Microsoft.FSharp.Core.FSharpFunc{Microsoft.FSharp.Quotations.FSharpExpr[],Microsoft.FSharp.Quotations.FSharpExpr})">
-<summary>
- Set the function used to compute the implementation of sets of this property.
-</summary>
-</member>
 <member name="P:Samples.FSharp.ProvidedTypes.ProvidedProperty.SetterCode(Microsoft.FSharp.Core.FSharpFunc{Microsoft.FSharp.Collections.FSharpList{Microsoft.FSharp.Quotations.FSharpExpr},Microsoft.FSharp.Quotations.FSharpExpr})">
 <summary>
  Set the function used to compute the implementation of sets of this property.
@@ -969,24 +998,9 @@
  Get or set a flag indicating if the property is static.
 </summary>
 </member>
-<member name="P:Samples.FSharp.ProvidedTypes.ProvidedProperty.GetterCodeInternal(Microsoft.FSharp.Core.FSharpFunc{Microsoft.FSharp.Quotations.FSharpExpr[],Microsoft.FSharp.Quotations.FSharpExpr})">
-<summary>
- Set the function used to compute the implementation of gets of this property.
-</summary>
-</member>
 <member name="P:Samples.FSharp.ProvidedTypes.ProvidedProperty.GetterCode(Microsoft.FSharp.Core.FSharpFunc{Microsoft.FSharp.Collections.FSharpList{Microsoft.FSharp.Quotations.FSharpExpr},Microsoft.FSharp.Quotations.FSharpExpr})">
 <summary>
  Set the quotation used to compute the implementation of gets of this property.
-</summary>
-</member>
-<member name="P:Samples.FSharp.ProvidedTypes.ProvidedProperty.SetterCodeInternal">
-<summary>
- Set the function used to compute the implementation of sets of this property.
-</summary>
-</member>
-<member name="P:Samples.FSharp.ProvidedTypes.ProvidedProperty.GetterCodeInternal">
-<summary>
- Set the function used to compute the implementation of gets of this property.
 </summary>
 </member>
 <member name="M:Samples.FSharp.ProvidedTypes.ProvidedProperty.AddXmlDocDelayed(Microsoft.FSharp.Core.FSharpFunc{Microsoft.FSharp.Core.Unit,System.String})">
@@ -1025,11 +1039,6 @@
  Get or set a flag indicating if the property is static.
 </summary>
 </member>
-<member name="P:Samples.FSharp.ProvidedTypes.ProvidedMethod.InvokeCodeInternal(Microsoft.FSharp.Core.FSharpFunc{Microsoft.FSharp.Quotations.FSharpExpr[],Microsoft.FSharp.Quotations.FSharpExpr})">
-<summary>
- Set the function used to compute the implementation of invocations of this method.
-</summary>
-</member>
 <member name="P:Samples.FSharp.ProvidedTypes.ProvidedMethod.InvokeCode(Microsoft.FSharp.Core.FSharpFunc{Microsoft.FSharp.Collections.FSharpList{Microsoft.FSharp.Quotations.FSharpExpr},Microsoft.FSharp.Quotations.FSharpExpr})">
 <summary>
  Set the quotation used to compute the implementation of invocations of this method.
@@ -1038,11 +1047,6 @@
 <member name="P:Samples.FSharp.ProvidedTypes.ProvidedMethod.IsStaticMethod">
 <summary>
  Get or set a flag indicating if the property is static.
-</summary>
-</member>
-<member name="P:Samples.FSharp.ProvidedTypes.ProvidedMethod.InvokeCodeInternal">
-<summary>
- Set the function used to compute the implementation of invocations of this method.
 </summary>
 </member>
 <member name="M:Samples.FSharp.ProvidedTypes.ProvidedMethod.SetMethodAttrs(System.Reflection.MethodAttributes)">
@@ -1082,19 +1086,9 @@
 <member name="">
 
 </member>
-<member name="P:Samples.FSharp.ProvidedTypes.ProvidedConstructor.InvokeCodeInternal(Microsoft.FSharp.Core.FSharpFunc{Microsoft.FSharp.Quotations.FSharpExpr[],Microsoft.FSharp.Quotations.FSharpExpr})">
-<summary>
- Set the function used to compute the implementation of invocations of this constructor.
-</summary>
-</member>
 <member name="P:Samples.FSharp.ProvidedTypes.ProvidedConstructor.InvokeCode(Microsoft.FSharp.Core.FSharpFunc{Microsoft.FSharp.Collections.FSharpList{Microsoft.FSharp.Quotations.FSharpExpr},Microsoft.FSharp.Quotations.FSharpExpr})">
 <summary>
  Set the quotation used to compute the implementation of invocations of this constructor.
-</summary>
-</member>
-<member name="P:Samples.FSharp.ProvidedTypes.ProvidedConstructor.InvokeCodeInternal">
-<summary>
- Set the function used to compute the implementation of invocations of this constructor.
 </summary>
 </member>
 <member name="M:Samples.FSharp.ProvidedTypes.ProvidedConstructor.AddXmlDocDelayed(Microsoft.FSharp.Core.FSharpFunc{Microsoft.FSharp.Core.Unit,System.String})">

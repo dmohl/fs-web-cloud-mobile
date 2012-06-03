@@ -17,3 +17,28 @@ C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions 
 C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\FsCsWebApi\FsCsWebApiWebAppTests\obj\Debug\FsCsWebApiWebAppTests.fsprojResolveAssemblyReference.cache
 C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\FsCsWebApi\FsCsWebApiWebAppTests\obj\Debug\WebAppTests.dll
 C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\FsCsWebApi\FsCsWebApiWebAppTests\obj\Debug\WebAppTests.pdb
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FsCsWebApi\FsCsWebApiWebAppTests\bin\Debug\Web.config
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FsCsWebApi\FsCsWebApiWebAppTests\bin\Debug\WebAppTests.XML
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FsCsWebApi\FsCsWebApiWebAppTests\bin\Debug\WebAppTests.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FsCsWebApi\FsCsWebApiWebAppTests\bin\Debug\WebAppTests.pdb
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FsCsWebApi\FsCsWebApiWebAppTests\bin\Debug\FsCsWebApiWebAppApi.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FsCsWebApi\FsCsWebApiWebAppTests\bin\Debug\FSharp.Core.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FsCsWebApi\FsCsWebApiWebAppTests\bin\Debug\FsUnit.CustomMatchers.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FsCsWebApi\FsCsWebApiWebAppTests\bin\Debug\FsUnit.MsTest.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FsCsWebApi\FsCsWebApiWebAppTests\bin\Debug\NHamcrest.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FsCsWebApi\FsCsWebApiWebAppTests\bin\Debug\System.Web.Http.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FsCsWebApi\FsCsWebApiWebAppTests\bin\Debug\System.Web.Http.Common.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FsCsWebApi\FsCsWebApiWebAppTests\bin\Debug\System.Web.Http.WebHost.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FsCsWebApi\FsCsWebApiWebAppTests\bin\Debug\System.Web.Optimization.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FsCsWebApi\FsCsWebApiWebAppTests\bin\Debug\System.Net.Http.Formatting.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FsCsWebApi\FsCsWebApiWebAppTests\bin\Debug\FsCsWebApiWebAppApi.pdb
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FsCsWebApi\FsCsWebApiWebAppTests\bin\Debug\FsUnit.CustomMatchers.xml
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FsCsWebApi\FsCsWebApiWebAppTests\bin\Debug\EntityFramework.xml
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FsCsWebApi\FsCsWebApiWebAppTests\bin\Debug\FSharp.Core.xml
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FsCsWebApi\FsCsWebApiWebAppTests\bin\Debug\System.Web.Http.xml
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FsCsWebApi\FsCsWebApiWebAppTests\bin\Debug\System.Web.Http.Common.xml
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FsCsWebApi\FsCsWebApiWebAppTests\bin\Debug\System.Web.Http.WebHost.xml
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FsCsWebApi\FsCsWebApiWebAppTests\bin\Debug\System.Net.Http.Formatting.xml
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FsCsWebApi\FsCsWebApiWebAppTests\obj\Debug\FsCsWebApiWebAppTests.fsprojResolveAssemblyReference.cache
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FsCsWebApi\FsCsWebApiWebAppTests\obj\Debug\WebAppTests.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FsCsWebApi\FsCsWebApiWebAppTests\obj\Debug\WebAppTests.pdb

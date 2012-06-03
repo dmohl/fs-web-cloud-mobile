@@ -15,3 +15,24 @@ C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions 
 C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\FrankServer\bin\Debug\Fsharpx.Core.dll
 C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\FrankServer\bin\Debug\Fsharpx.Core.pdb
 C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\FrankServer\bin\Debug\Fsharpx.Core.xml
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FrankServer\bin\Debug\FrankServer.exe.config
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FrankServer\bin\Debug\FrankServer.XML
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FrankServer\bin\Debug\FrankServer.exe
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FrankServer\bin\Debug\FrankServer.pdb
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FrankServer\bin\Debug\Frank.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FrankServer\bin\Debug\FSharp.Core.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FrankServer\bin\Debug\Fsharpx.Core.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FrankServer\bin\Debug\System.Net.Http.Formatting.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FrankServer\bin\Debug\System.Web.Http.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FrankServer\bin\Debug\System.Web.Http.SelfHost.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FrankServer\bin\Debug\Fsharpx.Core.pdb
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FrankServer\bin\Debug\Fsharpx.Core.xml
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FrankServer\bin\Debug\FSharp.Core.xml
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FrankServer\bin\Debug\System.Net.Http.Formatting.xml
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FrankServer\bin\Debug\System.Web.Http.xml
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FrankServer\bin\Debug\System.Web.Http.SelfHost.xml
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FrankServer\obj\Debug\FrankServer.fsprojResolveAssemblyReference.cache
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FrankServer\obj\Debug\FrankServer.exe
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FrankServer\obj\Debug\FrankServer.pdb
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FrankServer\bin\Debug\Newtonsoft.Json.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FrankServer\bin\Debug\Newtonsoft.Json.xml

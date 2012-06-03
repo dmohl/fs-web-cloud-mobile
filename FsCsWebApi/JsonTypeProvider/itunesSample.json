@@ -1,5 +1,5 @@
 ﻿{
- "resultCount":5,
+ "resultCount":1,
  "results": [
 {"wrapperType":"collection", "collectionType":"Album", "artistId":2475740, "collectionId":2475767, "amgArtistId":14116, "artistName":"Arlen Roth", "collectionName":"Guitar", "collectionCensoredName":"Guitar", "artistViewUrl":"http://itunes.apple.com/us/artist/arlen-roth/id2475740?uo=4", "collectionViewUrl":"http://itunes.apple.com/us/album/guitar/id2475767?uo=4", "artworkUrl60":"http://a2.mzstatic.com/us/r1000/018/Music/y2003/m09/d13/h05/s03.goipiqyz.60x60-50.jpg", "artworkUrl100":"http://a1.mzstatic.com/us/r1000/018/Music/y2003/m09/d13/h05/s03.goipiqyz.100x100-75.jpg", "collectionPrice":9.99, "collectionExplicitness":"notExplicit", "trackCount":13, "copyright":"1987 Rounder", "country":"USA", "currency":"USD", "releaseDate":"1987-01-01T08:00:00Z", "primaryGenreName":"Blues"}]
 }

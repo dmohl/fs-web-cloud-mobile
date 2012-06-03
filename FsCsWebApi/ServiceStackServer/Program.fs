@@ -19,12 +19,12 @@ type AppHost() =
     override this.Configure container = ()
 
 module ServiceHost =
-    let Main args =
+    let main args =
         use appHost = new AppHost()
         appHost.Init()
         appHost.Start "http://localhost:9090/"
         printfn "The service has started on port 9090"
         Console.ReadLine() |> ignore
 
-    Main ()
+    main ()
 

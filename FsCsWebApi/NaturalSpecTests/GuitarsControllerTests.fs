@@ -3,7 +3,6 @@
 open System
 open System.Linq
 open FsWeb.Controllers
-open FsWeb.Models
 open NaturalSpec
 
 type Guitar = dbContext.ServiceTypes.Guitars
@@ -15,7 +14,7 @@ let fakeRepository =
        Guitar(Id = Guid.NewGuid(), Name = "test2")
        Guitar(Id = Guid.NewGuid(), Name = "test3") |]
     |> Queryable.AsQueryable
-    |> Repository.Get
+    |> Repository.get
 
 let context = { new Object() 
                     interface IDisposable with 

@@ -40,9 +40,6 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Numerics" />
     <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
-    <Reference Include="TickSpec">
-      <HintPath>..\packages\TickSpec.1.0.0\net20\TickSpec.dll</HintPath>
-    </Reference>
     <Reference Include="Unquote">
       <HintPath>..\packages\Unquote.2.1.1\lib\net40\Unquote.dll</HintPath>
       <Private>True</Private>
@@ -58,8 +55,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FsCsWebApi\FsCsWebApiWebAppApi\FsCsWebApiWebAppApi.fsproj">
-      <Name>FsCsWebApiWebAppApi</Name>
+    <ProjectReference Include="..\FsCs\FsCsWebAppApi\FsCsWebAppApi.fsproj">
+      <Name>FsCsWebAppApi</Name>
       <Project>{a999575f-c66e-42bf-a70f-655d4c3f0069}</Project>
       <Private>True</Private>
     </ProjectReference>

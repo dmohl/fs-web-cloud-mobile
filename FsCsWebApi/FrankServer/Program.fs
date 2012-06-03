@@ -26,7 +26,7 @@ let app = merge [ route "/api/values" <| get values
           |> Middleware.log
 
 module HostServer = 
-    let Main args =
+    let main args =
         let baseUri = "http://localhost:9393"
         use config = new HttpSelfHostConfiguration(baseUri)
         config.Register app
@@ -38,5 +38,5 @@ module HostServer =
         Console.ReadKey() |> ignore
         server.CloseAsync().Wait()
 
-    Main () 
+    main () 
         

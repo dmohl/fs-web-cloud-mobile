@@ -60,8 +60,8 @@
     <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FsCsWebApi\FsCsWebApiWebAppApi\FsCsWebApiWebAppApi.fsproj">
-      <Name>FsCsWebApiWebAppApi</Name>
+    <ProjectReference Include="..\FsCs\FsCsWebAppApi\FsCsWebAppApi.fsproj">
+      <Name>FsCsWebAppApi</Name>
       <Project>{a999575f-c66e-42bf-a70f-655d4c3f0069}</Project>
       <Private>True</Private>
     </ProjectReference>

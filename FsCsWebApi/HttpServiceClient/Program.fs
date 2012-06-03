@@ -1,6 +1,9 @@
 ﻿open System
 open System.Net.Http
-open System.Json
+open Newtonsoft.Json
+
+type Response() =  
+    member val Results : string[] = [||] with get, set
 
 let client = new HttpClient()
 
@@ -18,14 +21,18 @@ let client = new HttpClient()
 
 let task = async {
     let! res = Async.AwaitTask 
-               <| client.GetAsync("http://localhost:5551/api/values/3")
+               <| client.GetAsync("http://localhost:1232/api/values/3")
     res.EnsureSuccessStatusCode() |> ignore
-    return! Async.AwaitTask <| res.Content.ReadAsAsync<JsonValue>()
+    return! Async.AwaitTask <| res.Content.ReadAsStringAsync() 
 } 
 
 Async.StartWithContinuations(
     task, 
-    (fun v -> printfn "The returned value is %s" <| v.ToString()), 
+    (fun r ->       
+        seq { yield "The returned values are:" }
+        |> Seq.append <| JsonConvert.DeserializeObject<seq<string>>(r)
+        |> Seq.reduce (fun acc v -> sprintf "%s %s" acc v)
+        |> printfn "%s"),
     (fun err -> 
         printfn "The request was NOT successful with error %s" err.Message),
     (fun canc -> printfn "The request was cancelled")) 

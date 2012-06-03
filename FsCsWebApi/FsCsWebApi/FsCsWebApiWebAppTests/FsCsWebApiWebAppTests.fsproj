@@ -74,11 +74,6 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
     <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
-    <ProjectReference Include="..\FsCsWebApiWebAppApi\FsCsWebApiWebAppApi.fsproj">
-      <Name>FsCsWebApiWebAppApi</Name>
-      <Project>{a999575f-c66e-42bf-a70f-655d4c3f0069}</Project>
-      <Private>True</Private>
-    </ProjectReference>
   </ItemGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
 	     Other similar extension points exist, see Microsoft.Common.targets.

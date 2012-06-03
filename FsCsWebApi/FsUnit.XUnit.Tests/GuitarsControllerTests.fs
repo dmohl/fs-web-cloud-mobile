@@ -3,7 +3,6 @@ module ``When getting all guitars``
 open System
 open System.Linq
 open FsWeb.Controllers
-open FsWeb.Models
 open FsUnit.Xunit
 open Xunit
 
@@ -16,7 +15,7 @@ let fakeRepository =
        Guitar(Id = Guid.NewGuid(), Name = "test2")
        Guitar(Id = Guid.NewGuid(), Name = "test3") |]
     |> Queryable.AsQueryable
-    |> Repository.Get
+    |> Repository.get
 
 let context = { new Object() 
                     interface IDisposable with 
