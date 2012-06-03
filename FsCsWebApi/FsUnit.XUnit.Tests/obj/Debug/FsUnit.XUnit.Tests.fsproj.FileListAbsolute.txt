@@ -41,3 +41,4 @@ C:\git\fs-web-cloud-mobile\FsCsWebApi\FsUnit.XUnit.Tests\bin\Debug\System.Net.Ht
 C:\git\fs-web-cloud-mobile\FsCsWebApi\FsUnit.XUnit.Tests\obj\Debug\FsUnit.XUnit.Tests.fsprojResolveAssemblyReference.cache
 C:\git\fs-web-cloud-mobile\FsCsWebApi\FsUnit.XUnit.Tests\obj\Debug\FsUnit.XUnit.Tests.dll
 C:\git\fs-web-cloud-mobile\FsCsWebApi\FsUnit.XUnit.Tests\obj\Debug\FsUnit.XUnit.Tests.pdb
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FsUnit.XUnit.Tests\bin\Debug\FsUnit.CustomMatchers.xml

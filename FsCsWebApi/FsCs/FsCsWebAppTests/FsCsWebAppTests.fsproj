@@ -39,7 +39,6 @@
     <Compile Include="GuitarsControllerFsUnitTests.fs" />
     <Compile Include="GuitarsControllerTests.fs" />
     <None Include="Web.config" />
-    <Compile Include="FsUnitSample.fs" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

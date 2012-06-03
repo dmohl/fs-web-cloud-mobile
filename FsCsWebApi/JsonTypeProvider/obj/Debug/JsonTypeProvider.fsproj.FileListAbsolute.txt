@@ -38,6 +38,6 @@ C:\git\fs-web-cloud-mobile\FsCsWebApi\JsonTypeProvider\bin\Debug\FSharp.Core.xml
 C:\git\fs-web-cloud-mobile\FsCsWebApi\JsonTypeProvider\bin\Debug\System.Net.Http.Formatting.xml
 C:\git\fs-web-cloud-mobile\FsCsWebApi\JsonTypeProvider\bin\Debug\Microsoft.Office.Interop.Excel.xml
 C:\git\fs-web-cloud-mobile\FsCsWebApi\JsonTypeProvider\bin\Debug\office.xml
+C:\git\fs-web-cloud-mobile\FsCsWebApi\JsonTypeProvider\obj\Debug\JsonTypeProvider.fsprojResolveAssemblyReference.cache
 C:\git\fs-web-cloud-mobile\FsCsWebApi\JsonTypeProvider\obj\Debug\JsonTypeProvider.exe
 C:\git\fs-web-cloud-mobile\FsCsWebApi\JsonTypeProvider\obj\Debug\JsonTypeProvider.pdb
-C:\git\fs-web-cloud-mobile\FsCsWebApi\JsonTypeProvider\obj\Debug\JsonTypeProvider.fsprojResolveAssemblyReference.cache

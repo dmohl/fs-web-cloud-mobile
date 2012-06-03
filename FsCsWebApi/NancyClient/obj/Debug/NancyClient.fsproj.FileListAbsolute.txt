@@ -29,7 +29,6 @@ C:\git\fs-web-cloud-mobile\FsCsWebApi\NancyClient\bin\Debug\System.Net.Http.xml
 C:\git\fs-web-cloud-mobile\FsCsWebApi\NancyClient\bin\Debug\System.Net.Http.Formatting.xml
 C:\git\fs-web-cloud-mobile\FsCsWebApi\NancyClient\bin\Debug\System.Net.Http.WebRequest.xml
 C:\git\fs-web-cloud-mobile\FsCsWebApi\NancyClient\bin\Debug\System.Web.Http.xml
-C:\git\fs-web-cloud-mobile\FsCsWebApi\NancyClient\bin\Debug\System.Web.Http.Common.xml
 C:\git\fs-web-cloud-mobile\FsCsWebApi\NancyClient\obj\Debug\NancyClient.fsprojResolveAssemblyReference.cache
 C:\git\fs-web-cloud-mobile\FsCsWebApi\NancyClient\obj\Debug\NancyClient.exe
 C:\git\fs-web-cloud-mobile\FsCsWebApi\NancyClient\obj\Debug\NancyClient.pdb

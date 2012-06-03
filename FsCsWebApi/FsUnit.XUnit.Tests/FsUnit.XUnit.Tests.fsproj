@@ -42,19 +42,17 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FsUnit.CustomMatchers">
-      <HintPath>..\packages\FsUnit.xUnit.1.0.0.4\Lib\Net40\FsUnit.CustomMatchers.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\FsUnit.xUnit.1.1.0.0\Lib\Net40\FsUnit.CustomMatchers.dll</HintPath>
     </Reference>
     <Reference Include="FsUnit.Xunit">
-      <HintPath>..\packages\FsUnit.xUnit.1.0.0.4\Lib\Net40\FsUnit.Xunit.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\FsUnit.xUnit.1.1.0.0\Lib\Net40\FsUnit.Xunit.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib" />
     <Reference Include="FSharp.Core, Version=4.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
       <Private>True</Private>
     </Reference>
     <Reference Include="NHamcrest">
-      <HintPath>..\packages\FsUnit.xUnit.1.0.0.4\Lib\Net40\NHamcrest.dll</HintPath>
+      <HintPath>..\packages\FsUnit.xUnit.1.1.0.0\Lib\Net40\NHamcrest.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -62,7 +60,6 @@
     <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
     <Reference Include="xunit">
       <HintPath>..\packages\xunit.1.9.0.1566\lib\xunit.dll</HintPath>
-      <Private>True</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
