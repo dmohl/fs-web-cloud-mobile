@@ -22,3 +22,4 @@ C:\git\fs-web-cloud-mobile\FsCsWebApi\FsCs\FsCsWebAppApi\bin\Debug\System.Web.Ht
 C:\git\fs-web-cloud-mobile\FsCsWebApi\FsCs\FsCsWebAppApi\bin\Debug\System.Web.Http.WebHost.xml
 C:\git\fs-web-cloud-mobile\FsCsWebApi\FsCs\FsCsWebAppApi\obj\Debug\FsCsWebAppApi.dll
 C:\git\fs-web-cloud-mobile\FsCsWebApi\FsCs\FsCsWebAppApi\obj\Debug\FsCsWebAppApi.pdb
+C:\git\fs-web-cloud-mobile\FsCsWebApi\FsCs\FsCsWebAppApi\obj\Debug\FsCsWebAppApi.fsprojResolveAssemblyReference.cache

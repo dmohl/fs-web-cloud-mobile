@@ -59,3 +59,4 @@ C:\git\fs-web-cloud-mobile\FsCsWebApi\ServiceStackServer\bin\Debug\ServiceStack.
 C:\git\fs-web-cloud-mobile\FsCsWebApi\ServiceStackServer\bin\Debug\ServiceStack.Text.xml
 C:\git\fs-web-cloud-mobile\FsCsWebApi\ServiceStackServer\obj\Debug\ServiceStackServer.exe
 C:\git\fs-web-cloud-mobile\FsCsWebApi\ServiceStackServer\obj\Debug\ServiceStackServer.pdb
+C:\git\fs-web-cloud-mobile\FsCsWebApi\ServiceStackServer\obj\Debug\ServiceStackServer.fsprojResolveAssemblyReference.cache

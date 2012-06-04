@@ -18,8 +18,8 @@ type ValuesController() =
         | 1 | 2 -> sprintf "Value is %i" id
         | _ -> raise <| HttpResponseException(new HttpResponseMessage(HttpStatusCode.NotFound))   
     // POST /api/values
-    member x.Post (value:string) = ()
+    member x.Post ([<FromBody>] value:string) = ()
     // PUT /api/values/5
-    member x.Put (id:int) (value:string) = ()
+    member x.Put (id:int) ([<FromBody>] value:string) = ()
     // DELETE /api/values/5
     member x.Delete (id:int) = ()
