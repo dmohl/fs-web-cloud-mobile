@@ -72,3 +72,40 @@ E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FShar
 E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzureCloud\obj\Debug\FsWebAPIAzureWebApi\bin\System.Web.WebPages.Razor.xml
 E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzureCloud\obj\Debug\FsWebAPIAzureWebApi\bin\System.Web.WebPages.xml
 E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzureCloud\obj\Debug\FsWebAPIAzureWebApi\bin\WebAppApi.XML
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzureCloud\bin\Debug\ServiceConfiguration.cscfg
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzureCloud\obj\Debug\FsWebAPIAzureWebApi\bin\FSharp.Core.dll
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzureCloud\obj\Debug\FsWebAPIAzureWebApi\bin\FSharp.Core.xml
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzureCloud\obj\Debug\FsWebAPIAzureWebApi\bin\FsWebAPIAzureWebApi.dll
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzureCloud\obj\Debug\FsWebAPIAzureWebApi\bin\FsWebAPIAzureWebApi.pdb
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzureCloud\obj\Debug\FsWebAPIAzureWebApi\bin\FsWebAPIAzureWebAppApi.dll
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzureCloud\obj\Debug\FsWebAPIAzureWebApi\bin\FsWebAPIAzureWebAppApi.pdb
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzureCloud\obj\Debug\FsWebAPIAzureWebApi\bin\Microsoft.Web.Infrastructure.dll
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzureCloud\obj\Debug\FsWebAPIAzureWebApi\bin\System.Json.dll
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzureCloud\obj\Debug\FsWebAPIAzureWebApi\bin\System.Json.xml
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzureCloud\obj\Debug\FsWebAPIAzureWebApi\bin\System.Net.Http.dll
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzureCloud\obj\Debug\FsWebAPIAzureWebApi\bin\System.Net.Http.Formatting.dll
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzureCloud\obj\Debug\FsWebAPIAzureWebApi\bin\System.Net.Http.Formatting.xml
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzureCloud\obj\Debug\FsWebAPIAzureWebApi\bin\System.Net.Http.WebRequest.dll
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzureCloud\obj\Debug\FsWebAPIAzureWebApi\bin\System.Net.Http.WebRequest.xml
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzureCloud\obj\Debug\FsWebAPIAzureWebApi\bin\System.Net.Http.xml
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzureCloud\obj\Debug\FsWebAPIAzureWebApi\bin\System.Web.Helpers.dll
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzureCloud\obj\Debug\FsWebAPIAzureWebApi\bin\System.Web.Helpers.xml
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzureCloud\obj\Debug\FsWebAPIAzureWebApi\bin\System.Web.Http.Common.dll
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzureCloud\obj\Debug\FsWebAPIAzureWebApi\bin\System.Web.Http.Common.xml
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzureCloud\obj\Debug\FsWebAPIAzureWebApi\bin\System.Web.Http.dll
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzureCloud\obj\Debug\FsWebAPIAzureWebApi\bin\System.Web.Http.WebHost.dll
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzureCloud\obj\Debug\FsWebAPIAzureWebApi\bin\System.Web.Http.WebHost.xml
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzureCloud\obj\Debug\FsWebAPIAzureWebApi\bin\System.Web.Http.xml
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzureCloud\obj\Debug\FsWebAPIAzureWebApi\bin\System.Web.Mvc.dll
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzureCloud\obj\Debug\FsWebAPIAzureWebApi\bin\System.Web.Mvc.xml
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzureCloud\obj\Debug\FsWebAPIAzureWebApi\bin\System.Web.Optimization.dll
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzureCloud\obj\Debug\FsWebAPIAzureWebApi\bin\System.Web.Providers.dll
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzureCloud\obj\Debug\FsWebAPIAzureWebApi\bin\System.Web.Razor.dll
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzureCloud\obj\Debug\FsWebAPIAzureWebApi\bin\System.Web.Razor.xml
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzureCloud\obj\Debug\FsWebAPIAzureWebApi\bin\System.Web.WebPages.Deployment.dll
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzureCloud\obj\Debug\FsWebAPIAzureWebApi\bin\System.Web.WebPages.Deployment.xml
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzureCloud\obj\Debug\FsWebAPIAzureWebApi\bin\System.Web.WebPages.dll
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzureCloud\obj\Debug\FsWebAPIAzureWebApi\bin\System.Web.WebPages.Razor.dll
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzureCloud\obj\Debug\FsWebAPIAzureWebApi\bin\System.Web.WebPages.Razor.xml
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzureCloud\obj\Debug\FsWebAPIAzureWebApi\bin\System.Web.WebPages.xml
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzureCloud\obj\Debug\FsWebAPIAzureWebApi\bin\WebAppApi.XML

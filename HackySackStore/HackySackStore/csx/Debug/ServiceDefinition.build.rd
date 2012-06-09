@@ -1,48 +1,48 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="HackySackStore" generation="1" functional="0" release="0" Id="8a3e28e7-0140-456b-899b-d9a214faee18" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
+<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="HackySackStore" generation="1" functional="0" release="0" Id="b0537436-863f-4b95-855f-56813b1cf2bd" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
   <groups>
     <group name="HackySackStoreGroup" generation="1" functional="0" release="0">
       <componentports>
-        <inPort name="HackySackStoreWebWebApi:Endpoint1" protocol="http">
+        <inPort name="HackySackStoreFrontWebApi:Endpoint1" protocol="http">
           <inToChannel>
-            <lBChannelMoniker name="/HackySackStore/HackySackStoreGroup/LB:HackySackStoreWebWebApi:Endpoint1" />
+            <lBChannelMoniker name="/HackySackStore/HackySackStoreGroup/LB:HackySackStoreFrontWebApi:Endpoint1" />
           </inToChannel>
         </inPort>
       </componentports>
       <settings>
-        <aCS name="HackySackStoreWebWebApi:Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" defaultValue="">
+        <aCS name="HackySackStoreFrontWebApi:Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" defaultValue="">
           <maps>
-            <mapMoniker name="/HackySackStore/HackySackStoreGroup/MapHackySackStoreWebWebApi:Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" />
+            <mapMoniker name="/HackySackStore/HackySackStoreGroup/MapHackySackStoreFrontWebApi:Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" />
           </maps>
         </aCS>
-        <aCS name="HackySackStoreWebWebApi:ServiceBusIssuer" defaultValue="">
+        <aCS name="HackySackStoreFrontWebApi:ServiceBusIssuer" defaultValue="">
           <maps>
-            <mapMoniker name="/HackySackStore/HackySackStoreGroup/MapHackySackStoreWebWebApi:ServiceBusIssuer" />
+            <mapMoniker name="/HackySackStore/HackySackStoreGroup/MapHackySackStoreFrontWebApi:ServiceBusIssuer" />
           </maps>
         </aCS>
-        <aCS name="HackySackStoreWebWebApi:ServiceBusKey" defaultValue="">
+        <aCS name="HackySackStoreFrontWebApi:ServiceBusKey" defaultValue="">
           <maps>
-            <mapMoniker name="/HackySackStore/HackySackStoreGroup/MapHackySackStoreWebWebApi:ServiceBusKey" />
+            <mapMoniker name="/HackySackStore/HackySackStoreGroup/MapHackySackStoreFrontWebApi:ServiceBusKey" />
           </maps>
         </aCS>
-        <aCS name="HackySackStoreWebWebApi:ServiceBusNamespace" defaultValue="">
+        <aCS name="HackySackStoreFrontWebApi:ServiceBusNamespace" defaultValue="">
           <maps>
-            <mapMoniker name="/HackySackStore/HackySackStoreGroup/MapHackySackStoreWebWebApi:ServiceBusNamespace" />
+            <mapMoniker name="/HackySackStore/HackySackStoreGroup/MapHackySackStoreFrontWebApi:ServiceBusNamespace" />
           </maps>
         </aCS>
-        <aCS name="HackySackStoreWebWebApi:ServiceBusScheme" defaultValue="">
+        <aCS name="HackySackStoreFrontWebApi:ServiceBusScheme" defaultValue="">
           <maps>
-            <mapMoniker name="/HackySackStore/HackySackStoreGroup/MapHackySackStoreWebWebApi:ServiceBusScheme" />
+            <mapMoniker name="/HackySackStore/HackySackStoreGroup/MapHackySackStoreFrontWebApi:ServiceBusScheme" />
           </maps>
         </aCS>
-        <aCS name="HackySackStoreWebWebApi:ServiceBusServicePath" defaultValue="">
+        <aCS name="HackySackStoreFrontWebApi:ServiceBusServicePath" defaultValue="">
           <maps>
-            <mapMoniker name="/HackySackStore/HackySackStoreGroup/MapHackySackStoreWebWebApi:ServiceBusServicePath" />
+            <mapMoniker name="/HackySackStore/HackySackStoreGroup/MapHackySackStoreFrontWebApi:ServiceBusServicePath" />
           </maps>
         </aCS>
-        <aCS name="HackySackStoreWebWebApiInstances" defaultValue="[1,1,1]">
+        <aCS name="HackySackStoreFrontWebApiInstances" defaultValue="[1,1,1]">
           <maps>
-            <mapMoniker name="/HackySackStore/HackySackStoreGroup/MapHackySackStoreWebWebApiInstances" />
+            <mapMoniker name="/HackySackStore/HackySackStoreGroup/MapHackySackStoreFrontWebApiInstances" />
           </maps>
         </aCS>
         <aCS name="OrderProcessor2:Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" defaultValue="">
@@ -127,46 +127,46 @@
         </aCS>
       </settings>
       <channels>
-        <lBChannel name="LB:HackySackStoreWebWebApi:Endpoint1">
+        <lBChannel name="LB:HackySackStoreFrontWebApi:Endpoint1">
           <toPorts>
-            <inPortMoniker name="/HackySackStore/HackySackStoreGroup/HackySackStoreWebWebApi/Endpoint1" />
+            <inPortMoniker name="/HackySackStore/HackySackStoreGroup/HackySackStoreFrontWebApi/Endpoint1" />
           </toPorts>
         </lBChannel>
       </channels>
       <maps>
-        <map name="MapHackySackStoreWebWebApi:Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" kind="Identity">
+        <map name="MapHackySackStoreFrontWebApi:Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" kind="Identity">
           <setting>
-            <aCSMoniker name="/HackySackStore/HackySackStoreGroup/HackySackStoreWebWebApi/Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" />
+            <aCSMoniker name="/HackySackStore/HackySackStoreGroup/HackySackStoreFrontWebApi/Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" />
           </setting>
         </map>
-        <map name="MapHackySackStoreWebWebApi:ServiceBusIssuer" kind="Identity">
+        <map name="MapHackySackStoreFrontWebApi:ServiceBusIssuer" kind="Identity">
           <setting>
-            <aCSMoniker name="/HackySackStore/HackySackStoreGroup/HackySackStoreWebWebApi/ServiceBusIssuer" />
+            <aCSMoniker name="/HackySackStore/HackySackStoreGroup/HackySackStoreFrontWebApi/ServiceBusIssuer" />
           </setting>
         </map>
-        <map name="MapHackySackStoreWebWebApi:ServiceBusKey" kind="Identity">
+        <map name="MapHackySackStoreFrontWebApi:ServiceBusKey" kind="Identity">
           <setting>
-            <aCSMoniker name="/HackySackStore/HackySackStoreGroup/HackySackStoreWebWebApi/ServiceBusKey" />
+            <aCSMoniker name="/HackySackStore/HackySackStoreGroup/HackySackStoreFrontWebApi/ServiceBusKey" />
           </setting>
         </map>
-        <map name="MapHackySackStoreWebWebApi:ServiceBusNamespace" kind="Identity">
+        <map name="MapHackySackStoreFrontWebApi:ServiceBusNamespace" kind="Identity">
           <setting>
-            <aCSMoniker name="/HackySackStore/HackySackStoreGroup/HackySackStoreWebWebApi/ServiceBusNamespace" />
+            <aCSMoniker name="/HackySackStore/HackySackStoreGroup/HackySackStoreFrontWebApi/ServiceBusNamespace" />
           </setting>
         </map>
-        <map name="MapHackySackStoreWebWebApi:ServiceBusScheme" kind="Identity">
+        <map name="MapHackySackStoreFrontWebApi:ServiceBusScheme" kind="Identity">
           <setting>
-            <aCSMoniker name="/HackySackStore/HackySackStoreGroup/HackySackStoreWebWebApi/ServiceBusScheme" />
+            <aCSMoniker name="/HackySackStore/HackySackStoreGroup/HackySackStoreFrontWebApi/ServiceBusScheme" />
           </setting>
         </map>
-        <map name="MapHackySackStoreWebWebApi:ServiceBusServicePath" kind="Identity">
+        <map name="MapHackySackStoreFrontWebApi:ServiceBusServicePath" kind="Identity">
           <setting>
-            <aCSMoniker name="/HackySackStore/HackySackStoreGroup/HackySackStoreWebWebApi/ServiceBusServicePath" />
+            <aCSMoniker name="/HackySackStore/HackySackStoreGroup/HackySackStoreFrontWebApi/ServiceBusServicePath" />
           </setting>
         </map>
-        <map name="MapHackySackStoreWebWebApiInstances" kind="Identity">
+        <map name="MapHackySackStoreFrontWebApiInstances" kind="Identity">
           <setting>
-            <sCSPolicyIDMoniker name="/HackySackStore/HackySackStoreGroup/HackySackStoreWebWebApiInstances" />
+            <sCSPolicyIDMoniker name="/HackySackStore/HackySackStoreGroup/HackySackStoreFrontWebApiInstances" />
           </setting>
         </map>
         <map name="MapOrderProcessor2:Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" kind="Identity">
@@ -252,7 +252,7 @@
       </maps>
       <components>
         <groupHascomponents>
-          <role name="HackySackStoreWebWebApi" generation="1" functional="0" release="0" software="E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\HackySackStore\HackySackStore\csx\Debug\roles\HackySackStoreWebWebApi" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaIISHost.exe " memIndex="1792" hostingEnvironment="frontendadmin" hostingEnvironmentVersion="2">
+          <role name="HackySackStoreFrontWebApi" generation="1" functional="0" release="0" software="C:\git\fs-web-cloud-mobile\HackySackStore\HackySackStore\csx\Debug\roles\HackySackStoreFrontWebApi" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaIISHost.exe " memIndex="1792" hostingEnvironment="frontendadmin" hostingEnvironmentVersion="2">
             <componentports>
               <inPort name="Endpoint1" protocol="http" portRanges="80" />
             </componentports>
@@ -263,7 +263,7 @@
               <aCS name="ServiceBusNamespace" defaultValue="" />
               <aCS name="ServiceBusScheme" defaultValue="" />
               <aCS name="ServiceBusServicePath" defaultValue="" />
-              <aCS name="__ModelData" defaultValue="&lt;m role=&quot;HackySackStoreWebWebApi&quot; xmlns=&quot;urn:azure:m:v1&quot;&gt;&lt;r name=&quot;HackySackStoreWebWebApi&quot;&gt;&lt;e name=&quot;Endpoint1&quot; /&gt;&lt;/r&gt;&lt;r name=&quot;OrderProcessor2&quot; /&gt;&lt;r name=&quot;OrderSQLStore&quot; /&gt;&lt;/m&gt;" />
+              <aCS name="__ModelData" defaultValue="&lt;m role=&quot;HackySackStoreFrontWebApi&quot; xmlns=&quot;urn:azure:m:v1&quot;&gt;&lt;r name=&quot;HackySackStoreFrontWebApi&quot;&gt;&lt;e name=&quot;Endpoint1&quot; /&gt;&lt;/r&gt;&lt;r name=&quot;OrderProcessor2&quot; /&gt;&lt;r name=&quot;OrderSQLStore&quot; /&gt;&lt;/m&gt;" />
             </settings>
             <resourcereferences>
               <resourceReference name="DiagnosticStore" defaultAmount="[4096,4096,4096]" defaultSticky="true" kind="Directory" />
@@ -271,12 +271,12 @@
             </resourcereferences>
           </role>
           <sCSPolicy>
-            <sCSPolicyIDMoniker name="/HackySackStore/HackySackStoreGroup/HackySackStoreWebWebApiInstances" />
-            <sCSPolicyFaultDomainMoniker name="/HackySackStore/HackySackStoreGroup/HackySackStoreWebWebApiFaultDomains" />
+            <sCSPolicyIDMoniker name="/HackySackStore/HackySackStoreGroup/HackySackStoreFrontWebApiInstances" />
+            <sCSPolicyFaultDomainMoniker name="/HackySackStore/HackySackStoreGroup/HackySackStoreFrontWebApiFaultDomains" />
           </sCSPolicy>
         </groupHascomponents>
         <groupHascomponents>
-          <role name="OrderProcessor2" generation="1" functional="0" release="0" software="E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\HackySackStore\HackySackStore\csx\Debug\roles\OrderProcessor2" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaWorkerHost.exe " memIndex="1792" hostingEnvironment="consoleroleadmin" hostingEnvironmentVersion="2">
+          <role name="OrderProcessor2" generation="1" functional="0" release="0" software="C:\git\fs-web-cloud-mobile\HackySackStore\HackySackStore\csx\Debug\roles\OrderProcessor2" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaWorkerHost.exe " memIndex="1792" hostingEnvironment="consoleroleadmin" hostingEnvironmentVersion="2">
             <settings>
               <aCS name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" defaultValue="" />
               <aCS name="ServiceBusIssuer" defaultValue="" />
@@ -285,7 +285,7 @@
               <aCS name="ServiceBusScheme" defaultValue="" />
               <aCS name="ServiceBusServicePath" defaultValue="" />
               <aCS name="TableStorageConnectionString" defaultValue="" />
-              <aCS name="__ModelData" defaultValue="&lt;m role=&quot;OrderProcessor2&quot; xmlns=&quot;urn:azure:m:v1&quot;&gt;&lt;r name=&quot;HackySackStoreWebWebApi&quot;&gt;&lt;e name=&quot;Endpoint1&quot; /&gt;&lt;/r&gt;&lt;r name=&quot;OrderProcessor2&quot; /&gt;&lt;r name=&quot;OrderSQLStore&quot; /&gt;&lt;/m&gt;" />
+              <aCS name="__ModelData" defaultValue="&lt;m role=&quot;OrderProcessor2&quot; xmlns=&quot;urn:azure:m:v1&quot;&gt;&lt;r name=&quot;HackySackStoreFrontWebApi&quot;&gt;&lt;e name=&quot;Endpoint1&quot; /&gt;&lt;/r&gt;&lt;r name=&quot;OrderProcessor2&quot; /&gt;&lt;r name=&quot;OrderSQLStore&quot; /&gt;&lt;/m&gt;" />
             </settings>
             <resourcereferences>
               <resourceReference name="DiagnosticStore" defaultAmount="[4096,4096,4096]" defaultSticky="true" kind="Directory" />
@@ -298,7 +298,7 @@
           </sCSPolicy>
         </groupHascomponents>
         <groupHascomponents>
-          <role name="OrderSQLStore" generation="1" functional="0" release="0" software="E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\HackySackStore\HackySackStore\csx\Debug\roles\OrderSQLStore" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaWorkerHost.exe " memIndex="1792" hostingEnvironment="consoleroleadmin" hostingEnvironmentVersion="2">
+          <role name="OrderSQLStore" generation="1" functional="0" release="0" software="C:\git\fs-web-cloud-mobile\HackySackStore\HackySackStore\csx\Debug\roles\OrderSQLStore" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaWorkerHost.exe " memIndex="1792" hostingEnvironment="consoleroleadmin" hostingEnvironmentVersion="2">
             <settings>
               <aCS name="HackySackStoreConnectionString" defaultValue="" />
               <aCS name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" defaultValue="" />
@@ -307,7 +307,7 @@
               <aCS name="ServiceBusNamespace" defaultValue="" />
               <aCS name="ServiceBusScheme" defaultValue="" />
               <aCS name="ServiceBusServicePath" defaultValue="" />
-              <aCS name="__ModelData" defaultValue="&lt;m role=&quot;OrderSQLStore&quot; xmlns=&quot;urn:azure:m:v1&quot;&gt;&lt;r name=&quot;HackySackStoreWebWebApi&quot;&gt;&lt;e name=&quot;Endpoint1&quot; /&gt;&lt;/r&gt;&lt;r name=&quot;OrderProcessor2&quot; /&gt;&lt;r name=&quot;OrderSQLStore&quot; /&gt;&lt;/m&gt;" />
+              <aCS name="__ModelData" defaultValue="&lt;m role=&quot;OrderSQLStore&quot; xmlns=&quot;urn:azure:m:v1&quot;&gt;&lt;r name=&quot;HackySackStoreFrontWebApi&quot;&gt;&lt;e name=&quot;Endpoint1&quot; /&gt;&lt;/r&gt;&lt;r name=&quot;OrderProcessor2&quot; /&gt;&lt;r name=&quot;OrderSQLStore&quot; /&gt;&lt;/m&gt;" />
             </settings>
             <resourcereferences>
               <resourceReference name="DiagnosticStore" defaultAmount="[4096,4096,4096]" defaultSticky="true" kind="Directory" />
@@ -321,21 +321,21 @@
         </groupHascomponents>
       </components>
       <sCSPolicy>
-        <sCSPolicyFaultDomain name="HackySackStoreWebWebApiFaultDomains" defaultPolicy="[2,2,2]" />
+        <sCSPolicyFaultDomain name="HackySackStoreFrontWebApiFaultDomains" defaultPolicy="[2,2,2]" />
         <sCSPolicyFaultDomain name="OrderProcessor2FaultDomains" defaultPolicy="[2,2,2]" />
         <sCSPolicyFaultDomain name="OrderSQLStoreFaultDomains" defaultPolicy="[2,2,2]" />
-        <sCSPolicyID name="HackySackStoreWebWebApiInstances" defaultPolicy="[1,1,1]" />
+        <sCSPolicyID name="HackySackStoreFrontWebApiInstances" defaultPolicy="[1,1,1]" />
         <sCSPolicyID name="OrderProcessor2Instances" defaultPolicy="[1,1,1]" />
         <sCSPolicyID name="OrderSQLStoreInstances" defaultPolicy="[1,1,1]" />
       </sCSPolicy>
     </group>
   </groups>
   <implements>
-    <implementation Id="ff2b3a23-7a39-4a06-9430-1cdcf4ae874f" ref="Microsoft.RedDog.Contract\ServiceContract\HackySackStoreContract@ServiceDefinition.build">
+    <implementation Id="42d6da51-1ede-47be-9571-fa6b5e30359a" ref="Microsoft.RedDog.Contract\ServiceContract\HackySackStoreContract@ServiceDefinition.build">
       <interfacereferences>
-        <interfaceReference Id="88280db1-ed78-45e2-896a-bd6da4988b3f" ref="Microsoft.RedDog.Contract\Interface\HackySackStoreWebWebApi:Endpoint1@ServiceDefinition.build">
+        <interfaceReference Id="35627750-dad4-418b-a1ed-9d02731443e7" ref="Microsoft.RedDog.Contract\Interface\HackySackStoreFrontWebApi:Endpoint1@ServiceDefinition.build">
           <inPort>
-            <inPortMoniker name="/HackySackStore/HackySackStoreGroup/HackySackStoreWebWebApi:Endpoint1" />
+            <inPortMoniker name="/HackySackStore/HackySackStoreGroup/HackySackStoreFrontWebApi:Endpoint1" />
           </inPort>
         </interfaceReference>
       </interfacereferences>

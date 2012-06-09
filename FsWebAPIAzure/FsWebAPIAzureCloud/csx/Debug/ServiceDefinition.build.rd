@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="FsWebAPIAzureCloud" generation="1" functional="0" release="0" Id="5020d90a-f97a-4a16-877e-dd3c55c8878f" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
+<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="FsWebAPIAzureCloud" generation="1" functional="0" release="0" Id="68e5e7af-9a10-4493-98fe-44d1167f49ea" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
   <groups>
     <group name="FsWebAPIAzureCloudGroup" generation="1" functional="0" release="0">
       <componentports>
@@ -42,7 +42,7 @@
       </maps>
       <components>
         <groupHascomponents>
-          <role name="FsWebAPIAzureWebApi" generation="1" functional="0" release="0" software="E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzureCloud\csx\Debug\roles\FsWebAPIAzureWebApi" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaIISHost.exe " memIndex="1792" hostingEnvironment="frontendadmin" hostingEnvironmentVersion="2">
+          <role name="FsWebAPIAzureWebApi" generation="1" functional="0" release="0" software="C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzureCloud\csx\Debug\roles\FsWebAPIAzureWebApi" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaIISHost.exe " memIndex="1792" hostingEnvironment="frontendadmin" hostingEnvironmentVersion="2">
             <componentports>
               <inPort name="Endpoint1" protocol="http" portRanges="80" />
             </componentports>
@@ -68,9 +68,9 @@
     </group>
   </groups>
   <implements>
-    <implementation Id="c1af101a-e9fa-4396-99cf-e13e77538617" ref="Microsoft.RedDog.Contract\ServiceContract\FsWebAPIAzureCloudContract@ServiceDefinition.build">
+    <implementation Id="8e0be585-aa4c-4573-88a6-787f150a3627" ref="Microsoft.RedDog.Contract\ServiceContract\FsWebAPIAzureCloudContract@ServiceDefinition.build">
       <interfacereferences>
-        <interfaceReference Id="e34ee289-6b85-4cd8-9f6a-08c1c26ddf2f" ref="Microsoft.RedDog.Contract\Interface\FsWebAPIAzureWebApi:Endpoint1@ServiceDefinition.build">
+        <interfaceReference Id="f75dad61-05dd-4405-be27-01f892bc439d" ref="Microsoft.RedDog.Contract\Interface\FsWebAPIAzureWebApi:Endpoint1@ServiceDefinition.build">
           <inPort>
             <inPortMoniker name="/FsWebAPIAzureCloud/FsWebAPIAzureCloudGroup/FsWebAPIAzureWebApi:Endpoint1" />
           </inPort>

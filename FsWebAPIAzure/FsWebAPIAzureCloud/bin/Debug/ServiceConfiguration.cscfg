@@ -8,7 +8,7 @@
 
   **********************************************************************************************
 -->
-<ServiceConfiguration serviceName="FsWebAPIAzureCloud" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="1" osVersion="*">
+<ServiceConfiguration serviceName="FsWebAPIAzureCloud" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="1" osVersion="*" schemaVersion="2012-05.1.7">
   <Role name="FsWebAPIAzureWebApi">
     <Instances count="1" />
     <ConfigurationSettings>

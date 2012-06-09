@@ -4,3 +4,9 @@ E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FShar
 E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\HackySackStore\Commands\obj\Debug\Commands.dll
 E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\HackySackStore\Commands\obj\Debug\Commands.pdb
 E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\HackySackStore\Commands\obj\Debug\Commands.fsprojResolveAssemblyReference.cache
+C:\git\fs-web-cloud-mobile\HackySackStore\Commands\bin\Debug\Commands.XML
+C:\git\fs-web-cloud-mobile\HackySackStore\Commands\bin\Debug\Commands.dll
+C:\git\fs-web-cloud-mobile\HackySackStore\Commands\bin\Debug\Commands.pdb
+C:\git\fs-web-cloud-mobile\HackySackStore\Commands\obj\Debug\Commands.fsprojResolveAssemblyReference.cache
+C:\git\fs-web-cloud-mobile\HackySackStore\Commands\obj\Debug\Commands.dll
+C:\git\fs-web-cloud-mobile\HackySackStore\Commands\obj\Debug\Commands.pdb

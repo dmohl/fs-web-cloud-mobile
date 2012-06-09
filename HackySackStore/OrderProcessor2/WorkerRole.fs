@@ -7,7 +7,6 @@ open System.Linq
 open System.Net
 open System.Threading
 open Microsoft.WindowsAzure
-open Microsoft.WindowsAzure.Diagnostics
 open Microsoft.WindowsAzure.ServiceRuntime
 open Microsoft.WindowsAzure.StorageClient
 open FsWeb.Commands
@@ -26,7 +25,8 @@ type WorkerRole() =
                      Fog.Storage.Table.CreateEntity "HackySackOrders" entity
                 <| fun ex m -> log ex.Message "Error"
         with
-        | ex -> log ex.Message "Error"
+        | ex -> 
+            log ex.Message "Error"
                      
         while(true) do 
             Thread.Sleep(10000)

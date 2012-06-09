@@ -8,7 +8,7 @@
 
   **********************************************************************************************
 -->
-<ServiceDefinition name="HackySackStore" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition">
+<ServiceDefinition name="HackySackStore" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition" schemaVersion="2012-05.1.7">
   <WorkerRole name="OrderProcessor2" vmsize="Small">
     <Imports>
       <Import moduleName="Diagnostics" />
@@ -22,7 +22,20 @@
       <Setting name="ServiceBusServicePath" />
     </ConfigurationSettings>
   </WorkerRole>
-  <WebRole name="HackySackStoreWebWebApi" vmsize="Small">
+  <WorkerRole name="OrderSQLStore" vmsize="Small">
+    <Imports>
+      <Import moduleName="Diagnostics" />
+    </Imports>
+    <ConfigurationSettings>
+      <Setting name="ServiceBusIssuer" />
+      <Setting name="ServiceBusKey" />
+      <Setting name="ServiceBusScheme" />
+      <Setting name="ServiceBusNamespace" />
+      <Setting name="ServiceBusServicePath" />
+      <Setting name="HackySackStoreConnectionString" />
+    </ConfigurationSettings>
+  </WorkerRole>
+  <WebRole name="HackySackStoreFrontWebApi" vmsize="Small">
     <Sites>
       <Site name="Web">
         <Bindings>
@@ -44,17 +57,4 @@
       <Setting name="ServiceBusServicePath" />
     </ConfigurationSettings>
   </WebRole>
-  <WorkerRole name="OrderSQLStore" vmsize="Small">
-    <Imports>
-      <Import moduleName="Diagnostics" />
-    </Imports>
-    <ConfigurationSettings>
-      <Setting name="ServiceBusIssuer" />
-      <Setting name="ServiceBusKey" />
-      <Setting name="ServiceBusScheme" />
-      <Setting name="ServiceBusNamespace" />
-      <Setting name="ServiceBusServicePath" />
-      <Setting name="HackySackStoreConnectionString" />
-    </ConfigurationSettings>
-  </WorkerRole>
 </ServiceDefinition>

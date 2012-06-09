@@ -14,7 +14,7 @@
     <AzureSolutionConfiguration>Release</AzureSolutionConfiguration>
     <AzureServiceConfiguration>Cloud</AzureServiceConfiguration>
     <AzureAppendTimestampToDeploymentLabel>True</AzureAppendTimestampToDeploymentLabel>
-    <AzureAllowUpgrade>True</AzureAllowUpgrade>
     <AzureEnableRemoteDesktop>False</AzureEnableRemoteDesktop>
+    <AzureDeploymentReplacementMethod>AutomaticUpgrade</AzureDeploymentReplacementMethod>
   </PropertyGroup>
 </Project>

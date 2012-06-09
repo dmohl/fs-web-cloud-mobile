@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>1.6</ProductVersion>
+    <ProductVersion>1.7</ProductVersion>
     <ProjectGuid>{b16c6fe6-98f3-4699-8796-42e8ffe1cc39}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -12,6 +12,7 @@
     <AssemblyName>HackySackStore</AssemblyName>
     <StartDevelopmentStorage>True</StartDevelopmentStorage>
     <Name>HackySackStore</Name>
+    <UseIISExpressByDefault>False</UseIISExpressByDefault>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -37,12 +38,12 @@
     <ServiceConfiguration Include="ServiceConfiguration.Cloud.cscfg" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\HackySackStoreWeb\HackySackStoreWebWebApi\HackySackStoreWebWebApi.csproj">
-      <Name>HackySackStoreWebWebApi</Name>
-      <Project>{b3a2b98d-4f5b-4d86-93a6-959d3896cced}</Project>
+    <ProjectReference Include="..\HackySackStoreFront\HackySackStoreFrontWebApi\HackySackStoreFrontWebApi.csproj">
+      <Name>HackySackStoreFrontWebApi</Name>
+      <Project>{c4891c29-68cb-41d6-a5aa-47017b057878}</Project>
       <Private>True</Private>
       <RoleType>Web</RoleType>
-      <RoleName>HackySackStoreWebWebApi</RoleName>
+      <RoleName>HackySackStoreFrontWebApi</RoleName>
       <UpdateDiagnosticsConnectionStringOnPublish>True</UpdateDiagnosticsConnectionStringOnPublish>
     </ProjectReference>
     <ProjectReference Include="..\OrderProcessor2\OrderProcessor2.fsproj">
@@ -65,7 +66,7 @@
   <!-- Import the target files for this project template -->
   <PropertyGroup>
     <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
-    <CloudExtensionsDir Condition=" '$(CloudExtensionsDir)' == '' ">$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Windows Azure Tools\1.6\</CloudExtensionsDir>
+    <CloudExtensionsDir Condition=" '$(CloudExtensionsDir)' == '' ">$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Windows Azure Tools\1.7\</CloudExtensionsDir>
   </PropertyGroup>
   <Import Project="$(CloudExtensionsDir)Microsoft.WindowsAzure.targets" />
 </Project>
