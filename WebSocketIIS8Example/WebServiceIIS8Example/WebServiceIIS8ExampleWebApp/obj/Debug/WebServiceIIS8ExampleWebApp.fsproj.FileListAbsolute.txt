@@ -1,0 +1,11 @@
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebServiceIIS8Example\WebServiceIIS8Example\WebServiceIIS8ExampleWebApp\bin\Debug\WebApp.XML
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebServiceIIS8Example\WebServiceIIS8Example\WebServiceIIS8ExampleWebApp\bin\Debug\WebApp.dll
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebServiceIIS8Example\WebServiceIIS8Example\WebServiceIIS8ExampleWebApp\bin\Debug\WebApp.pdb
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebServiceIIS8Example\WebServiceIIS8Example\WebServiceIIS8ExampleWebApp\bin\Debug\FSharp.Core.dll
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebServiceIIS8Example\WebServiceIIS8Example\WebServiceIIS8ExampleWebApp\bin\Debug\FSharp.Core.xml
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebServiceIIS8Example\WebServiceIIS8Example\WebServiceIIS8ExampleWebApp\obj\Debug\WebServiceIIS8ExampleWebApp.fsprojResolveAssemblyReference.cache
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebServiceIIS8Example\WebServiceIIS8Example\WebServiceIIS8ExampleWebApp\obj\Debug\WebApp.dll
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebServiceIIS8Example\WebServiceIIS8Example\WebServiceIIS8ExampleWebApp\obj\Debug\WebApp.pdb
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebServiceIIS8Example\WebServiceIIS8Example\WebServiceIIS8ExampleWebApp\bin\Debug\Microsoft.WebSockets.dll
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebServiceIIS8Example\WebServiceIIS8Example\WebServiceIIS8ExampleWebApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebServiceIIS8Example\WebServiceIIS8Example\WebServiceIIS8ExampleWebApp\bin\Debug\Newtonsoft.Json.xml
