@@ -11,19 +11,19 @@ type Message =
     | Vote of string * AsyncReplyChannel<seq<string*int>>
 
 let votesAgent = MailboxProcessor.Start(fun inbox ->
-    let rec loop(votes:List<string>) =
+    let rec loop votes =
         async {
             let! message = inbox.Receive()
             match message with
             | Vote(language, replyChannel) -> 
-                votes.Add language
-                votes 
-                |> Seq.countBy(fun v -> v)
+                let newVotes = language::votes 
+                newVotes
+                |> Seq.countBy(fun lang -> lang)
                 |> replyChannel.Reply 
-                do! loop(votes) 
-            do! loop votes
+                do! loop(newVotes) 
+            do! loop votes 
         }
-    loop (new List<string>()))
+    loop List.empty)
 
 let main() = 
     FleckLog.Level <- LogLevel.Debug
