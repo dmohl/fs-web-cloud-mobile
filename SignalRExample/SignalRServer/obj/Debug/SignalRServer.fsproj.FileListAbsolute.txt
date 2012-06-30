@@ -1,0 +1,17 @@
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SignalRExample\SignalRServer\bin\Debug\SignalRServer.exe.config
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SignalRExample\SignalRServer\bin\Debug\SignalRServer.XML
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SignalRExample\SignalRServer\bin\Debug\SignalRServer.exe
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SignalRExample\SignalRServer\bin\Debug\SignalRServer.pdb
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SignalRExample\SignalRServer\bin\Debug\FSharp.Core.dll
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SignalRExample\SignalRServer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SignalRExample\SignalRServer\bin\Debug\SignalR.dll
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SignalRExample\SignalRServer\bin\Debug\SignalR.Hosting.Common.dll
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SignalRExample\SignalRServer\bin\Debug\SignalR.Hosting.Self.dll
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SignalRExample\SignalRServer\bin\Debug\FSharp.Core.xml
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SignalRExample\SignalRServer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SignalRExample\SignalRServer\bin\Debug\SignalR.xml
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SignalRExample\SignalRServer\bin\Debug\SignalR.Hosting.Common.xml
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SignalRExample\SignalRServer\bin\Debug\SignalR.Hosting.Self.xml
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SignalRExample\SignalRServer\obj\Debug\SignalRServer.fsprojResolveAssemblyReference.cache
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SignalRExample\SignalRServer\obj\Debug\SignalRServer.exe
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SignalRExample\SignalRServer\obj\Debug\SignalRServer.pdb
