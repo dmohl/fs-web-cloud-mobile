@@ -2,10 +2,9 @@
 
 open System
 open SignalR.Client
-open System.Threading.Tasks
 
 let connection = 
-    Connection "http://localhost:8081/chartserver"
+    Connection "http://localhost:2920/chartserver"
 
 connection.Start().Wait()
 

@@ -26,20 +26,20 @@
     };
 
     /* Used for the persistent connection example*/
-    //var connection = $.connection("http://localhost:8081/chartserver");
+    var connection = $.connection("/chartserver");
 
-    //connection.received(function (data) {
-    //    updateChart($.parseJSON(data));
-    //});
+    connection.received(function (data) {
+        updateChart($.parseJSON(data));
+    });
     /* End - Used for the persistent connection example */
 
     /* Used for the Hub Example */
-    $.connection.hub.url = 'http://localhost:8181/signalr'
-    var chartHub = $.connection.chartHub;
+    //$.connection.hub.url = 'http://localhost:8181/signalr'
+    //var chartHub = $.connection.chartHub;
 
-    chartHub.updateChart = function (data) {
-        updateChart(data);
-    };
+    //chartHub.updateChart = function (data) {
+    //    updateChart(data);
+    //};
     /* End - Used for the Hub Example */
 
     $('#vote').click(function (event) {
@@ -47,11 +47,11 @@
 
         if (vote.length) {
             /* Used for the persistent connection example*/
-//            connection.send(vote.val());
+            connection.send(vote.val());
             /* End - Used for the persistent connection example */
 
             /* Used for the Hub Example */
-            chartHub.send(vote.val())
+//            chartHub.send(vote.val())
             /* End - Used for the Hub Example */
         };
 
@@ -61,10 +61,10 @@
         event.preventDefault();
     });
     /* Used for the persistent connection example*/
-//    connection.start();
+    connection.start();
     /* End - Used for the persistent connection example */
 
     /* Used for the Hub Example */
-    $.connection.hub.start();
+//    $.connection.hub.start();
     /* End - Used for the Hub Example */
 });

@@ -5,6 +5,7 @@ open System.Web
 open System.Web.Mvc
 open System.Web.Routing
 open SignalR
+open SignalRExample
 
 type Route = { controller : string
                action : string
@@ -21,5 +22,9 @@ type Global() =
                           id = UrlParameter.Optional } )
 
     member this.Start() =
+        // Used for the Persistent Connection example 
+        RouteTable.Routes
+            .MapConnection<ChartServer>("chartserver", "chartserver/{*operation}") |> ignore
+        // Used for the Persistent Connection example
         AreaRegistration.RegisterAllAreas()
         Global.RegisterRoutes(RouteTable.Routes)
