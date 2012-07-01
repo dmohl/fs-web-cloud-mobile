@@ -1,21 +1,23 @@
-﻿<div id="survey" class="page" >
-    <div class="row" >
+﻿<div id="survey" class="page" data-role="page" >
+    <div class="row" data-role="content">
         <form class="well"> 
-            What is your favorite programming language?
-            <div class="controls">
-                <label class="radio"><input type="radio" name="langOption" id="fsharp" value="F#" />F#</label>
-                <label class="radio"><input type="radio" name="langOption" id="csharp" value="C#" />C#</label>
-                <label class="radio"><input type="radio" name="langOption" id="erlang" value="Erlang" />Erlang</label>
-                <label class="radio"><input type="radio" name="langOption" id="javascript" value="JavaScript" />JavaScript</label>
-                <label class="radio"><input type="radio" name="langOption" id="other" value="Other" />Other</label>
-            </div>
+            <fieldset data-role="controlgroup">
+                <legend>What is your favorite programming language?</legend>
+                <div class="controls">
+                    <label class="radio"><input type="radio" name="langOption" id="fsharp" value="F#" />F#</label>
+                    <label class="radio"><input type="radio" name="langOption" id="csharp" value="C#" />C#</label>
+                    <label class="radio"><input type="radio" name="langOption" id="erlang" value="Erlang" />Erlang</label>
+                    <label class="radio"><input type="radio" name="langOption" id="javascript" value="JavaScript" />JavaScript</label>
+                    <label class="radio"><input type="radio" name="langOption" id="other" value="Other" />Other</label>
+                </div>
+            </fieldset>
             <div class="buttonContainer"><button id="vote" class="btn" />Cast Vote</div>
         </form>
     </div>
 </div>
 
-<div id="results" class="page" >
-    <div id="barChart" class="barChart">
+<div id="results" class="page" data-role="page" >
+    <div id="barChart" class="barChart" data-role="content">
     </div>
 </div>
 
