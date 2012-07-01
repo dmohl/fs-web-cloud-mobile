@@ -1,0 +1,48 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="WindowsPhoneApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:system="clr-namespace:System;assembly=mscorlib"
+    xmlns:swc="clr-namespace:System.Windows.Controls;assembly=System.Windows"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True" mc:Ignorable="d" d:DesignHeight="696" d:DesignWidth="480">
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="24,24,0,12">
+            <TextBlock x:Name="PageTitle" Text="Favorite Language?" Margin="-6,-8,0,0" FontSize="48" />
+            <ItemsControl ItemsSource="{Binding LanguageChoices}" Margin="-10,0,0,0" >
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Button Click="AnswerButton_Click" Tag="{Binding Language}">
+                            <Button.Template >
+                                <ControlTemplate TargetType="Button">
+                                    <Grid Background="{Binding BoxColor}" Margin="0, 10, 10, 10" Height="70">
+                                        <TextBlock Text="{Binding Language}" Margin="10" FontSize="32" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                                        <Grid HorizontalAlignment="Right" Margin="10" Width="36" Height="36" >
+                                            <Path Data="M50.5,4.7500001C25.232973,4.75 4.75,25.232973 4.7500001,50.5 4.75,75.767029 25.232973,96.25 50.5,96.25 75.767029,96.25 96.25,75.767029 96.25,50.5 96.25,25.232973 75.767029,4.75 50.5,4.7500001z M50.5,0C78.390381,0 101,22.609621 101,50.5 101,78.390381 78.390381,101 50.5,101 22.609621,101 0,78.390381 0,50.5 0,22.609621 22.609621,0 50.5,0z" Stretch="Fill" Fill="#FFFFFFFF" Name="Stroke" />
+                                            <Path Data="F1M916.417,587.643L898.784,587.644 919.117,567.308 879.154,567.308 879.154,554.367 918.976,554.367 898.748,534.137 916.417,534.169 943.154,560.903 916.417,587.643z" Stretch="Uniform" Fill="#FFFFFFFF" Width="24" Height="24" Margin="0,0,0,0" />
+                                        </Grid>
+                                    </Grid>
+                                </ControlTemplate>
+                            </Button.Template>
+                        </Button>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+            <TextBlock x:Name="Confirmation" HorizontalAlignment="Center" Text="" FontSize="32"/>
+        </StackPanel>
+    </Grid>
+
+</phone:PhoneApplicationPage>

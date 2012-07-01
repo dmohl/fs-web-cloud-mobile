@@ -1,0 +1,14 @@
+C:\git\fs-web-cloud-mobile\FsCsWebApi\HttpServiceClient\bin\Debug\HttpServiceClient.XML
+C:\git\fs-web-cloud-mobile\FsCsWebApi\HttpServiceClient\bin\Debug\HttpServiceClient.exe
+C:\git\fs-web-cloud-mobile\FsCsWebApi\HttpServiceClient\bin\Debug\HttpServiceClient.pdb
+C:\git\fs-web-cloud-mobile\FsCsWebApi\HttpServiceClient\bin\Debug\FSharp.Core.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\HttpServiceClient\bin\Debug\Newtonsoft.Json.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\HttpServiceClient\bin\Debug\System.Net.Http.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\HttpServiceClient\bin\Debug\System.Net.Http.Formatting.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\HttpServiceClient\bin\Debug\FSharp.Core.xml
+C:\git\fs-web-cloud-mobile\FsCsWebApi\HttpServiceClient\bin\Debug\Newtonsoft.Json.xml
+C:\git\fs-web-cloud-mobile\FsCsWebApi\HttpServiceClient\bin\Debug\System.Net.Http.xml
+C:\git\fs-web-cloud-mobile\FsCsWebApi\HttpServiceClient\bin\Debug\System.Net.Http.Formatting.xml
+C:\git\fs-web-cloud-mobile\FsCsWebApi\HttpServiceClient\obj\Debug\HttpServiceClient.fsprojResolveAssemblyReference.cache
+C:\git\fs-web-cloud-mobile\FsCsWebApi\HttpServiceClient\obj\Debug\HttpServiceClient.exe
+C:\git\fs-web-cloud-mobile\FsCsWebApi\HttpServiceClient\obj\Debug\HttpServiceClient.pdb

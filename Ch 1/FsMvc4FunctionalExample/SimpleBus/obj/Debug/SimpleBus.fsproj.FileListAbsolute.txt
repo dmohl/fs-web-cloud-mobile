@@ -1,0 +1,23 @@
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsMvc4FunctionalExample\SimpleBus\bin\Debug\SimpleBus.XML
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsMvc4FunctionalExample\SimpleBus\bin\Debug\SimpleBus.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsMvc4FunctionalExample\SimpleBus\bin\Debug\SimpleBus.pdb
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsMvc4FunctionalExample\SimpleBus\bin\Debug\FSharp.Core.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsMvc4FunctionalExample\SimpleBus\bin\Debug\FSharp.Core.xml
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsMvc4FunctionalExample\SimpleBus\bin\Debug\en\FSharp.Core.resources.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsMvc4FunctionalExample\SimpleBus\obj\Debug\SimpleBus.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsMvc4FunctionalExample\SimpleBus\obj\Debug\SimpleBus.pdb
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsMvc4FunctionalExample\SimpleBus\bin\Debug\SimpleBus.XML
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsMvc4FunctionalExample\SimpleBus\bin\Debug\SimpleBus.dll
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsMvc4FunctionalExample\SimpleBus\bin\Debug\SimpleBus.pdb
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsMvc4FunctionalExample\SimpleBus\bin\Debug\FSharp.Core.dll
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsMvc4FunctionalExample\SimpleBus\bin\Debug\FSharp.Core.xml
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsMvc4FunctionalExample\SimpleBus\bin\Debug\en\FSharp.Core.resources.dll
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsMvc4FunctionalExample\SimpleBus\obj\Debug\SimpleBus.dll
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsMvc4FunctionalExample\SimpleBus\obj\Debug\SimpleBus.pdb
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\SimpleBus\bin\Debug\SimpleBus.XML
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\SimpleBus\bin\Debug\SimpleBus.dll
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\SimpleBus\bin\Debug\SimpleBus.pdb
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\SimpleBus\bin\Debug\FSharp.Core.dll
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\SimpleBus\bin\Debug\FSharp.Core.xml
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\SimpleBus\obj\Debug\SimpleBus.dll
+C:\git\fs-web-cloud-mobile\FsMvc4FunctionalExample\SimpleBus\obj\Debug\SimpleBus.pdb

@@ -1,0 +1,62 @@
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStackClient.XML
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStackClient.exe
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStackClient.pdb
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\ServiceStackClient\bin\Debug\FSharp.Core.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.Common.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.OrmLite.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.OrmLite.SqlServer.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.RazorEngine.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.Redis.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.ServiceInterface.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.Text.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\ServiceStackClient\bin\Debug\FSharp.Core.xml
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.pdb
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.xml
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.Common.pdb
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.Common.xml
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.Interfaces.pdb
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.Interfaces.xml
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.OrmLite.pdb
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.OrmLite.SqlServer.pdb
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.RazorEngine.pdb
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.Redis.pdb
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.Redis.xml
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.ServiceInterface.pdb
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.Text.pdb
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.Text.xml
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\ServiceStackClient\bin\Debug\en\FSharp.Core.resources.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\ServiceStackClient\obj\Debug\ServiceStackClient.exe
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\ServiceStackClient\obj\Debug\ServiceStackClient.pdb
+C:\git\fs-web-cloud-mobile\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStackClient.XML
+C:\git\fs-web-cloud-mobile\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStackClient.exe
+C:\git\fs-web-cloud-mobile\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStackClient.pdb
+C:\git\fs-web-cloud-mobile\FsCsWebApi\ServiceStackClient\bin\Debug\FSharp.Core.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.Common.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.Interfaces.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.OrmLite.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.OrmLite.SqlServer.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.RazorEngine.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.Redis.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.ServiceInterface.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.Text.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\ServiceStackClient\bin\Debug\FSharp.Core.xml
+C:\git\fs-web-cloud-mobile\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.pdb
+C:\git\fs-web-cloud-mobile\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.xml
+C:\git\fs-web-cloud-mobile\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.Common.pdb
+C:\git\fs-web-cloud-mobile\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.Common.xml
+C:\git\fs-web-cloud-mobile\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.Interfaces.pdb
+C:\git\fs-web-cloud-mobile\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.Interfaces.xml
+C:\git\fs-web-cloud-mobile\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.OrmLite.pdb
+C:\git\fs-web-cloud-mobile\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.OrmLite.SqlServer.pdb
+C:\git\fs-web-cloud-mobile\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.RazorEngine.pdb
+C:\git\fs-web-cloud-mobile\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.Redis.pdb
+C:\git\fs-web-cloud-mobile\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.Redis.xml
+C:\git\fs-web-cloud-mobile\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.ServiceInterface.pdb
+C:\git\fs-web-cloud-mobile\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.Text.pdb
+C:\git\fs-web-cloud-mobile\FsCsWebApi\ServiceStackClient\bin\Debug\ServiceStack.Text.xml
+C:\git\fs-web-cloud-mobile\FsCsWebApi\ServiceStackClient\obj\Debug\ServiceStackClient.fsprojResolveAssemblyReference.cache
+C:\git\fs-web-cloud-mobile\FsCsWebApi\ServiceStackClient\obj\Debug\ServiceStackClient.exe
+C:\git\fs-web-cloud-mobile\FsCsWebApi\ServiceStackClient\obj\Debug\ServiceStackClient.pdb

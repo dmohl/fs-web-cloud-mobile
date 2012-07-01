@@ -1,0 +1,39 @@
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\NaturalSpecTests\obj\Debug\NaturalSpecTests.fsprojResolveAssemblyReference.cache
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\NaturalSpecTests\bin\Debug\Web.config
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\NaturalSpecTests\bin\Debug\NaturalSpecTests.dll.config
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\NaturalSpecTests\bin\Debug\NaturalSpecTests.XML
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\NaturalSpecTests\bin\Debug\NaturalSpecTests.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\NaturalSpecTests\bin\Debug\NaturalSpecTests.pdb
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\NaturalSpecTests\bin\Debug\FsCsWebApiWebAppApi.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\NaturalSpecTests\bin\Debug\FSharp.Core.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\NaturalSpecTests\bin\Debug\NaturalSpec.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\NaturalSpecTests\bin\Debug\nunit.framework.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\NaturalSpecTests\bin\Debug\System.Web.Optimization.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\NaturalSpecTests\bin\Debug\FsCsWebApiWebAppApi.pdb
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\NaturalSpecTests\bin\Debug\FSharp.Core.xml
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\NaturalSpecTests\bin\Debug\NaturalSpec.pdb
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\NaturalSpecTests\bin\Debug\nunit.framework.xml
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\NaturalSpecTests\bin\Debug\en\FSharp.Core.resources.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\NaturalSpecTests\obj\Debug\NaturalSpecTests.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\NaturalSpecTests\obj\Debug\NaturalSpecTests.pdb
+C:\git\fs-web-cloud-mobile\FsCsWebApi\NaturalSpecTests\bin\Debug\NaturalSpecTests.dll.config
+C:\git\fs-web-cloud-mobile\FsCsWebApi\NaturalSpecTests\bin\Debug\NaturalSpecTests.XML
+C:\git\fs-web-cloud-mobile\FsCsWebApi\NaturalSpecTests\bin\Debug\NaturalSpecTests.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\NaturalSpecTests\bin\Debug\NaturalSpecTests.pdb
+C:\git\fs-web-cloud-mobile\FsCsWebApi\NaturalSpecTests\bin\Debug\FsCsWebAppApi.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\NaturalSpecTests\bin\Debug\FSharp.Core.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\NaturalSpecTests\bin\Debug\NaturalSpec.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\NaturalSpecTests\bin\Debug\nunit.framework.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\NaturalSpecTests\bin\Debug\System.Web.Http.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\NaturalSpecTests\bin\Debug\System.Web.Http.WebHost.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\NaturalSpecTests\bin\Debug\System.Net.Http.Formatting.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\NaturalSpecTests\bin\Debug\FsCsWebAppApi.pdb
+C:\git\fs-web-cloud-mobile\FsCsWebApi\NaturalSpecTests\bin\Debug\FSharp.Core.xml
+C:\git\fs-web-cloud-mobile\FsCsWebApi\NaturalSpecTests\bin\Debug\NaturalSpec.pdb
+C:\git\fs-web-cloud-mobile\FsCsWebApi\NaturalSpecTests\bin\Debug\nunit.framework.xml
+C:\git\fs-web-cloud-mobile\FsCsWebApi\NaturalSpecTests\bin\Debug\System.Web.Http.xml
+C:\git\fs-web-cloud-mobile\FsCsWebApi\NaturalSpecTests\bin\Debug\System.Web.Http.WebHost.xml
+C:\git\fs-web-cloud-mobile\FsCsWebApi\NaturalSpecTests\bin\Debug\System.Net.Http.Formatting.xml
+C:\git\fs-web-cloud-mobile\FsCsWebApi\NaturalSpecTests\obj\Debug\NaturalSpecTests.fsprojResolveAssemblyReference.cache
+C:\git\fs-web-cloud-mobile\FsCsWebApi\NaturalSpecTests\obj\Debug\NaturalSpecTests.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\NaturalSpecTests\obj\Debug\NaturalSpecTests.pdb

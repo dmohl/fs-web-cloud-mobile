@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "HackySackStore", "HackySackStore\HackySackStore.ccproj", "{B16C6FE6-98F3-4699-8796-42E8FFE1CC39}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "OrderProcessor2", "OrderProcessor2\OrderProcessor2.fsproj", "{83730415-AB5E-4C59-A12A-3D0FBE2CFFF6}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "OrderSQLStore", "OrderSQLStore\OrderSQLStore.fsproj", "{8E01EA5E-A8EC-4D65-B565-F0D7B9410BCE}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Commands", "Commands\Commands.fsproj", "{D42A09CE-35A0-49B9-A5BA-2BA142D67E2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackySackStoreFrontWebApi", "HackySackStoreFront\HackySackStoreFrontWebApi\HackySackStoreFrontWebApi.csproj", "{C4891C29-68CB-41D6-A5AA-47017B057878}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HackySackStoreFrontWebAppApi", "HackySackStoreFront\HackySackStoreFrontWebAppApi\HackySackStoreFrontWebAppApi.fsproj", "{A999575F-C66E-42BF-A70F-655D4C3F0069}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83730415-AB5E-4C59-A12A-3D0FBE2CFFF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83730415-AB5E-4C59-A12A-3D0FBE2CFFF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83730415-AB5E-4C59-A12A-3D0FBE2CFFF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83730415-AB5E-4C59-A12A-3D0FBE2CFFF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E01EA5E-A8EC-4D65-B565-F0D7B9410BCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E01EA5E-A8EC-4D65-B565-F0D7B9410BCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E01EA5E-A8EC-4D65-B565-F0D7B9410BCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E01EA5E-A8EC-4D65-B565-F0D7B9410BCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A999575F-C66E-42BF-A70F-655D4C3F0069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A999575F-C66E-42BF-A70F-655D4C3F0069}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A999575F-C66E-42BF-A70F-655D4C3F0069}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A999575F-C66E-42BF-A70F-655D4C3F0069}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B16C6FE6-98F3-4699-8796-42E8FFE1CC39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B16C6FE6-98F3-4699-8796-42E8FFE1CC39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B16C6FE6-98F3-4699-8796-42E8FFE1CC39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B16C6FE6-98F3-4699-8796-42E8FFE1CC39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4891C29-68CB-41D6-A5AA-47017B057878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4891C29-68CB-41D6-A5AA-47017B057878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4891C29-68CB-41D6-A5AA-47017B057878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4891C29-68CB-41D6-A5AA-47017B057878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D42A09CE-35A0-49B9-A5BA-2BA142D67E2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D42A09CE-35A0-49B9-A5BA-2BA142D67E2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D42A09CE-35A0-49B9-A5BA-2BA142D67E2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D42A09CE-35A0-49B9-A5BA-2BA142D67E2C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

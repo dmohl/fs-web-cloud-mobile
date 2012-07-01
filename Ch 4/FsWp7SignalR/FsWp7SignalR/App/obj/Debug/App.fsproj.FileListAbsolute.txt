@@ -1,0 +1,15 @@
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWp7SignalR\FsWp7SignalR\App\bin\Debug\Dependencies\FSharp.Core.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWp7SignalR\FsWp7SignalR\App\bin\Debug\WindowsPhoneApp.xml
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWp7SignalR\FsWp7SignalR\App\bin\Debug\WindowsPhoneApp.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWp7SignalR\FsWp7SignalR\App\bin\Debug\WindowsPhoneApp.pdb
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWp7SignalR\FsWp7SignalR\App\bin\Debug\FSharp.Core.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWp7SignalR\FsWp7SignalR\App\bin\Debug\FSharp.Core.xml
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWp7SignalR\FsWp7SignalR\App\obj\Debug\App.fsprojResolveAssemblyReference.cache
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWp7SignalR\FsWp7SignalR\App\obj\Debug\WindowsPhoneApp.g.resources
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWp7SignalR\FsWp7SignalR\App\obj\Debug\WindowsPhoneApp.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWp7SignalR\FsWp7SignalR\App\obj\Debug\WindowsPhoneApp.pdb
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWp7SignalR\FsWp7SignalR\App\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWp7SignalR\FsWp7SignalR\App\bin\Debug\SignalR.Client.WP7.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWp7SignalR\FsWp7SignalR\App\bin\Debug\System.Threading.Tasks.WP7.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWp7SignalR\FsWp7SignalR\App\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWp7SignalR\FsWp7SignalR\App\bin\Debug\SignalR.Client.WP7.xml

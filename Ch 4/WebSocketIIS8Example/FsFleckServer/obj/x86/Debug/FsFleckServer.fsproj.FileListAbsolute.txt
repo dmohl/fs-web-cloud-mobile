@@ -1,0 +1,39 @@
+C:\tfs2010\eDRMS2Product\MvcApplication1\FsFleckServer\bin\Debug\App.config
+C:\tfs2010\eDRMS2Product\MvcApplication1\FsFleckServer\bin\Debug\FsFleckServer.exe.config
+C:\tfs2010\eDRMS2Product\MvcApplication1\FsFleckServer\bin\Debug\FsFleckServer.XML
+C:\tfs2010\eDRMS2Product\MvcApplication1\FsFleckServer\bin\Debug\FsFleckServer.exe
+C:\tfs2010\eDRMS2Product\MvcApplication1\FsFleckServer\bin\Debug\FsFleckServer.pdb
+C:\tfs2010\eDRMS2Product\MvcApplication1\FsFleckServer\bin\Debug\Fleck.dll
+C:\tfs2010\eDRMS2Product\MvcApplication1\FsFleckServer\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\tfs2010\eDRMS2Product\MvcApplication1\FsFleckServer\obj\x86\Debug\FsFleckServer.exe
+C:\tfs2010\eDRMS2Product\MvcApplication1\FsFleckServer\obj\x86\Debug\FsFleckServer.pdb
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebServiceIIS8Example\FsFleckServer\bin\Debug\App.config
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebServiceIIS8Example\FsFleckServer\bin\Debug\FsFleckServer.exe.config
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebServiceIIS8Example\FsFleckServer\bin\Debug\FsFleckServer.XML
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebServiceIIS8Example\FsFleckServer\bin\Debug\FsFleckServer.exe
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebServiceIIS8Example\FsFleckServer\bin\Debug\FsFleckServer.pdb
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebServiceIIS8Example\FsFleckServer\obj\x86\Debug\FsFleckServer.fsprojResolveAssemblyReference.cache
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebServiceIIS8Example\FsFleckServer\obj\x86\Debug\FsFleckServer.exe
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebServiceIIS8Example\FsFleckServer\obj\x86\Debug\FsFleckServer.pdb
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebServiceIIS8Example\FsFleckServer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebServiceIIS8Example\FsFleckServer\bin\Debug\Newtonsoft.Json.xml
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebServiceIIS8Example\FsFleckServer\bin\Debug\App.config
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebServiceIIS8Example\FsFleckServer\bin\Debug\FsFleckServer.exe.config
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebServiceIIS8Example\FsFleckServer\bin\Debug\FsFleckServer.XML
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebServiceIIS8Example\FsFleckServer\bin\Debug\FsFleckServer.exe
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebServiceIIS8Example\FsFleckServer\bin\Debug\FsFleckServer.pdb
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebServiceIIS8Example\FsFleckServer\bin\Debug\Newtonsoft.Json.dll
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebServiceIIS8Example\FsFleckServer\bin\Debug\Newtonsoft.Json.xml
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebServiceIIS8Example\FsFleckServer\obj\x86\Debug\FsFleckServer.fsprojResolveAssemblyReference.cache
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebServiceIIS8Example\FsFleckServer\obj\x86\Debug\FsFleckServer.exe
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebServiceIIS8Example\FsFleckServer\obj\x86\Debug\FsFleckServer.pdb
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebSocketIIS8Example\FsFleckServer\bin\Debug\App.config
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebSocketIIS8Example\FsFleckServer\bin\Debug\FsFleckServer.exe.config
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebSocketIIS8Example\FsFleckServer\bin\Debug\FsFleckServer.XML
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebSocketIIS8Example\FsFleckServer\bin\Debug\FsFleckServer.exe
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebSocketIIS8Example\FsFleckServer\bin\Debug\FsFleckServer.pdb
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebSocketIIS8Example\FsFleckServer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebSocketIIS8Example\FsFleckServer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebSocketIIS8Example\FsFleckServer\obj\x86\Debug\FsFleckServer.fsprojResolveAssemblyReference.cache
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebSocketIIS8Example\FsFleckServer\obj\x86\Debug\FsFleckServer.exe
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebSocketIIS8Example\FsFleckServer\obj\x86\Debug\FsFleckServer.pdb

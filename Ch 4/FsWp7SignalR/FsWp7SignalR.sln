@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppHost", "FsWp7SignalR\AppHost\AppHost.csproj", "{CF13CE91-B74A-44EF-A0D5-C15DF43565E1}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "App", "FsWp7SignalR\App\App.fsproj", "{27BE2F39-31C6-4137-AA60-493D9C188314}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF13CE91-B74A-44EF-A0D5-C15DF43565E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF13CE91-B74A-44EF-A0D5-C15DF43565E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF13CE91-B74A-44EF-A0D5-C15DF43565E1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CF13CE91-B74A-44EF-A0D5-C15DF43565E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF13CE91-B74A-44EF-A0D5-C15DF43565E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF13CE91-B74A-44EF-A0D5-C15DF43565E1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{27BE2F39-31C6-4137-AA60-493D9C188314}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27BE2F39-31C6-4137-AA60-493D9C188314}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27BE2F39-31C6-4137-AA60-493D9C188314}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27BE2F39-31C6-4137-AA60-493D9C188314}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

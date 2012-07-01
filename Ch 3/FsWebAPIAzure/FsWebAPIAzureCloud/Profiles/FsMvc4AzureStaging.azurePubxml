@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <AzureCredentials>Windows Azure MSDN - Visual Studio Ultimate</AzureCredentials>
+    <AzureHostedServiceName>FsMvc4Azure</AzureHostedServiceName>
+    <AzureHostedServiceLabel>FsMvc4Azure</AzureHostedServiceLabel>
+    <AzureSlot>Staging</AzureSlot>
+    <AzureEnableIntelliTrace>False</AzureEnableIntelliTrace>
+    <AzureEnableProfiling>False</AzureEnableProfiling>
+    <AzureEnableWebDeploy>False</AzureEnableWebDeploy>
+    <AzureStorageAccountName>fsmvc4azure</AzureStorageAccountName>
+    <AzureStorageAccountLabel>fsmvc4azure</AzureStorageAccountLabel>
+    <AzureDeploymentLabel>FsWebAPIAzureCloud</AzureDeploymentLabel>
+    <AzureSolutionConfiguration>Release</AzureSolutionConfiguration>
+    <AzureServiceConfiguration>Cloud</AzureServiceConfiguration>
+    <AzureAppendTimestampToDeploymentLabel>True</AzureAppendTimestampToDeploymentLabel>
+    <AzureEnableRemoteDesktop>False</AzureEnableRemoteDesktop>
+    <AzureDeploymentReplacementMethod>AutomaticUpgrade</AzureDeploymentReplacementMethod>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,82 @@
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\WebAppApi.XML
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\FsWebAPIAzureWebAppApi.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\FsWebAPIAzureWebAppApi.pdb
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\EntityFramework.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\FSharp.Core.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Json.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Net.Http.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Net.Http.WebRequest.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Web.Http.Common.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Web.Http.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Web.Mvc.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Web.Optimization.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Web.Providers.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\FSharp.Core.xml
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\EntityFramework.xml
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Json.xml
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Net.Http.xml
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Net.Http.WebRequest.xml
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Web.Mvc.xml
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Web.Http.xml
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Web.Http.Common.xml
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\obj\Debug\FsWebAPIAzureWebAppApi.fsprojResolveAssemblyReference.cache
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\obj\Debug\FsWebAPIAzureWebAppApi.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\obj\Debug\FsWebAPIAzureWebAppApi.pdb
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\WebAppApi.XML
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\FsWebAPIAzureWebAppApi.dll
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\FsWebAPIAzureWebAppApi.pdb
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\EntityFramework.dll
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\FSharp.Core.dll
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Json.dll
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Net.Http.dll
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Net.Http.Formatting.dll
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Net.Http.WebRequest.dll
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Web.Http.Common.dll
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Web.Http.dll
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Web.Http.WebHost.dll
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Web.Mvc.dll
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Web.Optimization.dll
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Web.Providers.dll
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\FSharp.Core.xml
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\EntityFramework.xml
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Json.xml
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Net.Http.xml
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Net.Http.Formatting.xml
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Net.Http.WebRequest.xml
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Web.Mvc.xml
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Web.Http.xml
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Web.Http.Common.xml
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Web.Http.WebHost.xml
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\obj\Debug\FsWebAPIAzureWebAppApi.fsprojResolveAssemblyReference.cache
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\obj\Debug\FsWebAPIAzureWebAppApi.dll
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\obj\Debug\FsWebAPIAzureWebAppApi.pdb
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\WebAppApi.XML
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\FsWebAPIAzureWebAppApi.dll
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\FsWebAPIAzureWebAppApi.pdb
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\EntityFramework.dll
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Json.dll
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Net.Http.dll
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Net.Http.Formatting.dll
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Net.Http.WebRequest.dll
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Web.Http.Common.dll
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Web.Http.dll
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Web.Http.WebHost.dll
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Web.Mvc.dll
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Web.Optimization.dll
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Web.Providers.dll
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\EntityFramework.xml
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Json.xml
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Net.Http.xml
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Net.Http.Formatting.xml
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Net.Http.WebRequest.xml
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Web.Mvc.xml
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Web.Http.xml
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Web.Http.Common.xml
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\bin\Debug\System.Web.Http.WebHost.xml
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\obj\Debug\FsWebAPIAzureWebAppApi.fsprojResolveAssemblyReference.cache
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\obj\Debug\FsWebAPIAzureWebAppApi.dll
+C:\git\fs-web-cloud-mobile\FsWebAPIAzure\FsWebAPIAzure\FsWebAPIAzureWebAppApi\obj\Debug\FsWebAPIAzureWebAppApi.pdb

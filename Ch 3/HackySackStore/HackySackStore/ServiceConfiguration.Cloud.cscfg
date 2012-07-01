@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="HackySackStore" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="1" osVersion="*" schemaVersion="2012-05.1.7">
+  <Role name="OrderProcessor2">
+    <Instances count="2" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="TableStorageConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="ServiceBusIssuer" value="owner" />
+      <Setting name="ServiceBusKey" value="REPLACE" />
+      <Setting name="ServiceBusScheme" value="sb" />
+      <Setting name="ServiceBusNamespace" value="dmohlfsmvc4azure" />
+      <Setting name="ServiceBusServicePath" value="" />
+    </ConfigurationSettings>
+  </Role>
+  <Role name="OrderSQLStore">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="ServiceBusIssuer" value="owner" />
+      <Setting name="ServiceBusKey" value="REPLACE" />
+      <Setting name="ServiceBusScheme" value="sb" />
+      <Setting name="ServiceBusNamespace" value="dmohlfsmvc4azure" />
+      <Setting name="ServiceBusServicePath" value="" />
+      <Setting name="HackySackStoreConnectionString" value="REPLACE" />
+    </ConfigurationSettings>
+  </Role>
+  <Role name="HackySackStoreFrontWebApi">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="ServiceBusIssuer" value="owner" />
+      <Setting name="ServiceBusKey" value="REPLACE" />
+      <Setting name="ServiceBusScheme" value="sb" />
+      <Setting name="ServiceBusNamespace" value="dmohlfsmvc4azure" />
+      <Setting name="ServiceBusServicePath" value="" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>

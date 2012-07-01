@@ -1,0 +1,43 @@
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\JsonTypeProvider\bin\Debug\App.config
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\JsonTypeProvider\bin\Debug\JsonTypeProvider.exe.config
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\JsonTypeProvider\bin\Debug\JsonTypeProvider.XML
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\JsonTypeProvider\bin\Debug\JsonTypeProvider.exe
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\JsonTypeProvider\bin\Debug\JsonTypeProvider.pdb
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\JsonTypeProvider\bin\Debug\FSharp.Core.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\JsonTypeProvider\bin\Debug\FSharp.Data.TypeProviders.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\JsonTypeProvider\bin\Debug\FSharpx.Core.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\JsonTypeProvider\bin\Debug\FSharpx.TypeProviders.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\JsonTypeProvider\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\JsonTypeProvider\bin\Debug\office.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\JsonTypeProvider\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\JsonTypeProvider\bin\Debug\FSharpx.Core.xml
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\JsonTypeProvider\bin\Debug\FSharpx.TypeProviders.xml
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\JsonTypeProvider\bin\Debug\FSharp.Core.xml
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\JsonTypeProvider\bin\Debug\Microsoft.Office.Interop.Excel.xml
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\JsonTypeProvider\bin\Debug\office.xml
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\JsonTypeProvider\bin\Debug\en\FSharp.Core.resources.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\JsonTypeProvider\obj\Debug\JsonTypeProvider.exe
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\JsonTypeProvider\obj\Debug\JsonTypeProvider.pdb
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\JsonTypeProvider\obj\Debug\JsonTypeProvider.fsprojResolveAssemblyReference.cache
+C:\git\fs-web-cloud-mobile\FsCsWebApi\JsonTypeProvider\bin\Debug\App.config
+C:\git\fs-web-cloud-mobile\FsCsWebApi\JsonTypeProvider\bin\Debug\JsonTypeProvider.exe.config
+C:\git\fs-web-cloud-mobile\FsCsWebApi\JsonTypeProvider\bin\Debug\JsonTypeProvider.XML
+C:\git\fs-web-cloud-mobile\FsCsWebApi\JsonTypeProvider\bin\Debug\JsonTypeProvider.exe
+C:\git\fs-web-cloud-mobile\FsCsWebApi\JsonTypeProvider\bin\Debug\JsonTypeProvider.pdb
+C:\git\fs-web-cloud-mobile\FsCsWebApi\JsonTypeProvider\bin\Debug\FSharp.Core.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\JsonTypeProvider\bin\Debug\FSharp.Data.TypeProviders.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\JsonTypeProvider\bin\Debug\FSharpx.Core.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\JsonTypeProvider\bin\Debug\FSharpx.TypeProviders.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\JsonTypeProvider\bin\Debug\System.Net.Http.Formatting.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\JsonTypeProvider\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\JsonTypeProvider\bin\Debug\office.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\JsonTypeProvider\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\JsonTypeProvider\bin\Debug\FSharpx.Core.xml
+C:\git\fs-web-cloud-mobile\FsCsWebApi\JsonTypeProvider\bin\Debug\FSharpx.TypeProviders.xml
+C:\git\fs-web-cloud-mobile\FsCsWebApi\JsonTypeProvider\bin\Debug\FSharp.Core.xml
+C:\git\fs-web-cloud-mobile\FsCsWebApi\JsonTypeProvider\bin\Debug\System.Net.Http.Formatting.xml
+C:\git\fs-web-cloud-mobile\FsCsWebApi\JsonTypeProvider\bin\Debug\Microsoft.Office.Interop.Excel.xml
+C:\git\fs-web-cloud-mobile\FsCsWebApi\JsonTypeProvider\bin\Debug\office.xml
+C:\git\fs-web-cloud-mobile\FsCsWebApi\JsonTypeProvider\obj\Debug\JsonTypeProvider.fsprojResolveAssemblyReference.cache
+C:\git\fs-web-cloud-mobile\FsCsWebApi\JsonTypeProvider\obj\Debug\JsonTypeProvider.exe
+C:\git\fs-web-cloud-mobile\FsCsWebApi\JsonTypeProvider\obj\Debug\JsonTypeProvider.pdb

@@ -1,0 +1,34 @@
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\NancyClient\bin\Debug\NancyClient.XML
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\NancyClient\bin\Debug\NancyClient.exe
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\NancyClient\bin\Debug\NancyClient.pdb
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\NancyClient\bin\Debug\FSharp.Core.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\NancyClient\bin\Debug\System.Net.Http.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\NancyClient\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\NancyClient\bin\Debug\System.Net.Http.WebRequest.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\NancyClient\bin\Debug\System.Web.Http.Common.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\NancyClient\bin\Debug\System.Web.Http.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\NancyClient\bin\Debug\FSharp.Core.xml
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\NancyClient\bin\Debug\System.Net.Http.xml
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\NancyClient\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\NancyClient\bin\Debug\System.Net.Http.WebRequest.xml
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\NancyClient\bin\Debug\System.Web.Http.xml
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\NancyClient\bin\Debug\System.Web.Http.Common.xml
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\NancyClient\bin\Debug\en\FSharp.Core.resources.dll
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\NancyClient\obj\Debug\NancyClient.exe
+C:\Users\Daniel Mohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\FsCsWebApi\NancyClient\obj\Debug\NancyClient.pdb
+C:\git\fs-web-cloud-mobile\FsCsWebApi\NancyClient\bin\Debug\NancyClient.XML
+C:\git\fs-web-cloud-mobile\FsCsWebApi\NancyClient\bin\Debug\NancyClient.exe
+C:\git\fs-web-cloud-mobile\FsCsWebApi\NancyClient\bin\Debug\NancyClient.pdb
+C:\git\fs-web-cloud-mobile\FsCsWebApi\NancyClient\bin\Debug\FSharp.Core.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\NancyClient\bin\Debug\System.Net.Http.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\NancyClient\bin\Debug\System.Net.Http.Formatting.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\NancyClient\bin\Debug\System.Net.Http.WebRequest.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\NancyClient\bin\Debug\System.Web.Http.dll
+C:\git\fs-web-cloud-mobile\FsCsWebApi\NancyClient\bin\Debug\FSharp.Core.xml
+C:\git\fs-web-cloud-mobile\FsCsWebApi\NancyClient\bin\Debug\System.Net.Http.xml
+C:\git\fs-web-cloud-mobile\FsCsWebApi\NancyClient\bin\Debug\System.Net.Http.Formatting.xml
+C:\git\fs-web-cloud-mobile\FsCsWebApi\NancyClient\bin\Debug\System.Net.Http.WebRequest.xml
+C:\git\fs-web-cloud-mobile\FsCsWebApi\NancyClient\bin\Debug\System.Web.Http.xml
+C:\git\fs-web-cloud-mobile\FsCsWebApi\NancyClient\obj\Debug\NancyClient.fsprojResolveAssemblyReference.cache
+C:\git\fs-web-cloud-mobile\FsCsWebApi\NancyClient\obj\Debug\NancyClient.exe
+C:\git\fs-web-cloud-mobile\FsCsWebApi\NancyClient\obj\Debug\NancyClient.pdb
