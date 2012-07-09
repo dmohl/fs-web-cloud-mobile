@@ -1,0 +1,24 @@
+@model IEnumerable<FsWeb.Models.Contact>
+
+@{
+    ViewBag.Title = "Contacts";
+}
+
+<div class="nine.columns.centered">
+    <p class="row">
+        @Html.ActionLink("Create New", "Create", new object { }, new { @class = "small button radius"})
+    </p>
+    <div class="row">
+        <div class="five columns header">FirstName</div>
+        <div class="five columns header">LastName</div>
+        <div class="two columns header">Phone</div>
+    </div>
+    
+    @foreach (var item in Model) {
+        <div class="row">
+            <div class="five columns">@Html.DisplayFor(modelItem => item.FirstName)</div>
+            <div class="five columns">@Html.DisplayFor(modelItem => item.LastName)</div>
+            <div class="two columns">@Html.DisplayFor(modelItem => item.Phone)</div>
+        </div>
+    }
+</div>

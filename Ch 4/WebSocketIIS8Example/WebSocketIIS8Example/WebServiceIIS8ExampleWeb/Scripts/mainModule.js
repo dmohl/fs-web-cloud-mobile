@@ -26,10 +26,10 @@
     };
 
     // Comment out when using Fleck
-    uri = "ws://localhost/WebSocketExample/ChartWebSocket.ashx";
+    //uri = "ws://localhost/WebSocketExample/ChartWebSocket.ashx";
 
     // Uncomment to use Fleck
-    //uri = "ws://localhost:8181/fleckserver";
+    uri = "ws://localhost:8181/fleckserver";
 
     websocket = new WebSocket(uri);
 

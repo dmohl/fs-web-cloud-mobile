@@ -25,27 +25,51 @@ let votesAgent = MailboxProcessor.Start(fun inbox ->
         }
     loop List.empty)
 
-let main() = 
-    FleckLog.Level <- LogLevel.Debug
-    let clients = List<IWebSocketConnection>()
-    use server = new WebSocketServer "ws://localhost:8181"
+//let main() = 
+//    FleckLog.Level <- LogLevel.Debug
+//    let clients = List<IWebSocketConnection>()
+//    use server = new WebSocketServer "ws://localhost:8181"
+//
+//    let socketOnOpen socket = clients.Add socket
+//
+//    let socketOnClose socket = clients.Remove socket |> ignore
+//
+//    let socketOnMessage language = 
+//        let results = 
+//            votesAgent.PostAndReply(fun reply -> Message.Vote(language, reply))   
+//            |> Seq.map(fun v -> { language = fst v; count = snd v } )
+//            |> JsonConvert.SerializeObject 
+//        clients |> Seq.iter(fun c -> c.Send results)
+//
+//    server.Start(fun socket ->
+//                    socket.OnOpen <- fun () -> socketOnOpen socket
+//                    socket.OnClose <- fun () -> socketOnClose socket
+//                    socket.OnMessage <- fun message -> socketOnMessage message)
+//    
+//    Console.ReadLine() |> ignore
+//
+//main()
+FleckLog.Level <- LogLevel.Debug
+let clients = List<IWebSocketConnection>()
+using (new WebSocketServer "ws://localhost:8181")
+    (fun server -> 
+         let socketOnOpen socket = clients.Add socket
 
-    let socketOnOpen socket = clients.Add socket
+         let socketOnClose socket = clients.Remove socket |> ignore
 
-    let socketOnClose socket = clients.Remove socket |> ignore
+         let socketOnMessage language = 
+             let results = 
+                 votesAgent.PostAndReply(fun reply -> Message.Vote(language, reply))   
+                 |> Seq.map(fun v -> { language = fst v; count = snd v } )
+                 |> JsonConvert.SerializeObject 
+             clients |> Seq.iter(fun c -> c.Send results)
 
-    let socketOnMessage language = 
-        let results = 
-            votesAgent.PostAndReply(fun reply -> Message.Vote(language, reply))   
-            |> Seq.map(fun v -> { language = fst v; count = snd v } )
-            |> JsonConvert.SerializeObject 
-        clients |> Seq.iter(fun c -> c.Send results)
+         server.Start(fun socket ->
+                        socket.OnOpen <- fun () -> socketOnOpen socket
+                        socket.OnClose <- fun () -> socketOnClose socket
+                        socket.OnMessage <- fun message -> socketOnMessage message) 
 
-    server.Start(fun socket ->
-                    socket.OnOpen <- fun () -> socketOnOpen socket
-                    socket.OnClose <- fun () -> socketOnClose socket
-                    socket.OnMessage <- fun message -> socketOnMessage message)
-    
-    Console.ReadLine() |> ignore
+         Console.ReadLine() |> ignore)
+        
 
-main()
+
