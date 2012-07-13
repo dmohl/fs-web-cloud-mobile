@@ -1,0 +1,9 @@
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\RavenExample\RavenExample\RavenExampleWeb\bin\RavenExampleWeb.dll
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\RavenExample\RavenExample\RavenExampleWeb\bin\RavenExampleWeb.pdb
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\RavenExample\RavenExample\RavenExampleWeb\bin\EntityFramework.dll
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\RavenExample\RavenExample\RavenExampleWeb\bin\FSharp.Core.dll
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\RavenExample\RavenExample\RavenExampleWeb\bin\EntityFramework.xml
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\RavenExample\RavenExample\RavenExampleWeb\bin\FSharp.Core.xml
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\RavenExample\RavenExample\RavenExampleWeb\obj\Debug\RavenExampleWeb.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\RavenExample\RavenExample\RavenExampleWeb\obj\Debug\RavenExampleWeb.dll
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\RavenExample\RavenExample\RavenExampleWeb\obj\Debug\RavenExampleWeb.pdb

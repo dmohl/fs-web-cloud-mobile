@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CouchExampleWeb", "CouchExample\CouchExampleWeb\CouchExampleWeb.csproj", "{0666A7C0-C21B-4756-9818-43E61F115A25}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "CouchExampleWebApp", "CouchExample\CouchExampleWebApp\CouchExampleWebApp.fsproj", "{A126575F-C66E-42BF-A70F-655D4C3F0069}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0666A7C0-C21B-4756-9818-43E61F115A25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0666A7C0-C21B-4756-9818-43E61F115A25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0666A7C0-C21B-4756-9818-43E61F115A25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0666A7C0-C21B-4756-9818-43E61F115A25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A126575F-C66E-42BF-A70F-655D4C3F0069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A126575F-C66E-42BF-A70F-655D4C3F0069}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A126575F-C66E-42BF-A70F-655D4C3F0069}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A126575F-C66E-42BF-A70F-655D4C3F0069}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

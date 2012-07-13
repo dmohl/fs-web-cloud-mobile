@@ -1,0 +1,458 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LoveSeat</name>
+    </assembly>
+    <members>
+        <member name="P:LoveSeat.Interfaces.IListResult.Request">
+            <summary>
+            Typically won't be needed Provided for debuging assitance
+            </summary>
+        </member>
+        <member name="P:LoveSeat.Interfaces.IListResult.Response">
+            <summary>
+            Typically won't be needed Provided for debuging assitance
+            </summary>
+        </member>
+        <member name="T:LoveSeat.CouchClient">
+            <summary>
+            Used as the starting point for any communication with CouchDB
+            </summary>
+        </member>
+        <member name="M:LoveSeat.CouchClient.#ctor">
+            <summary>
+            This is only intended for use if your CouchDb is in Admin Party
+            </summary>
+        </member>
+        <member name="M:LoveSeat.CouchClient.#ctor(System.String,System.String)">
+            <summary>
+            CouchClient constructor
+            </summary>
+            <param name="username"></param>
+            <param name="password"></param>
+        </member>
+        <member name="M:LoveSeat.CouchClient.#ctor(System.String,System.Int32,System.String,System.String,System.Boolean,LoveSeat.AuthenticationType)">
+            <summary>
+            Constructs the CouchClient and gets an authentication cookie (10 min)
+            </summary>
+            <param name="host">The hostname of the CouchDB instance</param>
+            <param name="port">The port of the CouchDB instance</param>
+            <param name="username">The username of the CouchDB instance</param>Cou
+            <param name="password">The password of the CouchDB instance</param>
+        </member>
+        <member name="M:LoveSeat.CouchClient.#ctor(LoveSeat.CouchConfiguration)">
+            <summary>
+            CouchClient constructor
+            </summary>
+            <param name="config"></param>
+        </member>
+        <member name="M:LoveSeat.CouchClient.TriggerReplication(System.String,System.String,System.Boolean)">
+            <summary>
+            Triggers one way replication from the source to target.  If bidirection is needed call this method twice with the source and target args reversed.
+            </summary>
+            <param name="source">Uri or database name of database to replicate from</param>
+            <param name="target">Uri or database name of database to replicate to</param>
+            <param name="continuous">Whether or not CouchDB should continue to replicate going forward on it's own</param>
+            <returns></returns>
+        </member>
+        <member name="M:LoveSeat.CouchClient.CreateDatabase(System.String)">
+            <summary>
+            Creates a database
+            </summary>
+            <param name="databaseName">Name of new database</param>
+            <returns></returns>
+        </member>
+        <member name="M:LoveSeat.CouchClient.DeleteDatabase(System.String)">
+            <summary>
+            Deletes the specified database
+            </summary>
+            <param name="databaseName">Database to delete</param>
+            <returns></returns>
+        </member>
+        <member name="M:LoveSeat.CouchClient.GetDatabase(System.String)">
+            <summary>
+            Gets a Database object
+            </summary>
+            <param name="databaseName">Name of database to fetch</param>
+            <returns></returns>
+        </member>
+        <member name="M:LoveSeat.CouchClient.CreateAdminUser(System.String,System.String)">
+            <summary>
+            Creates an admin user
+            </summary>
+            <param name="usernameToCreate"></param>
+            <param name="passwordToCreate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LoveSeat.CouchClient.DeleteAdminUser(System.String)">
+            <summary>
+            Deletes admin user  (if you have permission)
+            </summary>
+            <param name="userToDelete"></param>
+        </member>
+        <member name="M:LoveSeat.CouchClient.HasDatabase(System.String)">
+            <summary>
+            Returns a bool indicating whether or not the database exists.
+            </summary>
+            <param name="databaseName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LoveSeat.CouchClient.HasUser(System.String)">
+            <summary>
+            Returns true/false depending on whether or not the user is contained in the _users database
+            </summary>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LoveSeat.CouchClient.GetUser(System.String)">
+            <summary>
+            Get's the user.  
+            </summary>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LoveSeat.CouchClient.CreateUser(System.String,System.String)">
+            <summary>
+            Create a user in the _user database
+            </summary>
+            <param name="usernameToCreate"></param>
+            <param name="passwordToCreate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LoveSeat.CouchClient.DeleteUser(System.String)">
+            <summary>
+            Deletes user  (if you have permission)
+            </summary>
+            <param name="userToDelete"></param>
+        </member>
+        <member name="M:LoveSeat.CouchClient.GetUUID(System.Int32)">
+            <summary>
+            Get's UUID from CouchDB.  Limit 50 uuid requests.
+            </summary>
+            <param name="count"></param>
+            <returns></returns>
+        </member>
+        <member name="T:LoveSeat.UniqueIdentifiers">
+            <summary>
+            Unique Identifier
+            </summary>
+        </member>
+        <member name="M:LoveSeat.HashIt.ComputeHash(System.String,System.String@)">
+            <summary>
+            Computes SHA1 hash for plain text and returns a
+            base64-encoded result. Before the hash is computed, a random salt of 25 characters.
+            is generated and appended to the plain text.  The salt is passed by
+            reference.
+            </summary>
+        </member>
+        <member name="M:LoveSeat.HashIt.RandomString(System.Int32)">
+            <summary>
+            Build random string
+            </summary>
+            <param name="size"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LoveSeat.HashIt.ByteArrayToString(System.Byte[])">
+            <summary>
+            Convert ByteArray to String
+            </summary>
+            <param name="ba"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LoveSeat.Interfaces.IDocumentDatabase.CreateDocument(System.String,System.String)">
+            <summary>
+            Creates a document using the json provided. 
+            No validation or smarts attempted here by design for simplicities sake
+            </summary>
+            <param name="id">Id of Document</param>
+            <param name="jsonForDocument"></param>
+            <returns>The status from CouchDb as a JObject</returns>
+        </member>
+        <member name="M:LoveSeat.Interfaces.IDocumentDatabase.CreateDocument(System.String)">
+            <summary>
+            Creates a document when you intend for Couch to generate the id for you.
+            </summary>
+            <param name="jsonForDocument">Json for creating the document</param>
+            <returns>Returns the status from Couchdb as a JObject</returns>
+        </member>
+        <member name="M:LoveSeat.Interfaces.IDocumentDatabase.GetDocument(System.String)">
+            <summary>
+            Returns null if document is not found
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LoveSeat.Interfaces.IDocumentDatabase.AddAttachment(System.String,System.Byte[],System.String,System.String)">
+            <summary>
+            Adds an attachment to a document.  If revision is not specified then the most recent will be fetched and used.  Warning: if you need document update conflicts to occur please use the method that specifies the revision
+            </summary>
+            <param name="id">id of the couch Document</param>
+            <param name="attachment">byte[] of of the attachment.  Use File.ReadAllBytes()</param>
+            <param name="contentType">Content Type must be specifed</param>	
+        </member>
+        <member name="M:LoveSeat.Interfaces.IDocumentDatabase.AddAttachment(System.String,System.String,System.Byte[],System.String,System.String)">
+            <summary>
+            Adds an attachment to the documnet.  Rev must be specified on this signature.  If you want to attach no matter what then use the method without the rev param
+            </summary>
+            <param name="id">id of the couch Document</param>
+            <param name="rev">revision _rev of the Couch Document</param>
+            <param name="attachment">byte[] of of the attachment.  Use File.ReadAllBytes()</param>
+            <param name="filename">filename of the attachment</param>
+            <param name="contentType">Content Type must be specifed</param>			
+            <returns></returns>
+        </member>
+        <member name="M:LoveSeat.Interfaces.IDocumentDatabase.View``1(System.String,System.String)">
+            <summary>
+            Gets the results of a view with no view parameters.  Use the overload to pass parameters
+            </summary>
+            <param name="viewName">The name of the view</param>
+            <param name="designDoc">The design doc on which the view resides</param>
+            <returns></returns>
+        </member>
+        <member name="M:LoveSeat.Interfaces.IDocumentDatabase.View``1(System.String,LoveSeat.ViewOptions,System.String)">
+            <summary>
+            Gets the results of the view using any and all parameters
+            </summary>
+            <param name="viewName">The name of the view</param>
+            <param name="options">Options such as startkey etc.</param>
+            <param name="designDoc">The design doc on which the view resides</param>
+            <returns></returns>
+        </member>
+        <member name="M:LoveSeat.Interfaces.IDocumentDatabase.GetAllDocuments">
+            <summary>
+            Gets all the documents in the database using the _all_docs uri
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LoveSeat.Interfaces.IDocumentDatabase.View``1(System.String)">
+            <summary>
+            Gets the results of the view using the defaultDesignDoc and no view parameters.  Use the overloads to specify options.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="viewName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LoveSeat.Interfaces.IDocumentDatabase.View``1(System.String,LoveSeat.ViewOptions)">
+            <summary>
+            Allows you to specify options and uses the defaultDesignDoc Specified.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="viewName"></param>
+            <param name="options"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LoveSeat.CouchDatabase.CreateDocument(System.String,System.String)">
+            <summary>
+            Creates a document using the json provided. 
+            No validation or smarts attempted here by design for simplicities sake
+            </summary>
+            <param name="id">Id of Document</param>
+            <param name="jsonForDocument"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LoveSeat.CouchDatabase.CreateDocument(System.String)">
+            <summary>
+            Creates a document when you intend for Couch to generate the id for you.
+            </summary>
+            <param name="jsonForDocument">Json for creating the document</param>
+            <returns>The response as a JObject</returns>
+        </member>
+        <member name="M:LoveSeat.CouchDatabase.GetDocument(System.String)">
+            <summary>
+            Returns null if document is not found
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LoveSeat.CouchDatabase.GetDocuments(LoveSeat.Keys)">
+            <summary>
+            Request multiple documents 
+            in a single request.
+            </summary>
+            <param name="keyLst"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LoveSeat.CouchDatabase.SaveDocuments(LoveSeat.Documents,System.Boolean)">
+            <summary>
+            Using the bulk API for the loading of documents.
+            </summary>
+            <param name="docs"></param>
+            <remarks>Here we assume you have either added the correct rev, id, or _deleted attribute to each document.  The response will indicate if there were any errors.
+            Please note that the max_document_size configuration variable in CouchDB limits the maximum request size to CouchDB.</remarks>
+            <returns>JSON of updated documents in the BulkDocumentResponse class.  </returns>
+        </member>
+        <member name="M:LoveSeat.CouchDatabase.AddAttachment(System.String,System.Byte[],System.String,System.String)">
+            <summary>
+            Adds an attachment to a document.  If revision is not specified then the most recent will be fetched and used.  Warning: if you need document update conflicts to occur please use the method that specifies the revision
+            </summary>
+            <param name="id">id of the couch Document</param>
+            <param name="attachment">byte[] of of the attachment.  Use File.ReadAllBytes()</param>
+            <param name="contentType">Content Type must be specifed</param>	
+        </member>
+        <member name="M:LoveSeat.CouchDatabase.AddAttachment(System.String,System.String,System.Byte[],System.String,System.String)">
+            <summary>
+            Adds an attachment to the documnet.  Rev must be specified on this signature.  If you want to attach no matter what then use the method without the rev param
+            </summary>
+            <param name="id">id of the couch Document</param>
+            <param name="rev">revision _rev of the Couch Document</param>
+            <param name="attachment">byte[] of of the attachment.  Use File.ReadAllBytes()</param>
+            <param name="filename">filename of the attachment</param>
+            <param name="contentType">Content Type must be specifed</param>			
+            <returns></returns>
+        </member>
+        <member name="M:LoveSeat.CouchDatabase.View``1(System.String,System.String)">
+            <summary>
+            Gets the results of a view with no view parameters.  Use the overload to pass parameters
+            </summary>
+            <param name="viewName">The name of the view</param>
+            <param name="designDoc">The design doc on which the view resides</param>
+            <returns></returns>
+        </member>
+        <member name="M:LoveSeat.CouchDatabase.View``1(System.String)">
+            <summary>
+            Gets the results of the view using the defaultDesignDoc and no view parameters.  Use the overloads to specify options.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="viewName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LoveSeat.CouchDatabase.ViewCleanup">
+            <summary>
+            Call view cleanup for a database
+            </summary>
+            <returns>JSON success statement if the response code is Accepted</returns>
+        </member>
+        <member name="M:LoveSeat.CouchDatabase.View``1(System.String,LoveSeat.ViewOptions,System.String)">
+            <summary>
+            Gets the results of the view using any and all parameters
+            </summary>
+            <param name="viewName">The name of the view</param>
+            <param name="options">Options such as startkey etc.</param>
+            <param name="designDoc">The design doc on which the view resides</param>
+            <returns></returns>
+        </member>
+        <member name="M:LoveSeat.CouchDatabase.View``1(System.String,LoveSeat.ViewOptions)">
+            <summary>
+            Allows you to specify options and uses the defaultDesignDoc Specified.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="viewName"></param>
+            <param name="options"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LoveSeat.CouchDatabase.GetAllDocuments">
+            <summary>
+            Gets all the documents in the database using the _all_docs uri
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LoveSeat.CouchDatabase.UpdateSecurityDocument(LoveSeat.SecurityDocument)">
+            <summary>
+            Updates security configuration for the database
+            </summary>
+            <param name="sDoc"></param>
+        </member>
+        <member name="T:LoveSeat.SecurityDocument">
+            <summary>
+            Security configuration for the database
+            </summary>
+        </member>
+        <member name="M:LoveSeat.Support.CouchRequest.#ctor(System.String,System.Net.Cookie,System.String)">
+            <summary>
+            Request with Cookie authentication
+            </summary>
+            <param name="uri"></param>
+            <param name="authCookie"></param>
+            <param name="eTag"></param>
+        </member>
+        <member name="M:LoveSeat.Support.CouchRequest.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Basic Authorization Header
+            </summary>
+            <param name="uri"></param>
+            <param name="username"></param>
+            <param name="password"></param>
+        </member>
+        <member name="M:LoveSeat.Support.CouchRequest.isAuthenticateOrAuthorized(System.Net.HttpWebResponse,System.String@)">
+            <summary>
+            Checks response if username and password was valid
+            </summary>
+            <param name="response"></param>
+        </member>
+        <member name="P:LoveSeat.Interfaces.IViewResult.Request">
+            <summary>
+            Typically won't be needed.  Provided for debuging assistance
+            </summary>
+        </member>
+        <member name="P:LoveSeat.Interfaces.IViewResult.Response">
+            <summary>
+            Typically won't be needed.  Provided for debugging assistance
+            </summary>
+        </member>
+        <member name="P:LoveSeat.Interfaces.IViewResult.Docs">
+            <summary>
+            Only populated when IncludeDocs is true
+            </summary>
+        </member>
+        <member name="P:LoveSeat.Interfaces.IViewResult.RawRows">
+            <summary>
+            An IEnumerable of strings insteda of the IEnumerable of JTokens
+            </summary>
+        </member>
+        <member name="P:LoveSeat.Interfaces.IViewResult.FormattedResponse">
+            <summary>
+            Provides a formatted version of the json returned from this Result.  (Avoid this method in favor of RawString as it's much more performant)
+            </summary>
+        </member>
+        <member name="P:LoveSeat.ViewOptions.Key">
+            <summary>
+            If you have a complex object as a string set this using a JRaw object()
+            </summary>
+        </member>
+        <member name="P:LoveSeat.ViewOptions.StartKey">
+            <summary>
+            If you have a complex object as a string set this using a JRaw object()
+            </summary>
+        </member>
+        <member name="P:LoveSeat.ViewOptions.EndKey">
+            <summary>
+            If you have a complex object as a string set this using a JRaw object()
+            </summary>
+        </member>
+        <member name="T:LoveSeat.Documents">
+            <summary>
+            Class containing list of documents for bulk loading multiple documents with /all_docs
+            </summary>
+        </member>
+        <member name="T:LoveSeat.Keys">
+            <summary>
+            Class containing list of keys for fetching multiple documents with /all_docs 
+            </summary>
+        </member>
+        <member name="P:LoveSeat.ViewResult.Request">
+            <summary>
+            Typically won't be needed.  Provided for debuging assistance
+            </summary>
+        </member>
+        <member name="P:LoveSeat.ViewResult.Response">
+            <summary>
+            Typically won't be needed.  Provided for debugging assistance
+            </summary>
+        </member>
+        <member name="P:LoveSeat.ViewResult.Docs">
+            <summary>
+            Only populated when IncludeDocs is true
+            </summary>
+        </member>
+        <member name="P:LoveSeat.ViewResult.RawRows">
+            <summary>
+            An IEnumerable of strings insteda of the IEnumerable of JTokens
+            </summary>
+        </member>
+        <member name="P:LoveSeat.ViewResult.FormattedResponse">
+            <summary>
+            Provides a formatted version of the json returned from this Result.  (Avoid this method in favor of RawString as it's much more performant)
+            </summary>
+        </member>
+    </members>
+</doc>

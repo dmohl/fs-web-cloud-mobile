@@ -1,0 +1,14 @@
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\CouchExample\CouchExample\CouchExampleWebApp\bin\Debug\WebApp.XML
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\CouchExample\CouchExample\CouchExampleWebApp\bin\Debug\WebApp.dll
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\CouchExample\CouchExample\CouchExampleWebApp\bin\Debug\WebApp.pdb
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\CouchExample\CouchExample\CouchExampleWebApp\bin\Debug\FSharp.Core.dll
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\CouchExample\CouchExample\CouchExampleWebApp\bin\Debug\LoveSeat.dll
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\CouchExample\CouchExample\CouchExampleWebApp\bin\Debug\LoveSeat.Interfaces.dll
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\CouchExample\CouchExample\CouchExampleWebApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\CouchExample\CouchExample\CouchExampleWebApp\bin\Debug\LoveSeat.xml
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\CouchExample\CouchExample\CouchExampleWebApp\bin\Debug\FSharp.Core.xml
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\CouchExample\CouchExample\CouchExampleWebApp\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\CouchExample\CouchExample\CouchExampleWebApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\CouchExample\CouchExample\CouchExampleWebApp\obj\Debug\CouchExampleWebApp.fsprojResolveAssemblyReference.cache
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\CouchExample\CouchExample\CouchExampleWebApp\obj\Debug\WebApp.dll
+C:\Users\Daniel\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\CouchExample\CouchExample\CouchExampleWebApp\obj\Debug\WebApp.pdb
