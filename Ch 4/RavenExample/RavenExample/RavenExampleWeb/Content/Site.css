@@ -1,75 +1,79 @@
-body
-{
-    font-size: .85em;
-    font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
-    color: #232323;
+﻿html {
+    background-color: #e2e2e2;
+    margin: 0;
+    padding: 0;
+}
+
+body {
     background-color: #fff;
+    border-top: solid 10px #000;
+    color: #333;
+    font-size: .85em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    margin: 0;
+    padding: 0;
 }
 
-header,
-footer,
-nav,
-section {
-    display: block;
+/* info and errors */
+.message-info {
+    border: 1px solid;
+    clear: both;
+    padding: 10px 20px;
 }
 
-/* Styles for basic forms
------------------------------------------------------------*/
-
-fieldset 
-{
-    border:1px solid #ddd;
-    padding:0 1.4em 1.4em 1.4em;
-    margin:0 0 1.5em 0;
+.message-error {
+    clear: both;
+    color: #e80c4d;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
 }
 
-legend 
-{
-    font-size:1.2em;
+.message-success {
+    color: #7ac0da;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+
+.error {
+    color: #e80c4d;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #e80c4d;
     font-weight: bold;
 }
 
-textarea 
-{
-    min-height: 75px;
+.error {
+    padding-bottom:5px;
 }
 
-.editor-label 
-{
-    margin: 1em 0 0 0;
-}
-
-.editor-field 
-{
-    margin:0.5em 0 0 0;
-}
-
-
-/* Styles for validation helpers
------------------------------------------------------------*/
-.field-validation-error
-{
-    color: #ff0000;
-}
-
-.field-validation-valid
-{
+.field-validation-valid {
     display: none;
 }
 
-.input-validation-error
-{
-    border: 1px solid #ff0000;
-    background-color: #ffeeee;
+input[type="text"].input-validation-error,
+input[type="password"].input-validation-error {
+    border: 1px solid #e80c4d;
 }
 
-.validation-summary-errors
-{
+.validation-summary-errors {
+    color: #e80c4d;
     font-weight: bold;
-    color: #ff0000;
+    font-size: 1.1em;
 }
 
-.validation-summary-valid
-{
+.validation-summary-valid {
     display: none;
+}
+
+.row {
+    padding: 4px;
+}
+
+.header {
+    color:#2BA6CB;
+    font-size:large;
 }

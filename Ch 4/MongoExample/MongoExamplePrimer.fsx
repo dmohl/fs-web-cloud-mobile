@@ -6,18 +6,20 @@ open MongoDB.Bson
 open MongoDB.Driver
 open MongoDB.Driver.Builders
 
-type Contact() =
-    member val _id = ObjectId.Empty with get, set
-    member val FirstName = "" with get, set
-    member val LastName = "" with get, set
-    member val Phone = "" with get, set
+[<CLIMutable>]
+type Contact = {
+    _id : ObjectId
+    FirstName : string
+    LastName : string
+    Phone : string
+}
 
 let contacts = 
     createLocalMongoServer()
     |> getMongoDatabase "contactDb"
     |> getMongoCollection "contacts"
 
-Contact(_id = ObjectId.GenerateNewId(), FirstName = "test", LastName = "It", Phone = "123-123-1233")
+{ _id = ObjectId.GenerateNewId(); FirstName = "test"; LastName = "It"; Phone = "123-123-1233" }
 |> contacts.Insert
 
 let contact = contacts.FindOne()

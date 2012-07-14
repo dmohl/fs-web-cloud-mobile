@@ -1,0 +1,41 @@
+@model FsWeb.Models.Contact
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<div class="nine.columns.centered">
+    @using (Html.BeginForm("Create", "Home")) {
+        @Html.ValidationSummary(true)
+        <fieldset>
+            <legend>Create New Contact</legend>
+
+            <div class="editor-label">
+                @Html.LabelFor(model => model.FirstName)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.FirstName)
+                @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "error" })
+            </div>
+
+            <div class="editor-label">
+                @Html.LabelFor(model => model.LastName)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.LastName)
+                @Html.ValidationMessageFor(model => model.LastName, "", new { @class = "error" })
+            </div>
+
+            <div class="editor-label">
+                @Html.LabelFor(model => model.Phone)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.Phone)
+                @Html.ValidationMessageFor(model => model.Phone, "", new { @class = "error" })
+            </div>
+            <p>
+                <input type="submit" class="small button radius" value="Save" />
+            </p>
+        </fieldset>
+    }
+</div>

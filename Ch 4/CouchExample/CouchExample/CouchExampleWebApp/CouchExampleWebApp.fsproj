@@ -37,10 +37,15 @@
   <Import Project="$(MSBuildExtensionsPath32)\FSharp\1.0\Microsoft.FSharp.Targets" Condition="(!Exists('$(MSBuildExtensionsPath32)\..\Microsoft SDKs\F#\3.0\Framework\v4.0\Microsoft.FSharp.Targets')) And (!Exists('$(MSBuildExtensionsPath32)\..\Microsoft F#\v4.5\Microsoft.FSharp.Targets')) And (!Exists('$(MSBuildExtensionsPath32)\..\Microsoft F#\v4.0\Microsoft.FSharp.Targets')) And (Exists('$(MSBuildExtensionsPath32)\FSharp\1.0\Microsoft.FSharp.Targets'))" />
   <ItemGroup>
     <Compile Include="Global.fs" />
+    <Compile Include="Contact.fs" />
     <Compile Include="HomeController.fs" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="FSharpCouch">
+      <HintPath>..\..\packages\FSharpCouch.0.2.0.0\Lib\FSharpCouch.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="LoveSeat">
       <HintPath>..\..\packages\LoveSeat.1.0.1\lib\net40\LoveSeat.dll</HintPath>
       <Private>True</Private>
@@ -53,8 +58,7 @@
     <Reference Include="FSharp.Core, Version=4.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
       <Private>True</Private>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\packages\Newtonsoft.Json.4.0.8\lib\net40\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=4.0.8.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed">
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
