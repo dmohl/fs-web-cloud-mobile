@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PitTodoExampleWeb", "PitTodoExample\PitTodoExampleWeb\PitTodoExampleWeb.csproj", "{C03D8A9E-2EAF-45A2-97A3-638A65FA26D9}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "PitTodoExampleWebApp", "PitTodoExample\PitTodoExampleWebApp\PitTodoExampleWebApp.fsproj", "{A126575F-C66E-42BF-A70F-655D4C3F0069}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "PitTodo", "PitTodo\PitTodo.fsproj", "{928B36B3-5E42-4C23-9D77-8BA572419F5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{928B36B3-5E42-4C23-9D77-8BA572419F5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{928B36B3-5E42-4C23-9D77-8BA572419F5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{928B36B3-5E42-4C23-9D77-8BA572419F5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{928B36B3-5E42-4C23-9D77-8BA572419F5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A126575F-C66E-42BF-A70F-655D4C3F0069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A126575F-C66E-42BF-A70F-655D4C3F0069}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A126575F-C66E-42BF-A70F-655D4C3F0069}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A126575F-C66E-42BF-A70F-655D4C3F0069}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C03D8A9E-2EAF-45A2-97A3-638A65FA26D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C03D8A9E-2EAF-45A2-97A3-638A65FA26D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C03D8A9E-2EAF-45A2-97A3-638A65FA26D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C03D8A9E-2EAF-45A2-97A3-638A65FA26D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

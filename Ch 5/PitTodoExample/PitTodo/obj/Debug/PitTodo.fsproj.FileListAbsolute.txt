@@ -1,0 +1,12 @@
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\PitTodoExample\PitTodo\bin\Debug\PitTodo.XML
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\PitTodoExample\PitTodo\bin\Debug\PitTodo.dll
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\PitTodoExample\PitTodo\bin\Debug\PitTodo.pdb
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\PitTodoExample\PitTodo\bin\Debug\Pit.Common.dll
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\PitTodoExample\PitTodo\bin\Debug\Pit.Core.dll
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\PitTodoExample\PitTodo\obj\Debug\PitTodo.dll
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\PitTodoExample\PitTodo\obj\Debug\PitTodo.pdb
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\PitTodoExample\PitTodo\bin\Debug\Pit.Compiler.Core.dll
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\PitTodoExample\PitTodo\bin\Debug\Pit.Compiler.JsBeautify.dll
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\PitTodoExample\PitTodo\obj\Debug\PitTodo.fsprojResolveAssemblyReference.cache
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\PitTodoExample\PitTodo\bin\Debug\Pit.Core.Ex.dll
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\PitTodoExample\PitTodo\bin\Debug\Pit.JQuery.dll
