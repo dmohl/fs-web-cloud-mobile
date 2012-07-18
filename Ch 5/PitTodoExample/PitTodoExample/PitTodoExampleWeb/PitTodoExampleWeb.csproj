@@ -195,9 +195,8 @@
     <Content Include="Scripts\knockout-2.0.0.js" />
     <Content Include="Scripts\modernizr-2.0.6-development-only.js" />
     <Content Include="Scripts\modernizr-2.5.3.min.js" />
-    <Content Include="Scripts\Pit.Core.min.js" />
+    <Content Include="Scripts\Pit.Core.js" />
     <Content Include="Scripts\Pit.js" />
-    <Content Include="Scripts\prelude-browser-min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

@@ -19,37 +19,42 @@ var __hasProp = Object.prototype.hasOwnProperty, __extends = function (child, pa
 };
 // Object prototype extensions
 // to be used for record comparisons
-Object.prototype.ToString = function () {
+/*Object.prototype.ToString = function () {
     return this.toString();
-}
-Object.prototype.equality = function (other) {
-    for (var key in other) {
-        var value1 = this[key];
-        var value2 = other[key];
-        if ((typeof (value1) == "object") && (typeof (value2) == "object")) {
-            value1.equality(value2);
-        }
-        else {
-            if (value1 !== value2) {
-                return false;
+}*/
+registerNamespace('Pit.JsCommon');
+Pit.JsCommon.equality = function (item1, item2) {
+    if ((typeof (item1) == "object") && (typeof (item2) == "object")) {
+        for (var key in item2) {
+            var value1 = item1[key];
+            var value2 = item2[key];
+            if ((typeof (value1) == "object") && (typeof (value2) == "object")) {
+                Pit.JsCommon.equality(value1, value2);
+            }
+            else {
+                if (value1 !== value2) {
+                    return false;
+                }
             }
         }
+        return true;
     }
-    return true;
+    else {
+        return item1 == item2;
+    }
 }
-Object.prototype.isInterfaceOf = function (compare) {
-    for (var key in compare) {
-        if (typeof this[key] == "undefined") {
+Pit.JsCommon.isInterfaceOf = function (item1, item2) {
+    for (var key in item2) {
+        if (typeof item1[key] == "undefined") {
             return false;
         }
     }
 
     return true;
 }
-Object.prototype.containsInterface = function (method) {
-    return typeof this[method] != "undefined";
+Pit.JsCommon.containsInterface = function (item1,method) {
+    return typeof item1[method] != "undefined";
 }
-registerNamespace('Pit.JsCommon');
 Pit.JsCommon.invokeEvent = function (evts) {
     return function (i) {
         return function (sender) {

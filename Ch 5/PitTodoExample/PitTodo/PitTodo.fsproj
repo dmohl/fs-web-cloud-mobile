@@ -40,19 +40,10 @@
     <Reference Include="mscorlib" />
     <Reference Include="FSharp.Core" />
     <Reference Include="Pit.Common">
-      <HintPath>..\lib\Pit.Common.dll</HintPath>
-    </Reference>
-    <Reference Include="Pit.Compiler.Core">
-      <HintPath>..\lib\Pit.Compiler.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Pit.Compiler.JsBeautify">
-      <HintPath>..\lib\Pit.Compiler.JsBeautify.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Pit\0.2\bin\Pit.Common.dll</HintPath>
     </Reference>
     <Reference Include="Pit.Core">
       <HintPath>..\lib\Pit.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Pit.Core.Ex">
-      <HintPath>..\lib\Pit.Core.Ex.dll</HintPath>
     </Reference>
     <Reference Include="Pit.JQuery">
       <HintPath>..\lib\Pit.JQuery.dll</HintPath>

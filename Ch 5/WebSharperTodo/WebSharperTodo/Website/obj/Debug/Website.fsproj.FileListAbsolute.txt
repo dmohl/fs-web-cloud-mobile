@@ -1,0 +1,4 @@
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebSharperTodo\WebSharperTodo\Website\bin\Debug\Website.dll
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebSharperTodo\WebSharperTodo\Website\bin\Debug\Website.pdb
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebSharperTodo\WebSharperTodo\Website\obj\Debug\Website.dll
+E:\Dropbox\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\WebSharperTodo\WebSharperTodo\Website\obj\Debug\Website.pdb

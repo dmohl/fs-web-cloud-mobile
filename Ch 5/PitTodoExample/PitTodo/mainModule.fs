@@ -1,39 +1,28 @@
 ﻿namespace PitTodo
 
+open Pit
+open Pit.Dom
+open Pit.JavaScript
+open Pit.JavaScript.JQuery
+open Pit.JavaScript.JQuery.UI
+
 module mainModule = 
-
-    open Pit
-    open Pit.Dom
-    open Pit.JavaScript.JQuery.UI
-
-    // DomAttribute, @= and createEl are based on code from https://github.com/fsharp/pitfw/blob/master/demos/samples/CalculatorApp/CalculatorApp/App.fs
-    type DomAttribute = { Name:string; Value:obj }
-
-    [<Js>]
-    let (@=) name (value:'a) = { Name=name; Value=box value }
-
-    [<Js>]
-    let createEl name (attributes:DomAttribute list) =
-        let el = document.CreateElement name
-        for a in attributes do el.SetAttribute(a.Name, a.Value.ToString())
-        el
+    [<JsObject>]
+    type dragType = { draggable : DomElement }
     
     [<Js>]
-    let addInnerHtml html (el:DomElement) =
-        el.InnerHTML <- html
-        el
-
-    [<Js>]
-    let populateTaskList (el:DomElement) taskList = 
-        taskList
-        |> Seq.iter( fun taskText ->
-            createEl "div" ["class"@="ui-widget-content draggable"]
-            |> addInnerHtml taskText
+    let populateTaskList (el:DomElement) tasksList =
+        tasksList
+        |> List.iter( fun (task:string) ->            
+            tag "div" [|
+                "class"@="ui-widget-content draggable"
+                "innerHtml"@=task|]
+            |> Html.make
             |> el.AppendChild )
 
     [<Js>]
-    let moveDroppedItem (item:DomElement) (dropZone:DomElement) = 
-        item |> dropZone.AppendChild
+    let moveDroppedItem (item:DomElement) (dropZone:jQuery) = 
+        dropZone.append(item).ignore()
 
     [<Js>]
     let populateTasks () =
@@ -42,33 +31,32 @@ module mainModule =
               "Add new tasks."
               "Remove a task." ]
         let tasksDone = 
-           [ "Allow tasks to be moved to done."
-             "Add dynamic population of tasks." ]
-
+            [ "Allow tasks to be moved to done."
+              "Add dynamic population of tasks." ]
         let tasksNotStartedEl = document.QuerySelector ".tasksNotStarted"         
         let tasksDoneEl = document.QuerySelector ".tasksDone"         
         populateTaskList tasksNotStartedEl tasksToDo
         populateTaskList tasksDoneEl tasksDone
 
     [<Js>]
-    let initDragAndDrop () = ()
-//        @"$( '.draggable' ).draggable({ 
-//            revert: 'invalid',
-//            cursor: 'move',
-//            helper: 'clone'
-//        })
-//    
-//        $( '.droppable' ).droppable({
-//            hoverClass: 'ui-state-active',
-//            accept: '.draggable',
-//            drop: function ( event, ui ) {
-//                moveDroppedItem( ui.draggable, $( this ) );
-//            });
-//        });"
-        
+    let initDragAndDrop () = 
+        jQueryUI(".draggable")
+            .draggable(
+                [ "revert" => "invalid"
+                  "cursor" => "move"
+                  "helper" => "clone" ] )
+            .ignore()
+
+        jQueryUI(".droppable")
+            .droppable(
+                [ "hoverClass" => "ui-state-active"
+                  "accept" => ".draggable"
+                  "drop" => fun (event, ui:dragType) -> 
+                      moveDroppedItem (ui.draggable) (jQuery("this")) ] )
+            .ignore()
+
     [<DomEntryPoint>]
     [<Js>]
     let main() =
         populateTasks()
         initDragAndDrop()
-        
