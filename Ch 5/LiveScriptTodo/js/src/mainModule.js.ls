@@ -15,9 +15,6 @@ let $ = jQuery
         populateTaskList $( ".tasksNotStarted" ), tasksToDo
         populateTaskList $( ".tasksDone" ), tasksDone
 
-    moveDroppedItem = ( $item, $dropZone ) ->
-        $item.appendTo $dropZone
-
     $ ".draggable" .draggable (
         revert: "invalid"
         cursor: "move"
@@ -27,6 +24,5 @@ let $ = jQuery
     $ ".droppable" .droppable (
         hoverClass: "ui-state-active"
         accept: ".draggable"
-        drop: ( event, ui ) ->
-            moveDroppedItem ui.draggable, $ @
+        drop: ( event, ui ) -> ui.draggable.appendTo $ @
     )

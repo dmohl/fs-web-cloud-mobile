@@ -1,6 +1,6 @@
 (function(){
   (function($){
-    var populateTaskList, moveDroppedItem;
+    var populateTaskList;
     populateTaskList = function($el, taskList){
       return prelude.each(function(t){
         return $("<div class='ui-widget-content draggable'>" + t + "</div>").appendTo($el);
@@ -14,9 +14,6 @@
       populateTaskList($(".tasksNotStarted"), tasksToDo);
       return populateTaskList($(".tasksDone"), tasksDone);
     })();
-    moveDroppedItem = function($item, $dropZone){
-      return $item.appendTo($dropZone);
-    };
     $(".draggable").draggable({
       revert: "invalid",
       cursor: "move",
@@ -26,7 +23,7 @@
       hoverClass: "ui-state-active",
       accept: ".draggable",
       drop: function(event, ui){
-        return moveDroppedItem(ui.draggable, $(this));
+        return ui.draggable.appendTo($(this));
       }
     });
   }.call(this, jQuery));
