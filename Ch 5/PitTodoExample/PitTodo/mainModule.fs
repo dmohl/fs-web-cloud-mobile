@@ -21,10 +21,6 @@ module mainModule =
             |> el.AppendChild )
 
     [<Js>]
-    let moveDroppedItem (item:DomElement) (dropZone:jQuery) = 
-        dropZone.append(item).ignore()
-
-    [<Js>]
     let populateTasks () =
         let tasksToDo = 
             [ "Persist the tasks to a data store."
@@ -52,7 +48,7 @@ module mainModule =
                 [ "hoverClass" => "ui-state-active"
                   "accept" => ".draggable"
                   "drop" => fun (event, ui:dragType) -> 
-                      moveDroppedItem (ui.draggable) (jQuery("this")) ] )
+                      jQuery("this").append(ui.draggable).ignore() ] )
             .ignore()
 
     [<DomEntryPoint>]

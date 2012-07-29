@@ -12,11 +12,6 @@ PitTodo.mainModule.populateTaskList = function (el) {
         }));
     });
 };
-PitTodo.mainModule.moveDroppedItem = function (item) {
-    return (function (dropZone) {
-        return dropZone.append(item);
-    });
-};
 PitTodo.mainModule.populateTasks = function () {
     var tasksToDo = Pit.FSharp.Collections.ListModule.OfArray(["Persist the tasks to a data store.", "Add new tasks.", "Remove a task."]);
     var tasksDone = Pit.FSharp.Collections.ListModule.OfArray(["Allow tasks to be moved to done.", "Add dynamic population of tasks."]);
@@ -35,7 +30,7 @@ PitTodo.mainModule.initDragAndDrop = function () {
         hoverClass: "ui-state-active",
         accept: ".draggable",
         drop: function (event, ui) {
-            return PitTodo.mainModule.moveDroppedItem(ui.draggable)($(this));
+            return $(this).append(ui.draggable);
         }
     });
 };
