@@ -10,5 +10,10 @@ type HomeController() =
     inherit Controller()
 
     member this.Index() =
-        { TasksToDo = ["Task1"; "Task2"; "Task3"]; TasksCompleted = ["Test"] }
-        |> this.View
+        { TasksToDo = 
+            [ "Persist the tasks to a data store."
+              "Add new tasks."
+              "Remove a task." ]
+          TasksCompleted = 
+            [ "Allow tasks to be moved to done."
+              "Add dynamic population of tasks." ] } |> this.View

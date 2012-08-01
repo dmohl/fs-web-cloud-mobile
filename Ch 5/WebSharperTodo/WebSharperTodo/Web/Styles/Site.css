@@ -19,6 +19,12 @@
     margin-bottom: 10px;
     padding: 10px;
     vertical-align:middle;
+
+    -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
 }
 
 .tasks {

@@ -2,18 +2,35 @@
 
 open IntelliFactory.WebSharper
 open IntelliFactory.WebSharper.Html
+open IntelliFactory.WebSharper.JQuery
+open IntelliFactory.WebSharper.JQueryUI
 
 open Website
 
-module Pagelets =
+module Todo =
     [<JavaScript>]
-    let main tasks = 
-        Div [ yield Attr.Class "tasks droppable";  
-            for task in tasks do
-                yield Div [ 
-                    Attr.Class "ui-widget-content draggable"; 
-                    Text task] :> IPagelet
-        ]    
+    let initDrag element =
+        let config =
+            DraggableConfiguration(cursor = "move", helper = "clone")
+        Draggable.New(element, config)
+
+    [<JavaScript>]
+    let initDrop (element: Html.Element) =
+        let config =
+            DroppableConfiguration(
+                hoverClass = "ui-state-active", accept = ".draggable")
+        let dropZone = Droppable.New(element, config)
+        dropZone.OnDrop( fun ev el ->
+            JQuery.Of(element.Dom).Append(el.Draggable).Ignore )
+        dropZone
+
+    [<JavaScript>]
+    let main tasks =
+        Div [Attr.Class "droppable"] -< [
+            for task in tasks ->
+                Div [Attr.Class "ui-widget-content draggable"; Text task]
+                |> initDrag ]
+        |> initDrop
 
 type IndexControl() =
     inherit Web.Control()
@@ -23,4 +40,4 @@ type IndexControl() =
 
     [<JavaScript>]
     override x.Body =
-        upcast Pagelets.main x.Tasks
+        upcast Todo.main x.Tasks

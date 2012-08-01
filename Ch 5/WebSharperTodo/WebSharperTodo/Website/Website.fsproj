@@ -5,6 +5,7 @@
     <Platform Condition="'$(Platform)' == ''">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{a963c821-8ee0-406a-9eac-7c2dd4ea26f0}</ProjectGuid>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebugSymbols>true</DebugSymbols>
@@ -26,15 +27,21 @@
     <Name>Website</Name>
     <RootNamespace>$(Name)</RootNamespace>
     <AssemblyName>$(Name)</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <WarningLevel>3</WarningLevel>
   </PropertyGroup>
+  <Import Project="WebSharper.targets" Condition="Exists('WebSharper.targets')" />
+  <Import Project="$(WEBSHARPER_HOME)/IntelliFactory.WebSharper.targets" />
   <ItemGroup>
     <Compile Include="Application.fs" />
     <Compile Include="Controllers.fs" />
     <Compile Include="IndexControl.fs" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="IntelliFactory.WebSharper.JQueryUI">
+      <HintPath>..\..\packages\WebSharper.JQueryUi.2.4.56.140\lib\IntelliFactory.WebSharper.JQueryUI.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Web.Mvc" />
@@ -46,7 +53,4 @@
     <Reference Include="System.Numerics" />
     <Reference Include="System.Web" />
   </ItemGroup>
-  <ItemGroup />
-  <Import Project="WebSharper.targets" Condition="Exists('WebSharper.targets')" />
-  <Import Project="$(WEBSHARPER_HOME)/IntelliFactory.WebSharper.targets" />
 </Project>
