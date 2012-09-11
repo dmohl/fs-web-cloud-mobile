@@ -53,7 +53,7 @@
             /* Used for the Hub Example */
 //            chartHub.send(vote.val())
             /* End - Used for the Hub Example */
-        };
+        }
 
         $pages.hide();
         $("#results").toggle();

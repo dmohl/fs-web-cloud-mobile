@@ -8,9 +8,10 @@ let connection =
 
 connection.Start().Wait()
 
-async { return connection.Send "F#" }
+connection.Send "F#" 
+|> Async.AwaitIAsyncResult 
 |> Async.Ignore 
-|> Async.RunSynchronously
+|> ignore
 
 connection.Stop() |> ignore
 
