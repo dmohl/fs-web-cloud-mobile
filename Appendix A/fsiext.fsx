@@ -64,6 +64,7 @@ module internal nuget =
                                   && (not (file.ToLower().Contains("tools")))
                                   && (not (file.ToLower().Contains("content"))) )
         |> Seq.iter(fun file -> 
+		                System.Threading.Thread.Sleep 1000
                         match file with
                         | IsFrameworkSpecific -> 
                             if file.ToLower().Contains("net40") then
