@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 11
+Project("{00000000-0000-0000-0000-000000000000}") = "FsCsMvc44Web", "FsCsMvc44\FsCsMvc44Web\FsCsMvc44Web.csproj", "{64A7641B-4726-4593-A52F-7D3C94E76A88}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsCsMvc44WebApp", "FsCsMvc44\FsCsMvc44WebApp\FsCsMvc44WebApp.fsproj", "{5C73FA2C-C86E-4885-B2E8-D599C989001F}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsCsMvc44WebAppTests", "FsCsMvc44\FsCsMvc44WebAppTests\FsCsMvc44WebAppTests.fsproj", "{EC73A4E4-BFFF-4778-92C5-CCB2E0CA7ED4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C73FA2C-C86E-4885-B2E8-D599C989001F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C73FA2C-C86E-4885-B2E8-D599C989001F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C73FA2C-C86E-4885-B2E8-D599C989001F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C73FA2C-C86E-4885-B2E8-D599C989001F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64A7641B-4726-4593-A52F-7D3C94E76A88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64A7641B-4726-4593-A52F-7D3C94E76A88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64A7641B-4726-4593-A52F-7D3C94E76A88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64A7641B-4726-4593-A52F-7D3C94E76A88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC73A4E4-BFFF-4778-92C5-CCB2E0CA7ED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC73A4E4-BFFF-4778-92C5-CCB2E0CA7ED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC73A4E4-BFFF-4778-92C5-CCB2E0CA7ED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC73A4E4-BFFF-4778-92C5-CCB2E0CA7ED4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
