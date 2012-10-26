@@ -29,7 +29,7 @@
     var connection = $.connection("/chartserver");
 
     connection.received(function (data) {
-        updateChart($.parseJSON(data));
+        updateChart(JSON.parse(data));
     });
     /* End - Used for the persistent connection example */
 
